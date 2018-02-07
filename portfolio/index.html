@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio Website!!!!!!!!!!!!!!!!</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/restaurant.css"> -->
+    <!-- <link rel="stylesheet" href="css/common.css"> -->
+  </head>
+  <body ng-app="portfolio" ng-strict-di>
+    <header>
+      Header
+      <div>
+        <a ui-sref="public.home">Home</a>
+      </div>
+      <div>
+        <a ui-sref="public.about">About</a>
+      </div>
+      <div>
+        <a ui-sref="public.contact">Contact</a>
+      </div>
+      <div>
+        <a ui-sref="public.made">How It's Made</a>
+      </div>
+    </header>
+
+    what is this? I am mjeept
+
+    <ui-view>
+    </ui-view>
+
+    <footer>
+      Footer
+    </footer>
+      <!-- Libs -->
+      <script src="lib/jquery.min.js"></script>
+      <script src="lib/bootstrap.min.js"></script>
+      <script src="lib/angular.min.js"></script>
+      <script src="lib/angular-ui-router.min.js"></script>
+      <script src="lib/angular-mocks.js"></script>
+
+      <!-- Main Portfolio Module -->
+      <script src="src/portfolio.module.js"></script>
+
+      <!-- Public Module -->
+      <script src="src/public/public.module.js"></script>
+      <script src="src/public/public.routes.js"></script>
+  </body>
+</html>

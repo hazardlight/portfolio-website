@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Lego",
+    "short_name": "L"
+  },
+  {
+    "id":2,
+    "name": "Knife",
+    "short_name": "K"
+  },
+  {
+    "id": 3,
+    "name": "Help Bot",
+    "short_name": "HB"
+  },
+  {
+    "id": 4,
+    "name": "Other",
+    "short_name": "O"
+  }
+]
