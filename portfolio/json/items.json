@@ -1,8 +1,103 @@
+/* do I need to name these collections? */
 [
   {
-    "id":,
-    "name":,
-    "short_name":,
-    "description":
-  }
+    "id":1,
+    "name": "Lego Mech 1",
+    "short_name":"L1",
+    "description": "50 Ton Hunchback",
+    "category":"L"
+  },
+  {
+    "id":2,
+    "name":"Lego Mech 2",
+    "short_name":"L2",
+    "description": "45 Ton Shadowcat",
+    "category":"L"
+  },
+  {
+    "id":3,
+    "name":"Lego Building 1",
+    "short_name": "L3",
+    "description": "Communication Array",
+    "category":"L"
+  },
+  {
+    "id": 4 ,
+    "name": "Lego Building 2",
+    "short_name": "L4",
+    "description": "Moon Base",
+    "category":"L"
+  },
+  {
+    "id":5,
+    "name":"Knife 1",
+    "short_name":"K1",
+    "description":"First prototype",
+    "category":"K"
+  },
+  {
+    "id":6,
+    "name":"Knife 2",
+    "short_name":"K2",
+    "description":"Second Prototype",
+    "category":"K"
+  },
+  {
+    "id":7,
+    "name":"Knife 3",
+    "short_name":"K3",
+    "description":"3rd Prototype",
+    "category":"K"
+  },
+  {
+    "id":8,
+    "name":"Knife 4",
+    "short_name": "K4",
+    "description": "Final production version",
+    "category":"K"
+  },
+  {
+    "id":9,
+    "name":"HelpBot",
+    "short_name":"HB1",
+    "description":null,
+    "category":"HB"
+  },
+  {
+    "id":10,
+    "name":"Other 1",
+    "short_name":"O1",
+    "description":"This is a picture",
+    "category":"O"
+  },
+  {
+    "id":11,
+    "name":"Other 2",
+    "short_name":"O2",
+    "description":"This is a poem",
+    "category":"O"
+  },
+  {
+    "id":12,
+    "name":"Other 3",
+    "short_name":"O3",
+    "description":"This is digital art",
+    "category":"O"
+  },
+  {
+    "id":13,
+    "name":"Other 4",
+    "short_name":"O4",
+    "description":"why problem make?",
+    "category":"O"
+  },
 ]
+
+/*
+{
+  "id":,
+  "name":,
+  "short_name":,
+  "description":
+},
+*/
