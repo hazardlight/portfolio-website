@@ -1,3 +1,31 @@
 <div class="container">
   I am the home page!
+  <div>
+    <!-- This is where the category compenent is supposed to be shown over ng-repeat -->
+  </div>
+  <category-pick ng-repeat="homeCategory in hcpCtrl.homeCategories"
+                 category="homeCategory">
+  </category-pick>
+  <!-- category= is the binding prop from the category.component -->
+  <!-- hcpCtrl.homeCategories is an array that holds all the categories from categories.json -->
+  <!-- homeCategory is the var that references one of those categories, which is assigned to the category= binding
+  this binding is then used in the category.html template from the category.component.js file where
+  the short_name is referenced and passed to the public.items state to fulfill the url parameter. the category binding
+  is also used in the html to reference and display the category name.  -->
 </div>
+
+
+<!-- 1. ui-router state:
+-defines the controller
+-defines a resolve prop that passes data from json to the controller
+2. Controller.js
+-takes the resolve prop and assigns it to a variable on the controller instance
+3. ui-router state html
+-uses a custom html tag (defined in a component. makes the html you're going to display there modular)
+-the custom tag uses an ng-repeat, placing an item of data from the controller into a variable.
+-this variable is then assigned to a custom property (also defined on the component)
+4. Component.js
+-defines the name of the component and the name of the binding
+5. Component html
+-here, the binding, seeded with data, is passed to another state in a ui-router sref
+-the binding is also used to display data in the html -->

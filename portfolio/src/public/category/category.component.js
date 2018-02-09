@@ -2,8 +2,8 @@
 "use strict";
 
 angular.module('public')
-.component('categoryUnit', {
-  templateUrl: 'src/public/categories/category.html',
+.component('categoryPick', {
+  templateUrl: 'src/public/category/category.html',
   bindings: {
     category: '<'
   }

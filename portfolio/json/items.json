@@ -1,4 +1,3 @@
-/* do I need to name these collections? */
 [
   {
     "id":1,
@@ -90,14 +89,5 @@
     "short_name":"O4",
     "description":"why problem make?",
     "category":"O"
-  },
+  }
 ]
-
-/*
-{
-  "id":,
-  "name":,
-  "short_name":,
-  "description":
-},
-*/

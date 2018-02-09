@@ -1,0 +1,23 @@
+<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+  <div class="item-title">
+    <!-- <a ui-sref=""> </a> -->
+    <!-- need to figure out how to show just one item when you click on it -->
+    <span>{{$ctrl.item.name}}</span>
+  </div>
+</div>
+
+<!-- I need an sref link that takes you to an html view for the item you select
+
+certain items should have their own views, e.g. helpbot
+
+other times can have common views, like legos, knives, etc.
+
+I want the URL for the view to look like .../{category}/(itemName} -->
+
+<!-- maybe this state selects what template to use based off a url state param?:
+
+$stateProvider.state('contacts', {
+  templateUrl: function ($stateParams){
+    return '/partials/contacts.' + $stateParams.filterBy + '.html';
+  }
+}) -->
