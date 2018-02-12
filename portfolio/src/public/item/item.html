@@ -1,9 +1,10 @@
 <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-  <div class="item-title">
-    <!-- <a ui-sref=""> </a> -->
-    <!-- need to figure out how to show just one item when you click on it -->
-    <span>{{$ctrl.item.name}}</span>
-  </div>
+  <a ui-sref="public.itemPick({category: $ctrl.item.category, item: $ctrl.item.name})">
+    <div class="item-title">
+      <!-- need to figure out how to show just one item when you click on it -->
+      <span>{{$ctrl.item.name}}</span>
+    </div>
+  </a>
 </div>
 
 <!-- I need an sref link that takes you to an html view for the item you select

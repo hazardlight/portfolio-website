@@ -13,7 +13,7 @@ function routeConfig ($stateProvider) {
     templateUrl:'src/public/public.html'
   })
   .state('public.home',{ //home page has the categories list, not some other state
-    url:'/',
+    url:'/home',
     templateUrl:'src/public/home/home.html',
     controller: 'HomeCategoriesPickController',
     controllerAs: 'hcpCtrl',
@@ -31,6 +31,24 @@ function routeConfig ($stateProvider) {
     resolve: {
       categoryItems: ['$stateParams', 'PortfolioService', function ($stateParams, PortfolioService) { //PortfolioItemsFromCategory
         return PortfolioService.getCategoryItems($stateParams.category);
+      }]
+    }
+  })
+  .state('public.itemPick', {
+    url:'/{category}/{item}',
+    templateUrl: function ($stateParams){
+      if($stateParams.category == "L" || $stateParams.category == "K" || $stateParams.category == "O"){
+        return 'src/public/gallery/gallery.html';
+      }
+      else if($stateParams.category == "HB"){
+        return 'src/public/helpbot/helpbot.html';
+      }
+    },
+    controller: 'SingleItemController',
+    controllerAs: 'vm', //or vm???
+    resolve: {
+      singleItem: ['$stateParams', 'PortfolioService', function ($stateParams, PortfolioService) { //PortfolioItemsFromCategory
+        return PortfolioService.getSingleItem($stateParams.item);
       }]
     }
   })

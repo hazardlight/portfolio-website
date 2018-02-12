@@ -57,7 +57,8 @@
   },
   {
     "id":9,
-    "name":"HelpBot",
+    "name":"Launch HelpBot",
+    "alt_name":"HelpBot",
     "short_name":"HB1",
     "description":null,
     "category":"HB"
