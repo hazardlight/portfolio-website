@@ -13,7 +13,7 @@ function routeConfig ($stateProvider) {
     templateUrl:'src/public/public.html'
   })
   .state('public.home',{ //home page has the categories list, not some other state
-    url:'/home',
+    url:'/',
     templateUrl:'src/public/home/home.html',
     controller: 'HomeCategoriesPickController',
     controllerAs: 'hcpCtrl',

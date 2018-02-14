@@ -34,6 +34,7 @@ function PortfolioService($http){
       return items;
     });
   };
+  //can't you just get the item like this: 'json/items/name.json' ??????
   service.getSingleItem = function (item){ //return a single item based off matching name
     var itemFound;
     return $http.get('json/items.json').then(function(response){ //might not be the 100% implementation
