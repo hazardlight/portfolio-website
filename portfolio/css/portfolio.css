@@ -1,3 +1,13 @@
 body{
-  color: red;
+  /* color: red; */
+}
+.navbar-header{
+  /* width: 100%; */
+}
+.navbar-brand span { /* Star-K */
+  vertical-align: middle;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
 }
