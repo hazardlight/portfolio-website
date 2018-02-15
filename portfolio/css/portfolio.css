@@ -8,6 +8,11 @@ body{
   vertical-align: middle;
 }
 #nav-list a {
-  color: #951C49;
+  /* color: #951C49; */
   text-align: center;
+}
+.panel-footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }

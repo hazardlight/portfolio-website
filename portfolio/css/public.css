@@ -1,1 +1,50 @@
+/* temp border */
+.tb{
+  border: 2px solid;
+}
+/* /temp border */
 
+/* navigation */
+.home-container{
+  /* border: 2px solid; */
+}
+.about-container{
+  border: 2px solid;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.contact-container{
+  border: 2px solid;
+}
+.made-container{
+  border: 2px solid;
+}
+/* /navigation */
+
+/* categories */
+.category-container{
+  border: 2px solid;
+}
+.category-title{
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+.category-title span {
+  /* position: absolute; */
+  /* text-align: center; */
+}
+/* /categories */
+
+/* Items */
+
+/* /Items */
+
+/* Gallery Item */
+
+/* /Gallery Item */
+
+/* Help Bot */
+/* /Help Bot */
