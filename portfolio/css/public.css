@@ -1,8 +1,16 @@
 /* temp border */
 .tb{
-  border: 2px solid;
+  border: 2px solid purple;
 }
 /* /temp border */
+
+/* fake pic */
+.fp {
+
+  border: 2px dotted blue;
+  background-color: red;
+}
+/* /fake pic */
 
 /* navigation */
 .home-container{
@@ -39,7 +47,9 @@
 /* /categories */
 
 /* Items */
-
+.item-title{
+  text-align: center;
+}
 /* /Items */
 
 /* Gallery Item */
