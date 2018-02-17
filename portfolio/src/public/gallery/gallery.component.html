@@ -1,8 +1,58 @@
 <div class="container">
-  <div class="gallery-item-title">
-    {{$ctrl.item.name}}
+  <div class="breadcrumb" >
+    <span ui-sref="public.home">
+      Main
+    </span>
+    <span> \ </span>
+    <span ui-sref="public.items({category: $ctrl.item.category})">
+      {{$ctrl.item.cat_long_name}}
+    </span>
+    <span> \ </span>
+    <span class="active">{{$ctrl.item.short_name}}</span>
   </div>
-  <div class="item-description">
-    {{$ctrl.item.description}}
+  <!-- <div class="breadcrumb" ui-sref="public.items({category: $ctrl.item.category})">
+    Back to {{$ctrl.item.cat_long_name}}
+  </div> -->
+  <div class="row tb">
+    <div class="col-lg-6 tb">
+      <img class="img-responsive" src="img/fake pic.png" alt="temporary picture">
+    </div>
+    <div class="col-lg-6 tb">
+      <div class="gallery-item-title">
+        {{$ctrl.item.name}}
+      </div>
+      <div class="item-description">
+        {{$ctrl.item.description}}
+      </div>
+    </div>
+  </div>
+  <div class="row tb">
+    <div class="col-lg-6 tb">
+      <div class="col-lg-3">
+        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
+      </div>
+      <div class="col-lg-3">
+        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
+      </div>
+      <div class="col-lg-3">
+        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
+      </div>
+      <div class="col-lg-3">
+        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
+      </div>
+      <div class="col-lg-3">
+        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
+      </div>
+      <div class="col-lg-3">
+        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
+      </div>
+      <div class="col-lg-3">
+        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
+      </div>
+      <div class="col-lg-3">
+        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
+      </div>
+
+    </div>
   </div>
 </div>

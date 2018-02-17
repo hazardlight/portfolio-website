@@ -23,10 +23,11 @@
             <a href="index.html" class="pull-left visible-md visible-lg">
               <!-- <div id="logo-img">LOGO</div> -->
               <!-- <img id="logo-img" class="img-responsive" src="img/fake pic.png" alt="temporary picture"> -->
+              <!-- this displays an image above the nav bar -->
             </a>
 
             <div class="navbar-brand">
-              <span>My Website WOOT</span>
+              <span>My Website</span>
             </div>
 
             <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -39,16 +40,16 @@
           </div>
           <div id="collapsable-nav" class="collapse navbar-collapse">
             <ul id="nav-list" class="nav navbar-nav navbar-right">
-              <li id="navHomeBtn" >
+              <li id="navHomeBtn" ui-sref-active="active">
                 <a ui-sref="public.home">Home</a>
               </li>
-              <li id="navAboutBtn">
+              <li id="navAboutBtn" ui-sref-active="active">
                 <a ui-sref="public.about">About</a>
               </li>
-              <li id="navContactBtn">
+              <li id="navContactBtn" ui-sref-active="active">
                 <a ui-sref="public.contact">Contact</a>
               </li>
-              <li id="navMadeBtn">
+              <li id="navMadeBtn" ui-sref-active="active">
                 <a ui-sref="public.made">How It's Made</a>
               </li>
             </ul>

@@ -1,6 +1,13 @@
-<div class="container">
+<div id="items-from-category-container" class="container">
   <!-- I am the items from the category you picked! -->
-  <category-item ng-repeat="categoryItem in itmCatCtrl.categoryItems"
-                    item="categoryItem">
-  </category-item>
+  <div class="breadcrumb" >
+    <span ui-sref="public.home">Main</span>
+    <span> \ </span>
+    <span class="active">{{itmCatCtrl.categoryItems[0].cat_long_name}}</span>
+  </div>
+  <div id="category-item-container" class="col-lg-12">
+    <category-item id="category-item"  ng-repeat="categoryItem in itmCatCtrl.categoryItems"
+                      item="categoryItem">
+    </category-item>
+  </div>
 </div>

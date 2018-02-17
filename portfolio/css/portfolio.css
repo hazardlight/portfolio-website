@@ -1,18 +1,37 @@
 body{
   /* color: red; */
+  /* background-color: #e3ecf9; */
+  background-color: #e7e7e7;
+  color: #2e3138;
+  font-family: calibri;
+  font-size: 20px;
+}
+
+/* nav bar */
+.navbar {
+
 }
 .navbar-header{
   /* width: 100%; */
 }
 .navbar-brand span { /* Star-K */
+  font-size: 2em;
   vertical-align: middle;
+}
+.navbar-toggle{
+
 }
 #nav-list a {
   /* color: #951C49; */
   text-align: center;
 }
+/* /nav bar */
+
 .panel-footer{
   position: fixed;
+  /* position: relative; */
+  /* top: 20px; */
   width: 100%;
   bottom: 0;
+  margin-top: 20px;
 }
