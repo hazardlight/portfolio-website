@@ -6,7 +6,8 @@
 
       <!-- need to figure out how to show just one item when you click on it -->
       <span>{{$ctrl.item.name}}</span>
-      <img id="item-img" class="img-responsive" src="img/fake pic.png" alt="temporary picture">
+      <!-- <img id="item-img" class="img-responsive" ng-src="img/fake pic.png" alt="temporary picture"> -->
+      <img id="item-img" class="img-responsive" ng-src="{{$ctrl.item.images[0]}}" alt="temporary picture">
     </div>
   </a>
 </div>

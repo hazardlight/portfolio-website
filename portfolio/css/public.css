@@ -88,7 +88,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 6em;
+  font-size: 4em;
+  line-height: 80%;
   /* 6em does not shrink will with screen size */
 }
 .category-title img{

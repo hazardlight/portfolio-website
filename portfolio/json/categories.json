@@ -3,21 +3,29 @@
   {
     "id": 1,
     "name": "Lego",
-    "short_name": "L"
+    "short_name": "L",
+    "type":"gallery",
+    "image":"img/fake pic.png"
   },
   {
     "id":2,
-    "name": "Knife",
-    "short_name": "K"
+    "name": "Knives",
+    "short_name": "K",
+    "type":"gallery",
+    "image":"img/fake pic.png"
   },
   {
     "id": 3,
     "name": "Help Bot",
-    "short_name": "HB"
+    "short_name": "HB",
+    "type":"app",
+    "image":"img/fake pic.png"
   },
   {
     "id": 4,
     "name": "Other",
-    "short_name": "O"
+    "short_name": "O",
+    "type":"gallery",
+    "image":"img/fake pic.png"
   }
 ]

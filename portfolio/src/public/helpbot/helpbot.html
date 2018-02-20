@@ -1,3 +1,11 @@
 <div id="helpbot-container" class="container">
-  <help-bot item="vm.singleItem"></help-bot>
+  <!-- <help-bot item="vm.singleItem"></help-bot> -->
+  <div class="breadcrumb">
+    <span ui-sref="public.home">Home</span>
+    <span> \ </span>
+    <span ui-sref-active>{{vm.categoryItems[0].alt_name}}</span>
+  </div>
+  <help-bot item="vm.categoryItems[0]"></help-bot>
+
+  <!-- controller for this page is category-items.controller.js -->
 </div>

@@ -3,7 +3,7 @@
 
 angular.module('public')
 .component('categoryPick', {
-  templateUrl: 'src/public/category/category.html',
+  templateUrl: 'src/public/home/category.component.html',
   bindings: {
     category: '<'
   }

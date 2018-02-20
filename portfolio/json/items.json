@@ -5,7 +5,18 @@
     "short_name":"L1",
     "description": "50 Ton Hunchback",
     "category":"L",
-    "cat_long_name":"Lego"
+    "cat_long_name":"Lego",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":2,
@@ -13,7 +24,18 @@
     "short_name":"L2",
     "description": "45 Ton Shadowcat",
     "category":"L",
-    "cat_long_name":"Lego"
+    "cat_long_name":"Lego",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":3,
@@ -21,7 +43,18 @@
     "short_name": "L3",
     "description": "Communication Array",
     "category":"L",
-    "cat_long_name":"Lego"
+    "cat_long_name":"Lego",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id": 4 ,
@@ -29,7 +62,18 @@
     "short_name": "L4",
     "description": "Moon Base",
     "category":"L",
-    "cat_long_name":"Lego"
+    "cat_long_name":"Lego",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":5,
@@ -37,7 +81,18 @@
     "short_name":"K1",
     "description":"First prototype",
     "category":"K",
-    "cat_long_name":"Knives"
+    "cat_long_name":"Knives",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":6,
@@ -45,7 +100,18 @@
     "short_name":"K2",
     "description":"Second Prototype",
     "category":"K",
-    "cat_long_name":"Knives"
+    "cat_long_name":"Knives",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":7,
@@ -53,7 +119,18 @@
     "short_name":"K3",
     "description":"3rd Prototype",
     "category":"K",
-    "cat_long_name":"Knives"
+    "cat_long_name":"Knives",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":8,
@@ -61,7 +138,18 @@
     "short_name": "K4",
     "description": "Final production version",
     "category":"K",
-    "cat_long_name":"Knives"
+    "cat_long_name":"Knives",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":9,
@@ -70,7 +158,11 @@
     "short_name":"HB1",
     "description":null,
     "category":"HB",
-    "cat_long_name":"Help Bot"
+    "cat_long_name":"Help Bot",
+      "images":[
+        "img/fake pic.png"
+      ]
+
   },
   {
     "id":10,
@@ -78,7 +170,18 @@
     "short_name":"O1",
     "description":"This is a picture",
     "category":"O",
-    "cat_long_name":"Other"
+    "cat_long_name":"Other",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":11,
@@ -86,7 +189,18 @@
     "short_name":"O2",
     "description":"This is a poem",
     "category":"O",
-    "cat_long_name":"Other"
+    "cat_long_name":"Other",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":12,
@@ -94,7 +208,18 @@
     "short_name":"O3",
     "description":"This is digital art",
     "category":"O",
-    "cat_long_name":"Other"
+    "cat_long_name":"Other",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   },
   {
     "id":13,
@@ -102,6 +227,17 @@
     "short_name":"O4",
     "description":"why problem make?",
     "category":"O",
-    "cat_long_name":"Other"
+    "cat_long_name":"Other",
+    "images":[
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png",
+      "img/fake pic.png"
+    ]
   }
 ]
