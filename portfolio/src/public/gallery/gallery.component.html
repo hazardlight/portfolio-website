@@ -8,31 +8,18 @@
       {{$ctrl.item.cat_long_name}}
     </span>
     <span> \ </span>
-    <span class="active">{{$ctrl.item.short_name}}</span>
+    <span class="active">{{$ctrl.item.name}}</span>
   </div>
-  <!-- <div class="breadcrumb" ui-sref="public.items({category: $ctrl.item.category})">
-    Back to {{$ctrl.item.cat_long_name}}
-  </div> -->
+
   <div class="row tb">
-
-
-    <!-- <div class="col-lg-6 tb">
-      <img class="img-responsive" src="img/fake pic.png" alt="temporary picture">
-    </div> -->
-
-    <div class="col-lg-6">
+    <div class="col-lg-6 col-md-6 col-sm-6 visible-lg visible-md visible-sm">
       <!-- bootstrap carousel -->
       <div id="galleryCarousel" class="carousel-slide" data-ride="carousel" data-interval="false">
         <!-- main panel -->
         <div class="carousel-inner">
-          <div class="item active">
-            <img class="img-responsive" src="img/fake pic.png" alt="temporary picture">
-          </div>
-          <div class="item">
-            <img class="img-responsive" src="img/fake_pic_blue.png" alt="temporary picture">
-          </div>
-          <div class="item">
-            <img class="img-responsive" src="img/fake_pic_cyan.png" alt="temporary picture">
+
+          <div class="item {{$ctrl.active($index)}}" ng-repeat="image in $ctrl.item.images">
+            <img class="img-responsive" src="{{$ctrl.item.images[$index]}}" alt="temporary picture">
           </div>
         </div>
         <!-- controlls -->
@@ -43,7 +30,6 @@
             <span class="glyphicon glyphicon-chevron-left"></span>
             <span class="sr-only">previous</span>
         </a>
-
         <a class="right carousel-control" href="" ng-click="$ctrl.slide('next')" role="button" data-slide="next">
           <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
           <span class="glyphicon glyphicon-chevron-right"></span>
@@ -53,7 +39,8 @@
       <!-- /bootstrap carousel -->
     </div>
 
-    <div class="col-lg-6 tb">
+    <!-- item info panel -->
+    <div class="col-lg-6 col-md-6 col-sm-6 tb">
       <div class="gallery-item-title">
         {{$ctrl.item.name}}
       </div>
@@ -64,46 +51,12 @@
   </div>
 
   <div class="row tb">
-    <div class="col-lg-6 tb">
+    <div class="col-lg-6 col-md-6 col-sm-6 tb">
       <!-- carousel inidcators -->
-      <!-- <div id="galleryCarousel"> -->
-
       <!-- <div class="carousel-indicators"> -->
-        <div class="col-lg-3 active" data-target="#galleryCarousel" ng-click="$ctrl.slideTo(0)" data-slide-to="0">
-          <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
+        <div class="col-lg-3 col-md-3 col-sm-3 {{$ctrl.active($index)}}" data-target="#galleryCarousel" ng-click="$ctrl.slideTo($index)" data-slide-to="$index" ng-repeat="image in $ctrl.item.images">
+          <img class="thumbnail img-responsive" src="{{$ctrl.item.images[$index]}}" alt="temporary picture">
         </div>
-        <div class="col-lg-3" data-target="#galleryCarousel" ng-click="$ctrl.slideTo(1)" data-slide-to="1" >
-          <img class="thumbnail img-responsive" src="img/fake_pic_blue.png" alt="temporary picture">
-        </div>
-        <div class="col-lg-3" data-target="#galleryCarousel" ng-click="$ctrl.slideTo(2)" data-slide-to="2" >
-          <img class="thumbnail img-responsive" src="img/fake_pic_cyan.png" alt="temporary picture">
-        </div>
-      <!-- </div> -->
-
-      <!-- <div class="col-lg-3">
-        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
-      </div>
-      <div class="col-lg-3">
-        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
-      </div>
-      <div class="col-lg-3">
-        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
-      </div>
-      <div class="col-lg-3">
-        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
-      </div>
-      <div class="col-lg-3">
-        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
-      </div>
-      <div class="col-lg-3">
-        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
-      </div>
-      <div class="col-lg-3">
-        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
-      </div>
-      <div class="col-lg-3">
-        <img class="thumbnail img-responsive" src="img/fake pic.png" alt="temporary picture">
-      </div> -->
     </div>
   </div>
 </div>

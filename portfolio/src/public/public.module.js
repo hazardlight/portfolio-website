@@ -1,6 +1,6 @@
 (function(){
 'use strict';
 
-angular.module('public', ['ui.router', 'common']);
+angular.module('public', ['ui.router', 'common', 'helpbot.app']);
 
 })();

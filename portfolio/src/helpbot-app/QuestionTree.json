@@ -1,0 +1,213 @@
+{
+	"questions": [
+    {
+		"key": "99",
+		"question": "Pick Your Product",
+		"shortname": "Products",
+		"optionalContentPage": "",
+		"imageVariant": "0",
+		"answers": [{
+			"answer": "Pro",
+			"link": "98"
+		}, {
+			"answer": "Central",
+			"link": "97"
+		}, {
+			"answer": "Hamachi",
+			"link": "96"
+		}]
+	}, {
+		"key": "98",
+		"question": "What is your issue?",
+		"shortname": "Pro Troubleshooting",
+		"optionalContentPage": "",
+		"imageVariant": "0",
+		"answers": [{
+			"answer": "Remote Printing",
+			"link": "0"
+		}, {
+			"answer": "Other",
+			"link": "ContactUs"
+		}]
+	}, {
+		"key": "97",
+		"question": "What is your issue?",
+		"shortname": "Central Troubleshooting",
+		"optionalContentPage": "",
+		"imageVariant": "0",
+		"answers": [{
+			"answer": "Remote Printing",
+			"link": "0"
+		}, {
+			"answer": "Other",
+			"link": "ContactUs"
+		}]
+	}, {
+		"key": "96",
+		"question": "What is your issue?",
+		"shortname": "Hamachi Troubleshooting",
+		"optionalContentPage": "",
+		"imageVariant": "0",
+		"answers": [{
+			"answer": "Other",
+			"link": "ContactUs"
+		}]
+	}, {
+		"key": "0",
+		"question": "Does your local printer appear in the Windows Devices and Printers?",
+		"shortname": "Check Local Printer",
+		"optionalContentPage": "ClientDevicesAndPrinters",
+		"imageVariant": "1",
+		"answers": [{
+			"answer": "Yes",
+			"link": "1"
+		}, {
+			"answer": "No",
+			"link": "FixLocalPrinter"
+		}]
+	}, {
+		"key": "1",
+		"question": "Does the local printer appear checked off in the remote session printer options?",
+		"shortname": "Check Remote Session Options",
+		"optionalContentPage": "RemotePrinterOptions",
+		"imageVariant": "2",
+		"answers": [{
+			"answer": "Yes",
+			"link": "3"
+		}, {
+			"answer": "No, the printer is not checked off",
+			"link": "2"
+		}]
+	}, {
+		"key": "2",
+		"question": "Does the printer appear on the list, but is not checked off?",
+		"shortname": "Remote Printer Not Selected",
+		"optionalContentPage": "RemotePrinterNotSelected",
+		"imageVariant": "3",
+		"answers": [{
+			"answer": "Yes",
+			"link": "2_1"
+		}, {
+			"answer": "No",
+			"link": "RemotePrinterConnectionIssue"
+		}]
+	}, {
+		"key": "3",
+		"question": "Does the local printer appear as the via logmein printer by default in Windows Devices and Printers on the Host?",
+		"shortname": "Check Devices and Printers on host computer",
+		"optionalContentPage": "LogmeinDevicesAndPrinters",
+		"imageVariant": "2",
+		"answers": [{
+			"answer": "Yes",
+			"link": "4"
+		}, {
+			"answer": "No",
+			"link": "NoLogmeinDefaultPrinter"
+		}]
+	}, {
+		"key": "4",
+		"question": "Can you print a test page from the via LogMeIn printer?",
+		"shortname": "Remote Printer Test Page",
+		"optionalContentPage": "PrintingTestPage",
+		"imageVariant": "1",
+		"answers": [{
+			"answer": "Yes",
+			"link": "RemotePrintingWorking"
+		}, {
+			"answer": "No",
+			"link": "5"
+		}]
+	}, {
+		"key": "5",
+		"question": "Is the remote printer connected but you still can't print?",
+		"shortname": "Clear Print Queue",
+		"optionalContentPage": "",
+		"imageVariant": "1",
+		"answers": [{
+			"answer": "Yes",
+			"link": "ClearPrintQueue"
+		}, {
+			"answer": "No",
+			"link": "6"
+		}]
+	}, {
+		"key": "6",
+		"question": "Are you encountering a different remote printing issue?",
+		"shortname": "Other Issues",
+		"optionalContentPage": "Steps",
+		"imageVariant": "2",
+		"answers": [{
+			"answer": "Yes, remote printing options do not appear",
+			"link": "FeatureLimitedSession"
+		}, {
+			"answer": "Yes, remote printing is grayed out",
+			"link": "RemotePrintingGrayedOut"
+		}, {
+			"answer": "No. Other?",
+			"link": "ContactUs"
+		}]
+	}, {
+		"key": "FixLocalPrinter",
+		"question": "",
+		"shortname": "",
+		"optionalContentPage": "CheckPlugInkPaperDriver",
+		"imageVariant": "2",
+		"answers": []
+	}, {
+		"key": "RemotePrinterConnectionIssue",
+		"question": "",
+		"shortname": "",
+		"optionalContentPage": "NoPopup",
+		"imageVariant": "4",
+		"answers": []
+	}, {
+		"key": "NoLogmeinDefaultPrinter",
+		"question": "",
+		"shortname": "",
+		"optionalContentPage": "NoDefault",
+		"imageVariant": "4",
+		"answers": []
+	}, {
+		"key": "RemotePrintingWorking",
+		"question": "",
+		"shortname": "",
+		"optionalContentPage": "RemotePrintingWorking",
+		"imageVariant": "5",
+		"answers": []
+	}, {
+		"key": "ClearPrintQueue",
+		"question": "",
+		"shortname": "",
+		"optionalContentPage": "ClearPrintQueue",
+		"imageVariant": "1",
+		"answers": []
+	}, {
+		"key": "FeatureLimitedSession",
+		"question": "",
+		"shortname": "",
+		"optionalContentPage": "FeatureLimitedSession",
+		"imageVariant": "3",
+		"answers": []
+	}, {
+		"key": "RemotePrintingGrayedOut",
+		"question": "",
+		"shortname": "",
+		"optionalContentPage": "AccountIssue",
+		"imageVariant": "4",
+		"answers": []
+	}, {
+		"key": "ContactUs",
+		"question": "",
+		"shortname": "",
+		"optionalContentPage": "ContactUs",
+		"imageVariant": "4",
+		"answers": []
+	}, {
+		"key": "2_1",
+		"question": "Check the printer and select it. If it connects properly, a pop-up will appear at the bottom right corner of the screen indicating that the remote printer connected. Did this work?",
+		"shortname": "Remote Printer Not Selected 2",
+		"optionalContentPage": "RemotePrinterPopup",
+		"imageVariant": "3",
+    	"answers": []
+	}]
+}

@@ -1,0 +1,81 @@
+<div class="container helpbot-page">
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="src/helpbot-app/images/robotmascot_hellothere.gif" class="img-responsive helpbot" ng-show="vm.currentQuestion.imageVariant === '0'">
+      <img src="src/helpbot-app/images/robotmascot_giveitashot.gif" class="img-responsive helpbot" ng-show="vm.currentQuestion.imageVariant === '1'">
+      <img src="src/helpbot-app/images/robotmascot_trythis.gif" class="img-responsive helpbot" ng-show="vm.currentQuestion.imageVariant === '2'">
+      <img src="src/helpbot-app/images/robotmascot_ohmy.gif" class="img-responsive helpbot" ng-show="vm.currentQuestion.imageVariant === '3'">
+      <img src="src/helpbot-app/images/robotmascot_contactus.gif" class="img-responsive helpbot" ng-show="vm.currentQuestion.imageVariant === '4'">
+      <img src="src/helpbot-app/images/robotmascot_youdidit.gif" class="img-responsive helpbot" ng-show="vm.currentQuestion.imageVariant === '5'">
+    </div>
+    <div class="col-md-6 logo-container">
+      <img class="img-responsive logo" src="src/helpbot-app/images/logmeinlogo.gif">
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="prev-questions-content-area" class="col-md-4 border-right scrollbar-blue">
+      <div class="area-header">Progress Tracker:</div>
+      <div class="content-row" ng-repeat="item in vm.stackTrace">
+        <i class="fa fa-check icon-adjust" aria-hidden="true"></i><a ng-click="vm.goTo($index)">{{item.shortname}}</a>
+      </div>
+    </div>
+
+    <div id="current-content-wrapper" class="col-md-8 scrollbar-blue">
+      <div id="current-content-area" class="fading"
+      ng-show="!vm.contentIsTransitioning"
+      ng-animate="animate">
+      <!-- ng-class="{fadeout: vm.contentIsTransitioning}" -->
+      <div class="area-header" ng-if="vm.currentQuestion.question">
+        {{vm.currentQuestion.question}}
+      </div>
+      <div id="optional-step-content">
+        <div ng-include="'src/helpbot-app/partials/HelpContent/ClientDevicesAndPrinters.html'" ng-if="vm.showOptionalContent === 'ClientDevicesAndPrinters'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/RemotePrinterOptions.html'" ng-if="vm.showOptionalContent === 'RemotePrinterOptions'"></div>
+        <div ng-include="'src/helpbot-app/src/helpbot-app/partials/HelpContent/LogmeinDevicesAndPrinters.html'" ng-if="vm.showOptionalContent === 'LogmeinDevicesAndPrinters'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/PrintingTestPage.html'" ng-if="vm.showOptionalContent === 'PrintingTestPage'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/Steps.html'" ng-if="vm.showOptionalContent === 'Steps'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/CheckPlugInkPaperDriver.html'" ng-if="vm.showOptionalContent === 'CheckPlugInkPaperDriver'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/NoPopup.html'" ng-if="vm.showOptionalContent === 'NoPopup'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/NoDefault.html'" ng-if="vm.showOptionalContent === 'NoDefault'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/RemotePrintingWorking.html'" ng-if="vm.showOptionalContent === 'RemotePrintingWorking'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/ClearPrintQueue.html'" ng-if="vm.showOptionalContent === 'ClearPrintQueue'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/FeatureLimitedSession.html'" ng-if="vm.showOptionalContent === 'FeatureLimitedSession'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/AccountIssue.html'" ng-if="vm.showOptionalContent === 'AccountIssue'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/RemotePrinterPopup.html'" ng-if="vm.showOptionalContent === 'RemotePrinterPopup'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/ContactUs.html'" ng-if="vm.showOptionalContent === 'ContactUs'"></div>
+        <div ng-include="'src/helpbot-app/partials/HelpContent/RemotePrinterNotSelected.html'" ng-if="vm.showOptionalContent === 'RemotePrinterNotSelected'"></div>
+      </div>
+      <div ng-show="vm.showAnswers">
+        <div class="content-row" ng-repeat="answer in vm.currentQuestion.answers">
+          <a ng-click="vm.handleAnswerClick($index)">{{answer.answer}}</a>
+        </div>
+      </div>
+      <!-- <div ng-include="'partials/HelpContent/whateverthefucknewpageyoujustmade.html'" ng-if="vm.showContent === 'whateverthefucknewpageyoujustmade'"></div> -->
+    </div>
+  </div>
+</div>
+
+<div class="row help-area">
+  <div class="col-md-4">
+    <div class="help-link-wrapper">
+      <i class="fa fa-phone icon-adjust" aria-hidden="true"></i>
+      <a class="help-link">CALL</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="help-link-wrapper">
+      <i class="fa fa-comment icon-adjust" aria-hidden="true"></i>
+      <a class="help-link">CHAT</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="help-link-wrapper">
+      <i class="fa fa-envelope icon-adjust" aria-hidden="true"></i>
+      <a class="help-link">EMAIL</a>
+    </div>
+  </div>
+</div>
+<!--container-->
+</div>

@@ -8,14 +8,13 @@
     "cat_long_name":"Lego",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -27,14 +26,13 @@
     "cat_long_name":"Lego",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -46,14 +44,13 @@
     "cat_long_name":"Lego",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -65,14 +62,13 @@
     "cat_long_name":"Lego",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -84,14 +80,13 @@
     "cat_long_name":"Knives",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -103,14 +98,13 @@
     "cat_long_name":"Knives",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -122,14 +116,13 @@
     "cat_long_name":"Knives",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -141,14 +134,13 @@
     "cat_long_name":"Knives",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -159,10 +151,9 @@
     "description":null,
     "category":"HB",
     "cat_long_name":"Help Bot",
-      "images":[
+    "images":[
         "img/fake pic.png"
-      ]
-
+    ]
   },
   {
     "id":10,
@@ -173,14 +164,13 @@
     "cat_long_name":"Other",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -192,14 +182,13 @@
     "cat_long_name":"Other",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -211,14 +200,13 @@
     "cat_long_name":"Other",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   },
   {
@@ -230,14 +218,13 @@
     "cat_long_name":"Other",
     "images":[
       "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png",
-      "img/fake pic.png"
+      "img/fake_pic_red.png",
+      "img/fake_pic_green.png",
+      "img/fake_pic_blue.png",
+      "img/fake_pic_purple.png",
+      "img/fake_pic_cyan.png",
+      "img/fake_pic_yellow.png",
+      "img/fake_pic_orange.png"
     ]
   }
 ]
