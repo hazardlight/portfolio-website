@@ -5,27 +5,31 @@
     "name": "Lego",
     "short_name": "L",
     "type":"gallery",
-    "image":"img/fake pic.png"
+    "image":"img/fake pic.png",
+    "description":"Gallery of custom creations"
   },
   {
     "id":2,
     "name": "Knives",
     "short_name": "K",
     "type":"gallery",
-    "image":"img/fake pic.png"
+    "image":"img/fake pic.png",
+    "description":"Designs and Prototypes"
   },
   {
     "id": 3,
     "name": "Help Bot",
     "short_name": "HB",
     "type":"app",
-    "image":"img/fake pic.png"
+    "image":"img/fake pic.png",
+    "description":"Demo for an interactive self-troubleshooting guide"
   },
   {
     "id": 4,
     "name": "Other",
     "short_name": "O",
     "type":"gallery",
-    "image":"img/fake pic.png"
+    "image":"img/fake pic.png",
+    "description":"Album of digital art and poetry"
   }
 ]
