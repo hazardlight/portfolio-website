@@ -67,7 +67,14 @@ function routeConfig ($stateProvider) {
   })
   .state('public.contact',{
     url:'/contact',
-    templateUrl:'src/public/contact/contact.html'
+    templateUrl:'src/public/contact/contact.html',
+    controller: 'ContactController',
+    controllerAs: 'vm',
+    resolve: {
+      // postData: ['PortfolioService', function (PortfolioService) {
+      //   return PortfolioService.postContactForm()
+      // }]
+    }
   })
   .state('public.made',{
     url:'/how-it-is-made',

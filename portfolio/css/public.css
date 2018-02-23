@@ -138,3 +138,7 @@
 
 }
 /* /Help Bot */
+
+.contact-form input::placeholder {
+  color: red;
+}

@@ -2,31 +2,35 @@
   <div class="contact-container col-lg-12">
     <span>Contact Me!</span>
 
-    <form class="contact-form container col-lg-12" ng-submit="vm.submit(contactForm)" name="contactForm" novalidate>
+    <!-- <form class="contact-form container col-lg-12" ng-submit="vm.submit(contactForm)" name="contactForm" method="post" novalidate> -->
+      <form class="contact-form container col-lg-12" name="contactForm" method="post" novalidate>
       <div class="input-label">
         <label class="col-lg-2" id="first-name" for="first-name">First Name:</label>
-        <input class="col-lg-10" type="text" name="firstName" ng-model="vm.firstName" required>
+        <input class="col-lg-10" type="text" name="firstName" ng-model="vm.contactFormData.firstName" placeholder="{{contactForm.firstName.$error.required && contactForm.firstName.$touched ? '*required' : ''}}" required>
       </div>
       <div class="input-label">
-        <label class="col-lg-2" for="last-name">Last Name:</label>
-        <input class="col-lg-10" id="last-name" type="text" name="lastName" ng-model="vm.lastName" required>
+        <label class="col-lg-2" for="last-name" placeholder="blaksjdf6;laks6jdf;a">Last Name:</label>
+        <input class="col-lg-10" id="last-name" type="text" name="lastName" ng-model="vm.contactFormData.lastName" placeholder="{{contactForm.lastName.$error.required && contactForm.lastName.$touched ? '*required' : ''}}" required>
       </div>
-      <div class="input-label">
+      <div class="input-label" >
         <label class="col-lg-2" for="email-address">Email:</label>
-        <input class="col-lg-10" id="email-address" type="email" name="emailAddress" ng-model="vm.emailAddress" required>
+        <input class="col-lg-10" id="email-address" type="email" name="emailAddress" ng-model="vm.contactFormData.emailAddress" placeholder="{{contactForm.emailAddress.$error.required && contactForm.emailAddress.$touched ? '*required' : ''}}" required>
       </div>
       <div class="input-label">
         <label class="col-lg-2" for="subject-line">Subject:</label>
-        <input class="col-lg-10" id="subject-line" type="text" name="subjectLine" ng-model="vm.subjectLine" required>
+        <input class="col-lg-10" id="subject-line" type="text" name="subjectLine" ng-model="vm.contactFormData.subjectLine" placeholder="{{contactForm.subjectLine.$error.required && contactForm.subjectLine.$touched ? '*required' : ''}}" required>
       </div>
       <div class="input-label">
         <label class="col-lg-2" for="message-body">Message:</label>
-        <textarea class="col-lg-10" id="message-body" name="messageBody" rows="8" ng-model="vm.messageBody" placeholder="Your Message..." required></textarea>
+        <textarea class="col-lg-10" id="message-body" name="messageBody" rows="8" ng-model="vm.contactFormData.messageBody" placeholder="Your Message..." required></textarea>
       </div>
       <div class="submit-button col-lg-offset-2 col-lg-10">
-        <button ng-disabled="contactForm.$invalid" ng-click="vm.submit()">
+        <button ng-disabled="contactForm.$invalid" ng-click="vm.submit(contactForm)">
           Submit
         </button>
+      </div>
+      <div class="contact-form-status-message">
+        {{vm.statusMessage}}
       </div>
     </form>
   </div>

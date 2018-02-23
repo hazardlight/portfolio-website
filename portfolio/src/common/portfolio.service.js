@@ -48,6 +48,31 @@ function PortfolioService($http){
       return itemFound;
     });
   };
+  service.postContactForm = function (data) {
+    console.log("Inside service.postContactForm()");
+    // var error = "error";
+    var status ='';
+    var sData = $.param(data, true);
+    var req = {
+      method: 'POST',
+      url: 'php/contact-form.php',
+      data: sData,
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      }
+    };
+    console.log("Serialized Data: ", sData);
+    $http(req).then(function (status) {
+      // console.log(response.status);
+      status = "Success";
+      return status;
+    },
+    function (status) {
+      status = "Failed"
+      return status;
+    });
+  }
+
   // service.getAllItems = function (category){ //this is supposed to get the items for a specific category?
   //   // or do I need to first get all the items on the list
   //   //and then filter by category in another function?
