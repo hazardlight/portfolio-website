@@ -1,0 +1,44 @@
+Images
+http://images.moc-pages.com/user_images/98449/1396232649m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1396232650m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1396232652m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1396232656m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1396232658m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1396232653m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1396232656m_DISPLAY.jpg
+
+Title: Shadowhawk-2H
+
+Fluff Text:
+
+This model was inspired by Mechwarrior Online's concept art for the same vehicle from the BATTLETECH universe.
+
+The Shadowhwak is a 55 ton, Medium Class, anthropomorphic battlemech designed as an all range scrimmager, raider, and brawler.
+The 2H variant sports one autocannon 5 mounted in the left shoulder, a Medium laser mounted in the right arm,
+a Long Range Missile-5 unit mounted in the right torso, and a head mounted Short Range Missile-2 unit. The menagerie of different weapon systems
+allows the 2H to participate in different roles, however because of it's lack of dedicated load-out, it does not necessarily fair well on its own, and
+is best used paired with other units for assistance. Additionally, the chassis uses anthropomorphic arms that can be used for close range attacks,
+as well as limited equipment transportation.
+
+The 2H runs a Standard Engine 275 allowing it to travel 86.4km/h, and mounts 3 jump jets across the left, right, and center torsos. The jump jets allow
+the Shadowhawk greater easy of motion when changing elevation, especially when traveling along rough terrain.
+
+Dimensions
+Height:
+Width:
+
+The architecture for my model is designed using a building technique called SNOT, meaning Studs Not On Top. This is used to create all the sloped
+geometry on the front of the model's torso, as well as to attach the head. The most challenging part of the build was to design the core structure
+in such a way that external components would lock in place at their correct angles, while also making the overall model robust enough to handle and
+manipulate without breaking easily.
+
+My model features posable arms and a posable torso that can be adjusted for rotation and elevation. The legs are built from posable components, but are
+fixed in place for stability.
+
+And yes, there is a mini-fig pilot there as well!

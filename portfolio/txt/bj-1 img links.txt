@@ -1,0 +1,41 @@
+Images
+http://images.moc-pages.com/user_images/98449/1364606595m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1364606621m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1364606598m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1364606600m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1364606618m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1364606603m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1364606611m_DISPLAY.jpg
+
+http://images.moc-pages.com/user_images/98449/1364606607m_DISPLAY.jpg
+
+Title: Blackjack BJ-1
+
+Fluff Text:
+I constructed this model based off concept art from the video game Mechwarrior Online, which is further based off a science fiction vehicle From
+the BATTLETECH universe.
+
+The Blackjack is a 45 ton, Medium Class, anthropomorphic battlemech. The BJ-1 variant was designed as a long range, direct fire-support platform,
+suitable for scrimmages and attack-defense operations involving similarly classed battlemechs and ground vehicles.
+
+The BJ-1 sports two Autocannon 2 ballisitc weapons, one in each arm, as well as 4 Medium Lasers. The canonical variant only has 1 medium laser mounted in
+the left and right arm, with the remaining lasers mounted in the left and right side-torsos. My depiction places all the weapons in the arms in accordance
+with the game's concept art, however this is apocryphal per BATTLETECH lore.
+
+The BJ-1 also runs a Standard 180 Fusion Engine allowing it to achieve a top speed of 64.8km/h, and each leg mounts 2 jump jets for added mobility
+
+Lastly, the chassis mounts 8.5 tons of standard armor
+
+Height: x in
+Width: x in
+
+The model itself features posable arms, as well as torso, which can be rotated 360 degrees and adjusted for elevation.
+The legs use adjustable joints, however the hips are locked in place for stability, and as such the legs cannot be posed.
+
+The model also houses a mini-fig pilot!

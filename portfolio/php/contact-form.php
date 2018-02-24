@@ -2,7 +2,7 @@
 if(isset($_POST['emailAddress'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "...";
+    $email_to = "ctabis@gmail.com";
     $email_subject = $_POST['subjectLine'];
 
     function died($error) {
@@ -15,14 +15,13 @@ if(isset($_POST['emailAddress'])) {
     }
 
 
-    // validation expected data exists
-    // if(!isset($_POST['first_name']) ||
-    //     !isset($_POST['last_name']) ||
-    //     !isset($_POST['email']) ||
-    //     !isset($_POST['telephone']) ||
-    //     !isset($_POST['comments'])) {
-    //     died('We are sorry, but there appears to be a problem with the form you submitted.');
-    // }
+    validation expected data exists
+    if(!isset($_POST['firstName']) ||
+        !isset($_POST['lastName']) ||
+        !isset($_POST['emailAddress']) ||
+        !isset($_POST['messageBody'])) {
+        died('We are sorry, but there appears to be a problem with the form you submitted.');
+    }
 
 
 
