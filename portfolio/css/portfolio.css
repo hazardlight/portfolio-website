@@ -1,32 +1,60 @@
 body{
-  /* color: red; */
+
   /* background-color: #e3ecf9; */
   background-color: #e7e7e7;
-  color: #2e3138;
+  /* color: #2e3138; */
+
+  /* background-color: #ccccff; */
+  /* background-color: #cc9933; */
+  /* background-color: #666699; */
   font-family: calibri;
   font-size: 20px;
 }
-
 /* nav bar */
+.common-nav-foot{
+}
+.custom-active{
+  background-color: #e7e7e7;
+  color: #01075b ;
+  text-decoration: overline;
+  text-shadow: 1px 1px 2px #353638;
+}
 .navbar {
-
+}
+.navbar-default{
+  background-color: #232392;
+  background-image: none;
+  background-repeat: no-repeat;
+  /* border-color: black; */
+  border-radius: 0px;
 }
 .navbar-header{
   /* width: 100%; */
 }
-.navbar-brand span { /* Star-K */
+.navbar-brand span {
+  color:  #f7f9ff;
   font-size: 2em;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 .navbar-toggle{
-
+}
+#nav-list {
+  color:  #f7f9ff;
 }
 #nav-list a {
   /* color: #951C49; */
+  color: inherit;
   text-align: center;
+  background-image: none;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  /* background-color: none; */
+
+}
+#nav-list :hover{
+  text-decoration: overline;
 }
 /* /nav bar */
-
 .panel-footer{
   position: fixed;
   /* position: relative; */
@@ -34,4 +62,7 @@ body{
   width: 100%;
   bottom: 0;
   margin-top: 20px;
+  background-color: #232392;
+  color:  #f7f9ff;
+
 }

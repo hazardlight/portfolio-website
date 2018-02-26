@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Temp Website Title</title>
+    <title>Chris Tabis</title>
 
     <!-- helpbot app boostrap links -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
@@ -21,7 +21,7 @@
   <body ng-app="portfolio" ng-strict-di>
     <header>
       <!-- current code -->
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default common-nav-foot">
         <div class="container">
           <div class="navbar-header">
 
@@ -32,7 +32,7 @@
             </a>
 
             <div class="navbar-brand">
-              <span>Temp Website Title</span>
+              <span>Chris Tabis</span>
             </div>
 
             <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -45,16 +45,16 @@
           </div>
           <div id="collapsable-nav" class="collapse navbar-collapse">
             <ul id="nav-list" class="nav navbar-nav navbar-right">
-              <li id="navHomeBtn" ui-sref-active="active">
+              <li id="navHomeBtn" ui-sref-active="custom-active">
                 <a ui-sref="public.home">Home</a>
               </li>
-              <li id="navAboutBtn" ui-sref-active="active">
+              <li id="navAboutBtn" ui-sref-active="custom-active">
                 <a ui-sref="public.about">About</a>
               </li>
-              <li id="navContactBtn" ui-sref-active="active">
+              <li id="navContactBtn" ui-sref-active="custom-active">
                 <a ui-sref="public.contact">Contact</a>
               </li>
-              <li id="navMadeBtn" ui-sref-active="active">
+              <li id="navMadeBtn" ui-sref-active="custom-active">
                 <a ui-sref="public.made">How It's Made</a>
               </li>
             </ul>
@@ -70,7 +70,7 @@
     <footer class="panel-footer">
       <div class="container">
         <div class="row">
-          <span>Footer</span>
+          <span>Chris Tabis &copy; 2018</span>
         </div>
       </div>
     </footer>

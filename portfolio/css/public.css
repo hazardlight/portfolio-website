@@ -12,7 +12,7 @@
 }
 /* /fake pic */
 
-/* navigation */
+/*  navigation */
 .home-container{
   /* border: 2px solid; */
 }
@@ -20,7 +20,7 @@
   margin-bottom: 69px;
 }
 .about-container{
-  border: 2px solid;
+  /* border: 2px solid; */
   padding-left: 15px;
   padding-right: 15px;
 
@@ -41,7 +41,7 @@
   font-size: 3em;
 }
 .contact-container{
-  border: 2px solid;
+  /* border: 2px solid; */
 }
 #contact-container{
   margin-bottom: 69px;
@@ -64,11 +64,17 @@
 }
 /* /navigation */
 
-/* categories */
+/* *********************************************categories */
 .category-container{
-  border: 2px solid;
+  /* border: 2px solid; */
   padding: 0;
   margin:0;
+}
+.category-container a {
+  color: #3247e5;
+}
+.category-container a :hover{
+/* text-decoration: overline; */
 }
 .category-title{
   /* display: flex; */
@@ -79,24 +85,25 @@
   margin: 0;
   padding: 0;
   /* margin : auto; */
-  color: #f7f9ff;
-  text-shadow: 1px 1px 2px #353638;
+  color: #3247e5;
+  text-shadow: 1px 1px 1px #353638;
 
 }
 .category-title span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 4em;
-  line-height: 80%;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  font-size: 3em;
+  /* line-height: 80%; */
   /* 6em does not shrink will with screen size */
 }
 .category-title img{
   padding:0;
   width: 100%;
 }
-/* /categories */
+
+/* ***************************************************/
 
 /* Items */
 .item-title{

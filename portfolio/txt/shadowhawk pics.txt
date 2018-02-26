@@ -33,8 +33,8 @@ Dimensions
 Height:
 Width:
 
-The architecture for my model is designed using a building technique called SNOT, meaning Studs Not On Top. This is used to create all the sloped
-geometry on the front of the model's torso, as well as to attach the head. The most challenging part of the build was to design the core structure
+The surfaces for my model are designed using a building technique called SNOT, meaning Studs Not On Top. This is used to create the sloped
+geometry on the front of the model's torso, as well as the head, legs, and hips. The most challenging part of the build was to design the core structure
 in such a way that external components would lock in place at their correct angles, while also making the overall model robust enough to handle and
 manipulate without breaking easily.
 

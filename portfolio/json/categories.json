@@ -5,15 +5,15 @@
     "name": "Lego",
     "short_name": "L",
     "type":"gallery",
-    "image":"img/fake pic.png",
-    "description":"Gallery of custom creations"
+    "image":"img/fp.png",
+    "description":"Custom Models"
   },
   {
     "id":2,
     "name": "Knives",
     "short_name": "K",
     "type":"gallery",
-    "image":"img/fake pic.png",
+    "image":"img/fp.png",
     "description":"Designs and Prototypes"
   },
   {
@@ -21,15 +21,15 @@
     "name": "Help Bot",
     "short_name": "HB",
     "type":"app",
-    "image":"img/fake pic.png",
-    "description":"Demo for an interactive self-troubleshooting guide"
+    "image":"img/fp.png",
+    "description":"App Demo"
   },
   {
     "id": 4,
     "name": "Other",
     "short_name": "O",
     "type":"gallery",
-    "image":"img/fake pic.png",
-    "description":"Album of digital art and poetry"
+    "image":"img/fp.png",
+    "description":"Gallery"
   }
 ]
