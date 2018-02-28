@@ -1,14 +1,24 @@
 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 col-xxs-12">
   <div class="category-container">
-    <a ui-sref="public.categoryItems({category: $ctrl.category.short_name})">
-    <!-- what exactly is category: here? -assigned data from home.html -->
-      <div class="category-title">
-        <span>{{$ctrl.category.name}}</span>
-        <!-- temp image -->
-        <img class="img-responsive" ng-src="{{$ctrl.category.image}}" alt="temporary picture">
+    <div ui-sref="public.categoryItems({category: $ctrl.category.short_name})">
 
-      </div>
-      <span>{{$ctrl.category.description}}</span>
-    </a>
+      <!-- what exactly is category: here? -assigned data from home.html -->
+        <div class="category-title" ng-mouseover="$ctrl.slideDownFunc()" ng-mouseleave="$ctrl.slideUpFunc()">
+          <span>{{$ctrl.category.name}}</span>
+
+          <div class="category-image-container col-lg-12">
+            <div id="category-description" ng-if="$ctrl.elementIsActive" class="category-description">
+              {{$ctrl.category.description}}
+            </div>
+            <!-- temp image -->
+            <img class="img-responsive" ng-src="{{$ctrl.category.image}}" alt="temporary picture">
+          </div>
+
+
+        </div>
+
+
+    </div>
+
   </div>
 </div>

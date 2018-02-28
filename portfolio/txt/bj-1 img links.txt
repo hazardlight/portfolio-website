@@ -18,7 +18,7 @@ http://images.moc-pages.com/user_images/98449/1364606607m_DISPLAY.jpg
 Title: Blackjack BJ-1
 
 Fluff Text:
-I constructed this model based off concept art from the video game Mechwarrior Online, which is further based off a science fiction vehicle From
+This model is based off concept art from the video game Mechwarrior Online, which is further based off a science fiction vehicle From
 the BATTLETECH universe.
 
 The Blackjack is a 45 ton, Medium Class, anthropomorphic battlemech. The BJ-1 variant was designed as a long range, direct fire-support platform,

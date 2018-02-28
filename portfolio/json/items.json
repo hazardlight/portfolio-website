@@ -1,63 +1,152 @@
 [
   {
     "id":1,
-    "name": "Lego Mech 1",
+    "name": "Blackjack-BJ1",
     "short_name":"L1",
-    "description": "50 Ton Hunchback",
+    "text": [
+      "This model is based off concept art from the video game Mechwarrior Online, which is further based off a science fiction vehicle From the BATTLETECH universe.",
+
+      "The Blackjack is a 45 ton, Medium Class, anthropomorphic battlemech. The BJ-1 variant was designed as a long range, direct fire-support platform, suitable for scrimmages and attack-defense operations involving similarly classed battlemechs and ground vehicles.",
+
+      "The BJ-1 sports two Autocannon 2 ballisitc weapons, one in each arm, as well as 4 Medium Lasers. The canonical variant only has 1 medium laser mounted in the left and right arm, with the remaining lasers mounted in the left and right side-torsos. My depiction places all the weapons in the arms in accordance with the game's concept art, however this is apocryphal per BATTLETECH lore.",
+
+      "The BJ-1 also runs a Standard 180 Fusion Engine allowing it to achieve a top speed of 64.8km/h, and each leg mounts 2 jump jets for added mobility. Lastly, the chassis mounts 8.5 tons of standard armor.",
+
+      "The model itself features posable arms, as well as torso, which can be rotated 360 degrees and adjusted for elevation. The legs use adjustable joints, however the hips are locked in place for stability, and as such the legs cannot be posed.",
+
+      "Height: x in",
+
+      "Width: x in"
+    ],
     "category":"L",
     "cat_long_name":"Lego",
     "images":[
-      "img/fake pic.png",
-      "img/fake_pic_red.png",
-      "img/fake_pic_green.png",
-      "img/fake_pic_blue.png",
-      "img/fake_pic_purple.png",
-      "img/fake_pic_cyan.png",
-      "img/fake_pic_yellow.png",
-      "img/fake_pic_orange.png"
+      "http://images.moc-pages.com/user_images/98449/1364606595m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1364606621m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1364606598m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1364606600m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1364606618m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1364606603m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1364606611m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1364606607m_DISPLAY.jpg"
     ]
   },
   {
     "id":2,
-    "name":"Lego Mech 2",
+    "name":"Shadow Cat Prime",
     "short_name":"L2",
-    "description": "45 Ton Shadowcat",
+    "text":[
+      "This model is a custom rendition of a vehicle from the BATTLETECH universe, and was based off a variety of concept art and pewter miniatures.",
+
+      "The Shadowcat is a Medium Class OmniMech designed by the faction Clan Nova Cat. It is a 45 ton, non-anthropomorphic vehicle suited for raiding and and scouting missions. The OmniMech designation means that the vehicle is capable of modular customization, where arms, legs, and side-torsos can be quickly swapped out for alternative weapon and equipment configurations.",
+
+      "The Prime variant mounts 2 Extended Range Medium lasers in the left arm and a Gauss Rifle in the right, making it particularly dangerous at longer ranges against similarly classed vehicles. This variant also houses an Active Probe sensor unit, capable of detecting units hidden by means of electromagnetic countermeasures.",
+
+      "The chassis sports an Extra Light Engine 280 allowing it to travel 97km/h, as well as 6 jump jets, and a MASC unit for a temporary boost of speed up to 130km/h. The MASC unit is effectively a turbo module that boosts power to the leg actuators at the cost of added heat, and potential damage if used at top speeds for long periods of time.",
+
+      "The Shadow Cat was the first model I had completed with the intent of combining a coherent color scheme with a detailed external finish. The model itself features posable arms and torso, however the torso does not features adjustable elevation, and can only rotate about its axis. The legs are also fixed in place to ensure stability.",
+
+      "To reflect the OmniMech capability from the lore, all the major components are held together via pins and studs for easy disassembly.",
+
+      "As with the rest of my vehicle models, this one features a mini-fig pilot in the cockpit!",
+
+      "Model Dimensions:",
+      "height: x in",
+      "width: x in"
+    ],
     "category":"L",
     "cat_long_name":"Lego",
     "images":[
-      "img/fake pic.png",
-      "img/fake_pic_red.png",
-      "img/fake_pic_green.png",
-      "img/fake_pic_blue.png",
-      "img/fake_pic_purple.png",
-      "img/fake_pic_cyan.png",
-      "img/fake_pic_yellow.png",
-      "img/fake_pic_orange.png"
+      "http://images.moc-pages.com/user_images/98449/1354915646m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1354915662m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1354915669m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1354915699m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1354915715m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1354915746m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1354915777m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1354915789m_DISPLAY.jpg",
+      "http://images.moc-pages.com/user_images/98449/1354915794m_DISPLAY.jpg"
     ]
   },
   {
     "id":3,
-    "name":"Lego Building 1",
+    "name":"Shadowhawk-2H",
     "short_name": "L3",
-    "description": "Communication Array",
+    "text":[
+      "This model was inspired by Mechwarrior Online's concept art for the same vehicle from the BATTLETECH universe.",
+
+      "The Shadowhwak is a 55 ton, Medium Class, anthropomorphic battlemech designed as an all range scrimmager, raider, and brawler. The 2H variant sports one autocannon 5 mounted in the left shoulder, a Medium laser mounted in the right arm, a Long Range Missile-5 unit mounted in the right torso, and a head mounted Short Range Missile-2 unit. The menagerie of different weapon systems allows the 2H to participate in different roles, however because of it's lack of dedicated load-out, it does not necessarily fair well on its own, and is best used paired with other units for assistance. Additionally, the chassis uses anthropomorphic arms that can be used for close range attacks, as well as limited equipment transportation.",
+
+      "The 2H runs a Standard Engine 275 allowing it to travel 86.4km/h, and mounts 3 jump jets across the left, right, and center torsos. The jump jets allow the Shadowhawk greater easy of motion when changing elevation, especially when traveling along rough terrain.",
+
+      "Dimensions",
+      "Height:",
+      "Width:",
+
+      "The surfaces for my model are designed using a building technique called SNOT, meaning Studs Not On Top. This is used to create the sloped geometry on the front of the model's torso, as well as the head, legs, and hips. The most challenging part of the build was to design the core structure in such a way that external components would lock in place at their correct angles, while also making the overall model robust enough to handle and manipulate without breaking easily.",
+
+      "My model features posable arms and a posable torso that can be adjusted for rotation and elevation. The legs are built from posable components, but are fixed in place for stability.",
+
+      "And yes, there is a mini-fig pilot there as well!"
+    ],
     "category":"L",
     "cat_long_name":"Lego",
     "images":[
-      "img/fake pic.png",
-      "img/fake_pic_red.png",
-      "img/fake_pic_green.png",
-      "img/fake_pic_blue.png",
-      "img/fake_pic_purple.png",
-      "img/fake_pic_cyan.png",
-      "img/fake_pic_yellow.png",
-      "img/fake_pic_orange.png"
+      "http://images.moc-pages.com/user_images/98449/1396232649m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1396232650m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1396232652m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1396232656m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1396232658m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1396232653m_DISPLAY.jpg"
     ]
   },
   {
     "id": 4 ,
-    "name": "Lego Building 2",
+    "name": "Vindicator-1R",
     "short_name": "L4",
-    "description": "Moon Base",
+    "text":[
+      "This model is an adaptation of a vehicle from the BATTLETECH universe, based off fan art and pewter miniatures.",
+
+      "The Vindicator is a 45 Ton, anthropomorphic battlemech designed for long range scrimmaging. To facilitate this, the 1R variant sports a combination of 2 long range weapon systems: a single PPC (particle projector cannon) in the right arm, and a left torso mounted long range missile 5 unit. For short range backup, the 1R also mounts a Medium laster in the head, and a Small Laser in the left arm.",
+
+      "While not the fastest battlemech in its weight class, the Vindicator runs a Standard Engine 180, allowing it to achieve a top speed of 64.8 km/h. It also 4 jump jets for added maneuverability over hills and rough terrain.",
+
+      "The model was designed entirely in a CAD program (LDraw) without physical prototyping. Building models in LDraw is particularly advantageous because there is no limit on what parts you have available to make your model, however there is an intuitive aspect to building with physical bricks that gives me a better sense of what designs ideas will work better than others, especially when constructing surfaces via SNOT (studs not on top), or trying to build leg and arm joints at unusual angles.",
+
+      "Dimensions:",
+      "Height:",
+      "Width:",
+
+      "The model features posable arms and a posable torso, adjustable for rotation. The head also contains a mini-fig pilot!"
+    ],
+    "category":"L",
+    "cat_long_name":"Lego",
+    "images":[
+      "http://images.moc-pages.com/user_images/98449/1366734418m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1366734422m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1366734419m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1366734421m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1366734424m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1366734425m_DISPLAY.jpg",
+
+      "http://images.moc-pages.com/user_images/98449/1366734417m_DISPLAY.jpg"
+    ]
+  },
+  {
+    "id":"",
+    "name":"lego building",
+    "short_name":"L5",
+    "description":"temp",
     "category":"L",
     "cat_long_name":"Lego",
     "images":[
