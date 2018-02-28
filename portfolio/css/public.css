@@ -15,20 +15,44 @@
 /*  navigation */
 .home-container{
   /* border: 2px solid; */
-  height: 100%;
+/* display: flex; */
+/* justify-content: center; */
+/* flex-direction: row; */
+/* flex-wrap: wrap; */
+/* align-items: center; */
+
 }
 #home-container{
-  margin-bottom: 69px;
+/* background-color: #f2f2f2; */
+  /* margin-bottom: 69px; */
+  height: 90vh;
+  padding-top: 20px;
+  padding-left: 0;
+  padding-right:0;
+}
+.home-content-description{
+  text-align: center;
+
+  font-size: 4em;
+  /* text-decoration: underline; */
+  font-variant: small-caps;
+  border-top:20px solid #2e3138;
+  border-bottom:20px solid #2e3138;
+  background: linear-gradient(-90deg, #f2f2f2, #d6d6d6, #f2f2f2);
+  box-shadow: 1px 1px 1px #353638;
+  border-radius: 20px;
 }
 .about-container{
   /* border: 2px solid; */
+  padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
 
   /* padding: 0; */
 }
 #about-container{
-  margin-bottom: 69px;
+  /* margin-bottom: 69px; */
+  height: 90vh;
 }
 .about-logo{
   margin: 0;
@@ -42,12 +66,29 @@
   font-size: 3em;
 }
 .contact-container{
+  padding-top: 20px;
   /* border: 2px solid; */
+  color:#01075b;
 }
 #contact-container{
-  margin-bottom: 69px;
+  /* margin-bottom: 69px; */
+  height: 90vh;
+  /* margin-left: auto; */
+  /* text-align: center; */
+}
+.contact-form{
+  padding-top: 20px;
+}
+.contact-instruction{
+  font-size: 1.5em;
+  line-height: 80%;
+}
+.input-label label{
+  text-align:right;
+  /* color:#01075b; */
 }
 .made-container{
+  padding-top: 20px;
   color: #2e3138;
   /* border: 2px solid; */
   /* text-align: center; */
@@ -69,6 +110,8 @@
 
 #breadcrumb-custom{
   color: #01075b;
+  padding-left: 50px;
+  margin-bottom: 20px;
 }
 #breadcrumb-custom :hover{
   text-decoration: underline;
@@ -85,6 +128,7 @@
   /* border: 2px solid; */
   padding: 0;
   margin:0;
+  /* width: 100%; */
   /* color: #01075b; */
 }
 
@@ -134,9 +178,11 @@
 
 /* ***************************************************/
 
-/* Items */
+/************************************************************ Items */
 .item-title{
   text-align: center;
+  color:#01075b;
+  font-size: 1.5em;
 }
 
 #item-img{
@@ -179,6 +225,7 @@
 .gallery-item-title{
   margin: 0;
   padding: 10px;
+  padding-left: 30px;
   /* text-align: center; */
   /* font-size: 2em; */
 }

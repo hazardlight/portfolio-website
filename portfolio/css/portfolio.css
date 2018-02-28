@@ -14,11 +14,16 @@ body{
   font-size: 20px;
   height:100%;
 }
+ui-view{
+  /* height: 100%; */
+
+}
 /* nav bar */
 .common-border{
   border-bottom: 3px;
   border-color: black;
   border-style: inset;
+  margin: 0;
 
   /* border-color: black; */
 }
