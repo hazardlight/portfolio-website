@@ -60,7 +60,8 @@
 }
 .about-text{
   overflow-wrap: break-word;
-  color: #2e3138;
+  /* color: #2e3138; */
+  color:#01075b;
 }
 .about-text span {
   font-size: 3em;
@@ -92,14 +93,14 @@
   color: #2e3138;
   /* border: 2px solid; */
   /* text-align: center; */
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 .made-container h1{
   margin-top: 0;
-  text-align: center;
+  /* text-align: center; */
 }
 .img-made {
-  margin: auto;
+  /* margin: auto; */
 }
 #made-container{
   margin-bottom: 69px;
@@ -128,8 +129,12 @@
   /* border: 2px solid; */
   padding: 0;
   margin:0;
+
   /* width: 100%; */
   /* color: #01075b; */
+}
+#category-container{
+/* box-shadow: 1px 1px 1px #353638; */
 }
 
 .category-title{

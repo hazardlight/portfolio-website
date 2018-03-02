@@ -20,9 +20,11 @@ ui-view{
 }
 /* nav bar */
 .common-border{
-  border-bottom: 3px;
-  border-color: black;
-  border-style: inset;
+  /* border-bottom: 4px; */
+  /* border-color: #353638; */
+  box-shadow: 1px 1px 1px #353638;
+  /* border-style: inset; */
+  border: 0;
   margin: 0;
 
   /* border-color: black; */

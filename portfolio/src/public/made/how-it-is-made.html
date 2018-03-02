@@ -1,5 +1,5 @@
 <div id="made-container" class="container">
-  <div class="made-container">
+  <!-- <div class="made-container">
     <h1>How am I made!?</h1>
     <img class="img-made img-responsive " src="img/fake pic.png" alt="temporary picture">
     <span>like this</span>
@@ -8,5 +8,32 @@
     <img class="img-made img-responsive" src="img/fake pic.png" alt="temporary picture">
     <span>but more like this</span>
     <img class="img-made img-responsive " src="img/fake pic.png" alt="temporary picture">
+  </div> -->
+
+  <div id="made-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <ol class="carousel-indicators">
+      <li data-target="#made-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#made-carousel" data-slide-to="1"></li>
+      <li data-target="#made-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img class="img-responsive" src="img/fake pic.png" alt="First slide">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="img/fake pic.png" alt="Second slide">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="img/fake pic.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#made-carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">previous</span>
+    </a>
+    <a class="right carousel-control" href="#made-carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">next</span>
+    </a>
   </div>
 </div>
