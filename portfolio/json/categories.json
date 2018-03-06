@@ -5,7 +5,7 @@
     "name": "Lego",
     "short_name": "L",
     "type":"gallery",
-    "image":"img/fp.png",
+    "image":"img/lego_cat.png",
     "description":"Custom Models"
   },
   {
@@ -13,7 +13,7 @@
     "name": "Knives",
     "short_name": "K",
     "type":"gallery",
-    "image":"img/fp.png",
+    "image":"img/knife_cat.png",
     "description":"Designs and Prototypes"
   },
   {
@@ -21,7 +21,7 @@
     "name": "Help Bot",
     "short_name": "HB",
     "type":"app",
-    "image":"img/fp.png",
+    "image":"img/helpbot_cat.png",
     "description":"App Demo"
   },
   {

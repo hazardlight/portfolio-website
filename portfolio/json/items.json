@@ -252,14 +252,7 @@
     "category":"O",
     "cat_long_name":"Other",
     "images":[
-      "img/fake pic.png",
-      "img/fake_pic_red.png",
-      "img/fake_pic_green.png",
-      "img/fake_pic_blue.png",
-      "img/fake_pic_purple.png",
-      "img/fake_pic_cyan.png",
-      "img/fake_pic_yellow.png",
-      "img/fake_pic_orange.png"
+      "img/other/beeworld6.jpg"
     ]
   },
   {
@@ -270,14 +263,7 @@
     "category":"O",
     "cat_long_name":"Other",
     "images":[
-      "img/fake pic.png",
-      "img/fake_pic_red.png",
-      "img/fake_pic_green.png",
-      "img/fake_pic_blue.png",
-      "img/fake_pic_purple.png",
-      "img/fake_pic_cyan.png",
-      "img/fake_pic_yellow.png",
-      "img/fake_pic_orange.png"
+      "img/other/blackjack complete.jpg"
     ]
   },
   {
@@ -288,14 +274,7 @@
     "category":"O",
     "cat_long_name":"Other",
     "images":[
-      "img/fake pic.png",
-      "img/fake_pic_red.png",
-      "img/fake_pic_green.png",
-      "img/fake_pic_blue.png",
-      "img/fake_pic_purple.png",
-      "img/fake_pic_cyan.png",
-      "img/fake_pic_yellow.png",
-      "img/fake_pic_orange.png"
+      "img/other/blackjack spread.jpg"
     ]
   },
   {
@@ -306,14 +285,84 @@
     "category":"O",
     "cat_long_name":"Other",
     "images":[
-      "img/fake pic.png",
-      "img/fake_pic_red.png",
-      "img/fake_pic_green.png",
-      "img/fake_pic_blue.png",
-      "img/fake_pic_purple.png",
-      "img/fake_pic_cyan.png",
-      "img/fake_pic_yellow.png",
-      "img/fake_pic_orange.png"
+      "img/other/cyclops sketches FINAL.jpg"
+    ]
+  },
+  {
+    "id":14,
+    "name":"Other 5",
+    "short_name":"O5",
+    "description":"why problem make?",
+    "category":"O",
+    "cat_long_name":"Other",
+    "images":[
+      "img/other/Mech Ortho 2.jpg"
+    ]
+  },
+  {
+    "id":14,
+    "name":"Other 6",
+    "short_name":"O5",
+    "description":"why problem make?",
+    "category":"O",
+    "cat_long_name":"Other",
+    "images":[
+      "img/other/Mech Ortho 6 rev2.png"
+    ]
+  },
+  {
+    "id":14,
+    "name":"Other 7",
+    "short_name":"O5",
+    "description":"why problem make?",
+    "category":"O",
+    "cat_long_name":"Other",
+    "images":[
+      "img/other/scape2.jpg"
+    ]
+  },
+  {
+    "id":14,
+    "name":"Other 8",
+    "short_name":"O5",
+    "description":"why problem make?",
+    "category":"O",
+    "cat_long_name":"Other",
+    "images":[
+      "img/other/shadow hawk red.jpg"
+    ]
+  },
+  {
+    "id":14,
+    "name":"Other 9",
+    "short_name":"O5",
+    "description":"why problem make?",
+    "category":"O",
+    "cat_long_name":"Other",
+    "images":[
+      "img/other/somethin.png"
+    ]
+  },
+  {
+    "id":14,
+    "name":"Other 10",
+    "short_name":"O5",
+    "description":"why problem make?",
+    "category":"O",
+    "cat_long_name":"Other",
+    "images":[
+      "img/other/timberwolf sketch7.jpg"
+    ]
+  },
+  {
+    "id":14,
+    "name":"Other 11",
+    "short_name":"O5",
+    "description":"why problem make?",
+    "category":"O",
+    "cat_long_name":"Other",
+    "images":[
+      "img/other/zeus sketch WIP8.jpg"
     ]
   }
 ]

@@ -78,7 +78,9 @@ function routeConfig ($stateProvider) {
   })
   .state('public.made',{
     url:'/how-it-is-made',
-    templateUrl:'src/public/made/how-it-is-made.html'
+    templateUrl:'src/public/made/how-it-is-made.html',
+    controller: 'MadeController',
+    controllerAs: 'vm'
   });
   // .state('public.categoryItems', { //displays items for a picked category
   //   url:'/{category}',
