@@ -29,7 +29,8 @@
       "http://images.moc-pages.com/user_images/98449/1364606603m_DISPLAY.jpg",
       "http://images.moc-pages.com/user_images/98449/1364606611m_DISPLAY.jpg",
       "http://images.moc-pages.com/user_images/98449/1364606607m_DISPLAY.jpg"
-    ]
+    ],
+    "carousel": true
   },
   {
     "id":2,
@@ -66,7 +67,8 @@
       "http://images.moc-pages.com/user_images/98449/1354915777m_DISPLAY.jpg",
       "http://images.moc-pages.com/user_images/98449/1354915789m_DISPLAY.jpg",
       "http://images.moc-pages.com/user_images/98449/1354915794m_DISPLAY.jpg"
-    ]
+    ],
+    "carousel": true
   },
   {
     "id":3,
@@ -103,7 +105,8 @@
       "http://images.moc-pages.com/user_images/98449/1396232658m_DISPLAY.jpg",
 
       "http://images.moc-pages.com/user_images/98449/1396232653m_DISPLAY.jpg"
-    ]
+    ],
+    "carousel": true
   },
   {
     "id": 4 ,
@@ -140,7 +143,8 @@
       "http://images.moc-pages.com/user_images/98449/1366734425m_DISPLAY.jpg",
 
       "http://images.moc-pages.com/user_images/98449/1366734417m_DISPLAY.jpg"
-    ]
+    ],
+    "carousel": true
   },
   {
     "id":"",
@@ -158,7 +162,8 @@
       "img/fake_pic_cyan.png",
       "img/fake_pic_yellow.png",
       "img/fake_pic_orange.png"
-    ]
+    ],
+    "carousel": true
   },
   {
     "id":5,
@@ -176,7 +181,8 @@
       "img/fake_pic_cyan.png",
       "img/fake_pic_yellow.png",
       "img/fake_pic_orange.png"
-    ]
+    ],
+    "carousel": true
   },
   {
     "id":6,
@@ -194,7 +200,8 @@
       "img/fake_pic_cyan.png",
       "img/fake_pic_yellow.png",
       "img/fake_pic_orange.png"
-    ]
+    ],
+    "carousel": true
   },
   {
     "id":7,
@@ -212,7 +219,8 @@
       "img/fake_pic_cyan.png",
       "img/fake_pic_yellow.png",
       "img/fake_pic_orange.png"
-    ]
+    ],
+    "carousel": true
   },
   {
     "id":8,
@@ -230,7 +238,8 @@
       "img/fake_pic_cyan.png",
       "img/fake_pic_yellow.png",
       "img/fake_pic_orange.png"
-    ]
+    ],
+    "carousel": true
   },
   {
     "id":9,
@@ -246,123 +255,134 @@
   },
   {
     "id":10,
-    "name":"Other 1",
+    "name":"T-Shirt Graphic",
     "short_name":"O1",
     "description":"This is a picture",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/beeworld6.jpg"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":11,
-    "name":"Other 2",
+    "name":"LDraw Blackjack 1",
     "short_name":"O2",
     "description":"This is a poem",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/blackjack complete.jpg"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":12,
-    "name":"Other 3",
+    "name":"LDraw Blackjack 2",
     "short_name":"O3",
     "description":"This is digital art",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/blackjack spread.jpg"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":13,
-    "name":"Other 4",
+    "name":"Cyclops",
     "short_name":"O4",
     "description":"why problem make?",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/cyclops sketches FINAL.jpg"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":14,
-    "name":"Other 5",
+    "name":"Mech Ortho 1",
     "short_name":"O5",
     "description":"why problem make?",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/Mech Ortho 2.jpg"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":14,
-    "name":"Other 6",
+    "name":"Mech Ortho 2",
     "short_name":"O5",
     "description":"why problem make?",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/Mech Ortho 6 rev2.png"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":14,
-    "name":"Other 7",
+    "name":"Landscape",
     "short_name":"O5",
     "description":"why problem make?",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/scape2.jpg"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":14,
-    "name":"Other 8",
+    "name":"Shadowhawk Digital",
     "short_name":"O5",
     "description":"why problem make?",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/shadow hawk red.jpg"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":14,
-    "name":"Other 9",
+    "name":"Abstract Orb",
     "short_name":"O5",
     "description":"why problem make?",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/somethin.png"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":14,
-    "name":"Other 10",
+    "name":"Timberwolf",
     "short_name":"O5",
     "description":"why problem make?",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/timberwolf sketch7.jpg"
-    ]
+    ],
+    "carousel": false
   },
   {
     "id":14,
-    "name":"Other 11",
+    "name":"Zeus",
     "short_name":"O5",
     "description":"why problem make?",
     "category":"O",
     "cat_long_name":"Other",
     "images":[
       "img/other/zeus sketch WIP8.jpg"
-    ]
+    ],
+    "carousel": false
   }
 ]

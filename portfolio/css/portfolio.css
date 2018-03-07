@@ -49,6 +49,7 @@ ui-view{
   /* border-color: black; */
   border-radius: 0px;
   /* border: 0px; */
+  /* border-color: 0; */
 }
 .navbar-header{
   /* width: 100%; */
@@ -77,6 +78,23 @@ ui-view{
 #nav-list :hover{
   text-decoration: overline;
 }
+/* #navbarHeader button{
+  background-color: black;
+}
+#navbarHeader button :hover{
+  background-color: white;
+} */
+#navbarToggle{
+  border:2px solid black;
+  border-radius: 0px;
+  /* background-color: black; */
+}
+/* #navbarToggle :hover{
+  background-color: black;
+} */
+#collapsable-nav{
+ border-color: black;
+}
 /* /nav bar */
 .panel-footer{
   position: fixed;
@@ -90,5 +108,7 @@ ui-view{
 
   border: 0px;
   border-radius: 0px;
+}
+@media (max-width: 767px){
 
 }
