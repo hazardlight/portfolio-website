@@ -51,14 +51,14 @@ ui-view{
   /* border: 0px; */
   /* border-color: 0; */
 }
-.navbar-header{
-  /* width: 100%; */
-  /* border: 2px; */
-}
+
 .navbar-brand span {
   color:  #f7f9ff;
   font-size: 2em;
   /* vertical-align: middle; */
+}
+#navbarBrand{
+  background-color:#232392 !important;
 }
 .navbar-toggle{
 }
@@ -78,19 +78,29 @@ ui-view{
 #nav-list :hover{
   text-decoration: overline;
 }
-/* #navbarHeader button{
+#navbarHeader button{
+  background-color: transparent;
+}
+#navbarHeader :hover{
   background-color: black;
 }
-#navbarHeader button :hover{
-  background-color: white;
-} */
+#navbarHeader span {
+  background-color: transparent !important;
+}
 #navbarToggle{
-  border:2px solid black;
+  border:2px solid #f7f9ff;
   border-radius: 0px;
+  background-image: none;
   /* background-color: black; */
+}
+#navbarToggle span {
+  background-color: #f7f9ff !important;
 }
 /* #navbarToggle :hover{
   background-color: black;
+} */
+/* .navbar-default.navbar-toggle.icon-bar{
+  background-color: #f7f9ff;
 } */
 #collapsable-nav{
  border-color: black;

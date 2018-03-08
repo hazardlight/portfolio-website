@@ -47,11 +47,19 @@
   padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 20px;
+
+  border-top:20px solid #2e3138;
+  border-bottom:20px solid #2e3138;
+  background: linear-gradient(-90deg, #f2f2f2, #d6d6d6, #f2f2f2);
+  box-shadow: 1px 1px 1px #353638;
+  border-radius: 20px;
 
   /* padding: 0; */
 }
 #about-container{
   /* margin-bottom: 69px; */
+  padding-top: 20px;
   height: 90vh;
 }
 .about-logo{
@@ -64,7 +72,13 @@
   color:#01075b;
 }
 .about-text span {
+
+}
+#aboutText{
   font-size: 3em;
+}
+.about-contact{
+  font-size: 2em;
 }
 .image-mask-test{
   width: 350px;
@@ -100,20 +114,14 @@
   text-align:right;
   /* color:#01075b; */
 }
-.made-container{
+#made-container{
   padding-top: 20px;
   color: #2e3138;
+  height: auto;
+  margin-bottom: 69px;
   /* border: 2px solid; */
   /* text-align: center; */
   /* vertical-align: middle; */
-}
-.made-container h1{
-  margin-top: 0;
-  height: 100vh;
-  /* text-align: center; */
-}
-.img-made {
-  /* margin: auto; */
 }
 #made-container{
 
@@ -124,7 +132,9 @@
 .made-img{
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  width:auto;
+  height:auto;
+  /* padding-top: 20px; */
 }
 .made-indicator.active{
   border-color: black;
@@ -256,12 +266,18 @@
   padding-left:0;
   padding-right: 0;
 }
+.gallery-car-thumb-cont{
+  padding-bottom: 20px;
+  height:auto;
+}
 .carousel-inner img{
   height: 400px;
 }
 .image-mask{
-  width: 540px;
-  height: 400px;
+  /* width: 540px; */
+  /* height: 400px; */
+  width: auto;
+  height: auto;
   overflow: hidden;
 }
 .image-adjustment{
@@ -317,8 +333,11 @@
   background-repeat: 0;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .thumbnail-mask{
+  /* .thumbnail-mask{
 
+  } */
+  .image-adjustment{
+    /* transform: translate(-15vh, -2vh); */
   }
 }
 @media (max-width: 767px) {
@@ -345,9 +364,19 @@
 
 }
 #helpbot-component-text{
-  border: 3px solid #01075b;
-  border-radius: 10px;
-  background-color: #f2f2f2;
+  /* border: 3px solid #01075b; */
+  /* border-radius: 10px; */
+  /* background-color: #f2f2f2; */
+
+  border-top:15px solid #2e3138;
+  border-bottom:15px solid #2e3138;
+  background: linear-gradient(-90deg, #f2f2f2, #d6d6d6, #f2f2f2);
+  box-shadow: 1px 1px 1px #353638;
+  border-radius: 20px;
+}
+#helpbot-disclaimer{
+  font-size: .7em;
+  text-align: center;
 }
 /* /Help Bot */
 
