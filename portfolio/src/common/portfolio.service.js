@@ -48,6 +48,11 @@ function PortfolioService($http){
       return itemFound;
     });
   };
+  service.getBlogItem = function () {
+    return $http.get('json/blog.json').then(function (response) {
+      return response.data;
+    });
+  }
   service.postContactForm = function (data) {
     console.log("Inside service.postContactForm()");
 

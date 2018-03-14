@@ -35,7 +35,7 @@ function routeConfig ($stateProvider) {
       }
     },
     controller: 'CategoryItemsController',
-    controllerAs: 'vm', //or vm???
+    controllerAs: 'vm',
     resolve: {
       categoryItems: ['$stateParams', 'PortfolioService', function ($stateParams, PortfolioService) { //PortfolioItemsFromCategory
         return PortfolioService.getCategoryItems($stateParams.category);
@@ -80,7 +80,12 @@ function routeConfig ($stateProvider) {
     url:'/how-it-is-made',
     templateUrl:'src/public/made/how-it-is-made.html',
     controller: 'MadeController',
-    controllerAs: 'vm'
+    controllerAs: 'vm',
+    resolve: {
+      blogItem: ['PortfolioService', function (PortfolioService) {
+        return PortfolioService.getBlogItem();
+      }]
+    }
   });
   // .state('public.categoryItems', { //displays items for a picked category
   //   url:'/{category}',
