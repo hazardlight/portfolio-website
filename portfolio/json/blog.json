@@ -33,5 +33,120 @@
       "For a bit of unique touch, I created the Home page’s category icons from scratch in Photoshop.",
       "From start to finish, this site was completed in 6 weeks."
     ]
+  },
+  {
+    "id":2,
+    "title": "Where Does This All Start?",
+    "date": "March 14, 2018",
+    "content": [
+      "I wanted to learn how to make a websites, both as a skill building exercise in programming, and to have a place to host my portfolio.",
+      "My journey began by researching what I needed to know (beyond HTML and CSS) to even start. And decided that between frontend and backend development, that the latter interested me more, and was more in-line with what I was trying to accomplish for the website.",
+      "I then went to look at different frameworks, and chose AngularJS because of its scope of support, available libraries, and versatility for creating a range of applications.",
+      "With the framework picked, I then needed to answer another seemingly simple, yet tricky question: how do I learn Angular? My first thought was to look up tutorials and examples, and start from there.",
+      "The free tutorials, while being great for learning basic and surface level concepts in Angular, fell woefully short in explaining how to create a complete Angular application. ",
+      "And even example applications and websites left enormous gaps in terms of explaining how and why they were implemented they way they were. Especially in cases where certain implementations used drastically different approaches between examples.",
+      "Despite this, I felt confident enough to take my first shot a making a website:",
+
+      "<img class=\"col-lg-4\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_layout1.png\" > <img class=\"col-lg-4 \" src =\"img/blog/old_site_layout2.png\" > <img class=\"col-lg-4\" src =\"img/blog/old_site_layout3.png\" > ",
+
+      "The vast majority of my code for this site mimicked the examples I tried to learn from, resulting in a single, heavily cluttered .js file, and a mess of html views. There was no modularity or reusability built in.",
+
+      "<img class=\"col-lg-4\" src =\"img/blog/old_site_code1.png\" > <img class=\"col-lg-4\" src =\"img/blog/old_site_code2.png\" > <img class=\"col-lg-4\" src =\"img/blog/old_site_code3.png\" >",
+
+      "The more I worked on this project, and the more features I tried to add to the website, the harder it became to work with the code and files I had created.",
+      "Elements that I did not know how to implement turned into their own rabbit hole of research, and it became ever so apparent that my lack of experience in Angular was the problem.",
+      "I decided to postpone the website, and switched gears to take a more structured approach. As such, I signed up for the Johns Hopkins Single Page Web Application with AngularJS course on Coursera.",
+      "The course was exactly the thing I was looking for: a comprehensive tutorial on how to use Angular to structure and create a modular web application.",
+      "5 Weeks later (erm, give or take several months, given real-life timescale), I was ready to give the website another shot.",
+      "I started off by creating a quick wireframe mockup of how I wanted the different views/pages to look.",
+
+      "<div class=\"col-lg-12 blog-img img-responsive\"> <img class=\"col-lg-offset-4 col-lg-4 img-responsive\" src=\"img/blog/new_site_moc1.jpg\" >  <\/div>",
+
+      "I then followed up by creating a design document to define the requirements for my website’s features, the content I wanted to include, and items I needed to research.",
+      "I also started a daily plan to keep track of what I wanted to accomplish, what I managed to accomplish, as well as a weekly, and month goals to make sure I was hitting milestones.",
+
+      "<div class=\"col-lg-12\"> <img class=\"col-lg-offset-2 col-lg-4\" src=\"img/blog/plan.png\" > <img class=\"col-lg-4\" src=\"img/blog/day_schedule1.png\" > <\/div>",
+
+      "My first major goal was to code the architecture for my website. This was accomplished using AngularJS 1.6.9, with views making use of components for modularity.",
+      "I also used Angular Ui-Router for page routing and stored data such as text and images in JSON objects",
+
+      "<br/>",
+      "One of the requirements I made for the site was to include a separate Angular application as a view within my website: The HelpBot.",
+      "To do this, I added the entire HelpBot app as its own module attached to my main application module. I then imported the project code,and performed several modifications to make it compatible with the latest version of Angular.",
+
+      "Next, I tackled the visual design for the website and UI, and chose Bootstrap 3 to assist with styling. The majority of my views make use of the boostrap grid system for positioning HTML elements.",
+
+      "<br/>",
+      "Additionally, the main menu uses a boostrap collapsible nav bar, and the gallery pages use a bootstrap carousel.",
+      "For a bit of unique touch, I created the Home page’s category icons from scratch in Photoshop.",
+
+      "<br/>",
+      "From start to finish, this site was completed in 6 weeks."
+    ]
+  },
+  {
+    "id":3,
+    "title": "Where Does This All Start?",
+    "date": "March 14, 2018",
+    "content": [
+      "I wanted to learn how to make a websites, both as a skill building exercise in programming, and to have a place to host my portfolio.",
+
+      "My journey began by researching what I needed to know (beyond HTML and CSS) to even start. And decided that between frontend and backend development, that the latter interested me more, and was more in-line with what I was trying to accomplish for the website.",
+
+      "I then went to look at different frameworks, and chose AngularJS because of its scope of support, available libraries, and versatility for creating a range of applications.",
+
+      "With the framework picked, I then needed to answer another seemingly simple, yet tricky question: how do I learn Angular? My first thought was to look up tutorials and examples, and start from there.",
+
+      "The free tutorials, while being great for learning basic and surface level concepts in Angular, fell woefully short in explaining how to create a complete Angular application. ",
+
+      "And even example applications and websites left enormous gaps in terms of explaining how and why they were implemented they way they were. Especially in cases where certain implementations used drastically different approaches between examples.",
+
+      "Despite this, I felt confident enough to take my first shot a making a website:",
+
+      "The vast majority of my code for this site mimicked the examples I tried to learn from, resulting in a single, heavily cluttered .js file, and a mess of html views. There was no modularity or reusability built in.",
+
+      "The more I worked on this project, and the more features I tried to add to the website, the harder it became to work with the code and files I had created.",
+
+      "Elements that I did not know how to implement turned into their own rabbit hole of research, and it became ever so apparent that my lack of experience in Angular was the problem.",
+
+      "I decided to postpone the website, and switched gears to take a more structured approach. As such, I signed up for the Johns Hopkins Single Page Web Application with AngularJS course on Coursera.",
+
+      "The course was exactly the thing I was looking for: a comprehensive tutorial on how to use Angular to structure and create a modular web application.",
+
+      "5 Weeks later (erm, give or take several months, given real-life timescale), I was ready to give the website another shot.",
+
+      "I started off by creating a quick wireframe mockup of how I wanted the different views/pages to look.",
+
+      "I then followed up by creating a design document to define the requirements for my website’s features, the content I wanted to include, and items I needed to research.",
+
+      "I also started a daily plan to keep track of what I wanted to accomplish, what I managed to accomplish, as well as a weekly, and month goals to make sure I was hitting milestones.",
+
+      "My first major goal was to code the architecture for my website. This was accomplished using AngularJS 1.6.9, with views making use of components for modularity.",
+
+      "I also used Angular Ui-Router for page routing and stored data such as text and images in JSON objects",
+
+      "One of the requirements I made for the site was to include a separate Angular application as a view within my website: The HelpBot.",
+
+      "To do this, I added the entire HelpBot app as its own module attached to my main application module. I then imported the project code,and performed several modifications to make it compatible with the latest version of Angular.",
+
+      "Next, I tackled the visual design for the website and UI, and chose Bootstrap 3 to assist with styling. The majority of my views make use of the boostrap grid system for positioning HTML elements.",
+
+      "Additionally, the main menu uses a boostrap collapsible nav bar, and the gallery pages use a bootstrap carousel.",
+
+      "For a bit of unique touch, I created the Home page’s category icons from scratch in Photoshop.",
+
+      "From start to finish, this site was completed in 6 weeks."
+    ],
+    "images": [
+      "img/blog/old_site_layout1.png",
+      "img/blog/old_site_layout2.png",
+      "img/blog/old_site_layout3.png",
+      "img/blog/old_site_code1.png",
+      "img/blog/old_site_code2.png",
+      "img/blog/old_site_code3.png",
+      "img/blog/new_site_moc1.jpg",
+      "img/blog/plan.png",
+      "img/blog/day_schedule1.png"
+    ]
   }
 ]

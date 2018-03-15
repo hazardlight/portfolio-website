@@ -127,9 +127,18 @@
 
 }
 #made-carousel{
-  margin: 0;
+  margin: auto;
+  position: fixed;
+  /* height: 90vh; */
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: black;
 }
 .made-img{
+
   margin-left: auto;
   margin-right: auto;
   width:auto;
@@ -141,6 +150,26 @@
 }
 .carousel-indicators li{
   border-color: black;
+}
+.close-carousel{
+  position: fixed;
+  z-index: 2;
+  top:0;
+  right: 0;
+  font-size: 3em;
+}
+.blog-title{
+  text-align: center;
+  font-size: 3em;
+}
+.blog-date{
+  text-align: center;
+  font-size: .9em;
+  padding-bottom: 20px;
+}
+.blog-body img{
+  padding-top:  20px;
+  padding-bottom: 20px;
 }
 /* /navigation */
 

@@ -86,7 +86,19 @@ function routeConfig ($stateProvider) {
         return PortfolioService.getBlogItem();
       }]
     }
-  });
+  })
+  // .state('public.blog',{
+  //   url:'/how-it-is-made/{blog}',
+  //   templateUrl:'src/public/made/blog.html',
+  //   controller: 'BlogController',
+  //   controllerAs: 'vm',
+  //   resolve: {
+  //     blogItem: ['PortfolioService', function (PortfolioService) {
+  //       return PortfolioService.getBlogItem();
+  //     }]
+  //   }
+  // })
+  ;
   // .state('public.categoryItems', { //displays items for a picked category
   //   url:'/{category}',
   //   templateUrl:'src/public/category-items/category-items.html',
