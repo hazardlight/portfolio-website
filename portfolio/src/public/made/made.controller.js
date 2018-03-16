@@ -12,7 +12,10 @@ function MadeController(blogItem, PortfolioService) {
 
   $ctrl.display = false;
 
+  $ctrl.closeColor = "";
+
   $ctrl.showCarousel = function () {
+    $ctrl.closeColor = {opacity: '.5'};
     return $ctrl.display = true;
   }
   $ctrl.hideCarousel = function () {
@@ -49,7 +52,18 @@ function MadeController(blogItem, PortfolioService) {
 
     return activeFlag;
   }
+
+  // $ctrl.closeColor = "";
+  // $ctrl.state = false;
+
+  $ctrl.hoverColor = function (bool) {
+    if(bool === true)
+      $ctrl.closeColor = {opacity: '.9'};
+    else
+      $ctrl.closeColor = {opacity: '.5'};
+  }
 }
+
 
 
 // $ctrl.isImg = function (content) {
