@@ -31,7 +31,7 @@
   <div id="made-carousel" class="carousel " data-ride="carousel" data-interval="false">
 
     <div id="blog-carousel-inner" class="carousel-inner">
-      <div class="item {{vm.active($index)}}" ng-repeat="image in vm.blogItem[2].images">
+      <div class="item {{vm.active($index)}}" ng-repeat="image in vm.blogItem[vm.blogIndex].images">
         <img class="made-img img-responsive" src="{{image}}" alt="">
       </div>
     </div>
@@ -53,43 +53,111 @@
 
 <div class="blog-container col-lg-12">
   <div class="blog-title">
-    {{vm.blogItem[2].title}}
+    {{vm.blogItem[vm.blogIndex].title}}
   </div>
   <div class="blog-date">
-    {{vm.blogItem[2].date}}
+    {{vm.blogItem[vm.blogIndex].date}}
   </div>
-  <div class="blog-body">
-    <div class="col-lg-12">
-      <span>{{vm.blogItem[2].content[0]}}</span>
-      <span>{{vm.blogItem[2].content[1]}}</span>
-      <span>{{vm.blogItem[2].content[2]}}</span>
-      <span>{{vm.blogItem[2].content[3]}}</span>
-      <span>{{vm.blogItem[2].content[4]}}</span>
-      <span>{{vm.blogItem[2].content[5]}}</span>
-      <span>{{vm.blogItem[2].content[6]}}</span>
-    </div>
-    <img class="col-lg-4 img-responsive active" ng-click="vm.showCarousel()" src="{{vm.blogItem[2].images[0]}}" alt="" ng-click="vm.slideTo(0)" data-target="#made-carousel" data-slide-to="0" >
-    <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[2].images[1]}}" alt="" ng-click="vm.slideTo(1)"  data-target="#made-carousel" data-slide-to="1">
-    <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[2].images[2]}}" alt="" ng-click="vm.slideTo(2)" data-target="#made-carousel" data-slide-to="2">
-    <div class="col-lg-12">
-      <span>{{vm.blogItem[2].content[7]}}</span>
-      <span>{{vm.blogItem[2].content[8]}}</span>
-      <span>{{vm.blogItem[2].content[9]}}</span>
-      <span>{{vm.blogItem[2].content[10]}}</span>
-      <span>{{vm.blogItem[2].content[11]}}</span>
-      <span>{{vm.blogItem[2].content[12]}}</span>
-      <span>{{vm.blogItem[2].content[13]}}</span>
-      <span>{{vm.blogItem[2].content[14]}}</span>
-      <span>{{vm.blogItem[2].content[15]}}</span>
-      <span>{{vm.blogItem[2].content[16]}}</span>
-      <span>{{vm.blogItem[2].content[17]}}</span>
-      <span>{{vm.blogItem[2].content[18]}}</span>
-      <span>{{vm.blogItem[2].content[19]}}</span>
-      <span>{{vm.blogItem[2].content[20]}}</span>
-      <span>{{vm.blogItem[2].content[21]}}</span>
-      <span>{{vm.blogItem[2].content[22]}}</span>
-      <span>{{vm.blogItem[2].content[23]}}</span>
-    </div>
+  <div class="blog-body col-lg-12">
+    <!-- <div class="col-lg-12"> -->
+      <span class="blog-text">{{vm.blogItem[vm.blogIndex].content[0]}}</span>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[1]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[2]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[3]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[4]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[5]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[6]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[7]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[8]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[9]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[10]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[11]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[12]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[13]}}
+      </div>
+      <img class="col-lg-4 img-responsive active" ng-click="vm.showCarousel()" src="{{vm.blogItem[vm.blogIndex].images[0]}}" alt="" ng-click="vm.slideTo(0)" data-target="#made-carousel" data-slide-to="0" >
+      <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[vm.blogIndex].images[1]}}" alt="" ng-click="vm.slideTo(1)"  data-target="#made-carousel" data-slide-to="1">
+      <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[vm.blogIndex].images[2]}}" alt="" ng-click="vm.slideTo(2)" data-target="#made-carousel" data-slide-to="2">
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[14]}}
+      </div>
+      <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[vm.blogIndex].images[3]}}" alt="" ng-click="vm.slideTo(3)" data-target="#made-carousel" data-slide-to="3" >
+      <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[vm.blogIndex].images[4]}}" alt="" ng-click="vm.slideTo(4)"  data-target="#made-carousel" data-slide-to="4">
+      <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[vm.blogIndex].images[5]}}" alt="" ng-click="vm.slideTo(5)" data-target="#made-carousel" data-slide-to="5">
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[15]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[16]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[17]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[18]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[19]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[20]}}
+      </div>
+      <div class="row">
+        <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[vm.blogIndex].images[6]}}" alt="" ng-click="vm.slideTo(6)" data-target="#made-carousel" data-slide-to="6" >
+        <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[vm.blogIndex].images[7]}}" alt="" ng-click="vm.slideTo(7)"  data-target="#made-carousel" data-slide-to="7">
+        <img class="col-lg-4 img-responsive" ng-click="vm.showCarousel()" src="{{vm.blogItem[vm.blogIndex].images[8]}}" alt="" ng-click="vm.slideTo(8)" data-target="#made-carousel" data-slide-to="8">
+      </div>
+
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[21]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[22]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[23]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[24]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[25]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[26]}}
+      </div>
+      <div class="blog-center-text">
+        {{vm.blogItem[vm.blogIndex].content[27]}}
+      </div>
+      <div class="blog-text">
+        {{vm.blogItem[vm.blogIndex].content[28]}}
+      </div>
+    <!-- </div> -->
   </div>
 </div>
 

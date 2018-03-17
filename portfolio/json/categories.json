@@ -8,14 +8,7 @@
     "image":"img/lego_cat.png",
     "description":"Custom Models"
   },
-  {
-    "id":2,
-    "name": "Knives",
-    "short_name": "K",
-    "type":"gallery",
-    "image":"img/knife_cat.png",
-    "description":"Designs and Prototypes"
-  },
+
   {
     "id": 3,
     "name": "Help Bot",
@@ -26,7 +19,7 @@
   },
   {
     "id": 4,
-    "name": "Other",
+    "name": "Art",
     "short_name": "O",
     "type":"gallery",
     "image":"img/fp.png",

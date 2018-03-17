@@ -146,25 +146,7 @@
     ],
     "carousel": true
   },
-  {
-    "id":"",
-    "name":"lego building",
-    "short_name":"L5",
-    "description":"temp",
-    "category":"L",
-    "cat_long_name":"Lego",
-    "images":[
-      "img/fake pic.png",
-      "img/fake_pic_red.png",
-      "img/fake_pic_green.png",
-      "img/fake_pic_blue.png",
-      "img/fake_pic_purple.png",
-      "img/fake_pic_cyan.png",
-      "img/fake_pic_yellow.png",
-      "img/fake_pic_orange.png"
-    ],
-    "carousel": true
-  },
+  
   {
     "id":5,
     "name":"Knife 1",

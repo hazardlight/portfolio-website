@@ -9,7 +9,7 @@ function MadeController(blogItem, PortfolioService) {
   var $ctrl = this;
 
   $ctrl.blogItem = blogItem;
-
+  $ctrl.blogIndex = 3;
   $ctrl.display = false;
 
   $ctrl.closeColor = "";

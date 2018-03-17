@@ -148,5 +148,74 @@
       "img/blog/plan.png",
       "img/blog/day_schedule1.png"
     ]
+  },
+  {
+    "id":4,
+    "title": "Where Does This All Start?",
+    "date": "March 14, 2018",
+    "content": [
+      "First and foremost, welcome to my website! I’d like to take this opportunity to tell a little story about how this page came came into being, what went into the project, the ups and downs, and ultimately what I learned from the whole experience.",
+
+      "So you want to learn how to make a website, eh?",
+      "Duh, just wordpress it up, or you know, pay someone on Fiverr…",
+      "Oh. You want to do it for free?",
+      "FOLLOW THESE 5 QUICK AND EASY STEPS",
+      "10 THINGS ALL WEB DEVELOPER NEED TO KNOW",
+
+      "As you can probably tell, my journey to making a website started on the internet. I had already dabbled somewhat with HTML, CSS, and JavaScript by making a variety of comically unsubstantial pages. I knew roughly what sort of other elements went into making a “real” website, but was clueless on how to put everything together to actually make something that wasn’t a horrible hack-y mess.",
+
+      "During my internet searching, I inevitably stumbled upon the “web framework”, the so called, not so humble panacea of web development. It seemingly promised to do everything, easier, quicker, more elegantly than any vanilla web development. It’ll walk your dog! Do your taxes! Convert your OXYGEN! Maybe it’ll even replace your very being. Submit to the overmind HUMAN…",
+
+      "Ok, cool. Everybody uses them, but which one to pick?.... uhhh…. This one? NO!",
+      "hmm…",
+      "AngularJS",
+      "OK DONE! PIECE OF CAKE! WEBSITE PRACTICALLY WROTE ITSELF!",
+
+      "If only it were so easy. The advice I found was that ultimately what framework I worked in was not super important. The top ones were all more or less capable of accomplishing the same things, and that job-wise, one would just be expected to learn whatever stack was being used for a particular project anyway. I just happened to want to shill for google.",
+
+      "So with the framework chosen, basic tutorials under my belt, and a few hours of staring at example applications, I was ready to make my first website:",
+
+      "Needless to say, I was in over my head. Free tutorials explained the surface level concepts really well, but did not provide insight into more complicated applications. When I tried looking up examples of completed Angular apps, it was difficult to understand why they were organized they way they were, or why certain components were implemented one way versus the tutorials. The end result was I put the entirety of my website’s logic in a single JS file, manually coded every single route for every page, and dumped my HTML templates into one folder. The more I tried to work with this foundation, the more difficult it was to add more content and features to the site without becoming lost and frustrated.",
+
+      "I decided to stop chewing on the brick and reevaluated what I was trying to do. I needed better guidance, which ironically turned out to be pretty simple to find.",
+
+      "BAM Coursera",
+
+      "After some brief googling, I discovered that Coursera had a free 5 week course titled Single Page Web Application with AngularJS, hosted by Johns Hopkins. I signed up and took the plunge. The course had everything that I was looking for: it covered coding best practices, how to organize Angular modules, modularity, and culminated in creating a functioning website.",
+
+      "The Redux",
+
+      "Empowered, I was ready to give the website another shot! I threw out the brick and started from scratch, creating a design document, mockups, and a schedule.",
+
+      "From here I broke down the requirements for my website: all the pages I needed to create, and how I’d implement their features. To begin with, I planned to have a main page with a navigation bar that would link information about me, how to contact me, and a little something about how this website was made. This page!",
+
+      "I also wanted to have a series of nested pages to display a set of items filtered by category with some items ending in a gallery page and others not. The bulk of item data was to be stored as JSON objects, and one of the items in particular was to be its own Angular application." ,
+
+      "To accomplish this, I set up my routes using UI-Router. Views like the Home or About page had their own dedicated routes, however the Categories view and Items view used a dynamic approach to display data. The Categories view pulled the JSON data it needed to display the available categories. Once the visitor picked a particular category, the category name would get get sent to the Items view and used to filter and display only the items for that category. Similarly, once a visitor picked an item to view, the item’s name would get sent to the Gallery view and only that item’s data would get displayed on the page. This passing of information was accomplished with state variables, which were also used to dynamically update the URL of the page.",
+
+      "Next I added the HelpBot app. This was a demo application that was developed for a pitch to create a customer facing, self-troubleshooting tool; the app itself was also built using Angular. Some quick research indicated that it would not be trivial to embed one Angular app within another (with some people saying it was impossible!), however a friend of mine indicated that it should be simple enough to append the app as its own module in my application. I did just this with very little modification. The only changes that were needed were to update $http.get syntax to work with Angular 1.6.9, and voila, the HelpBot was connected!",
+
+      "The How it’s Made page is also worth touching on. Initially, my plan was to create some kind of slide show presentation, but during the course of writing the “story” for the page, it felt more natural to change the format to a blog post. I then implemented the page by storing all the text and image links in a JSON array, and displayed the JSON data through an ng-repeat statement. The problem, however was that I needed a way to differentiate content that was supposed to be displayed as text from content that would display as an image or link, otherwise Angular would just display everything in the JSON array as text. In my first implementation, I wrote HTML into the JSON array and processed it with an ng-bind-html attribute. This appeared to work, but quickly became problematic once I tried to make the images clickable via ng-click. I was unable to append the Angular tag in the JSON file because the ng-bind-html attribute did not compile Angular syntax. I instead abandoned the ng-bind-html approach and manually organized the blog data in the HTML view. From here it was much simpler to implement clickable pictures, which I added by making a hidden Boostrap carousel overlay that would appear when any image was clicked. The images themselves acted as the indicators for the carousel and would take you to the appropriate “full screen” image.",
+
+      "Ode to those who did not make the Cut. (AKA The dedicated contact page)",
+
+      "I had originally wanted to have a separate view for a contact page that contained a dedicated email form. In the course of coding the form, I created the view with no problem, but ran into a roadblock trying to implement the mailer logic in PHP. I had found some example code that I used as a foundation, but despite modifying the code to work with my form, no emails ever got sent. I narrowed the problem down to an issue with the PHP mailer script and consulted with a colleague on how one could make such an implementation work. His recommendation was to use Node or a mail-to via HTML, and lamented that emails forms were a nightmare to protect against security issues. Following this consultation, I opted to scrap the email form and rolled the contact page into my About page with a link to my linkedin profile.",
+
+      "So what did I learn from all this?",
+
+      "Making websites is HARD, and not so hard at the same time. It is extremely important to have a fundamental understanding of the languages and frameworks you’re using, but it is equally important to have solid methodology for organizing the code for your apps, as well as having an organized plan with concrete goals for completing a project. Without this kind of plan, I would have never completed the website."
+
+    ],
+    "images": [
+      "img/blog/old_site_layout1.png",
+      "img/blog/old_site_layout2.png",
+      "img/blog/old_site_layout3.png",
+      "img/blog/old_site_code1.png",
+      "img/blog/old_site_code2.png",
+      "img/blog/old_site_code3.png",
+      "img/blog/new_site_moc1.jpg",
+      "img/blog/plan.png",
+      "img/blog/day_schedule1.png"
+    ]
   }
 ]

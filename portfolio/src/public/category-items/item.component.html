@@ -1,5 +1,5 @@
 
-<div id="item-in-category-container" class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-xxs-12">
+<div id="item-in-category-container" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-xxs-12">
 
   <a ui-sref="public.itemPick({category: $ctrl.item.category, item: $ctrl.item.name})">
     <div class="item-title">
@@ -7,7 +7,9 @@
       <!-- need to figure out how to show just one item when you click on it -->
       <span>{{$ctrl.item.name}}</span>
       <!-- <img id="item-img" class="img-responsive" ng-src="img/fake pic.png" alt="temporary picture"> -->
-      <img id="item-img" class="img-responsive" ng-src="{{$ctrl.item.images[0]}}" alt="temporary picture">
+      <div class="item-img-mask">
+        <img id="item-img" class="img-responsive" ng-src="{{$ctrl.item.images[0]}}" alt="temporary picture">
+      </div>
     </div>
   </a>
 </div>
