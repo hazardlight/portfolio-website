@@ -24,7 +24,7 @@
         <!-- main panel -->
         <div id="" class="carousel-inner ">
           <div class="image-mask item {{$ctrl.active($index)}}" ng-repeat="image in $ctrl.item.images">
-            <img class="image-adjustment img-responsive" src="{{$ctrl.item.images[$index]}}" alt="temporary picture">
+            <img class="image-adjustment img-responsive" src="{{$ctrl.item.images[$index]}}" ng-init="$ctrl.count = $index" alt="temporary picture">
           </div>
         </div>
         <!-- controlls -->
@@ -44,7 +44,7 @@
       <!-- /bootstrap carousel -->
     </div>
     <div class="thumbnail-container col-lg-12 col-md-6 col-sm-6">
-      <div class="thumbnail-mask col-lg-3 col-md-3 col-sm-3 {{$ctrl.active($index)}}" data-target="#galleryCarousel" ng-click="$ctrl.slideTo($index)" data-slide-to="$index" ng-repeat="image in $ctrl.item.images">
+      <div class="thumbnail-mask col-lg-3 col-md-3 col-sm-3 {{$ctrl.active($index)}}" data-target="#galleryCarousel" ng-click="$ctrl.slideTo($index)" ng-class="{'thumbnail-active' : $ctrl.thumbnailActive == $index}" data-slide-to="$index" ng-repeat="image in $ctrl.item.images">
         <img class="thumbnail-adjustment thumbnail img-responsive" src="{{$ctrl.item.images[$index]}}" alt="temporary picture">
       </div>
     </div>

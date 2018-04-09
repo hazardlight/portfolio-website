@@ -12,11 +12,7 @@
 
       "The BJ-1 also runs a Standard 180 Fusion Engine allowing it to achieve a top speed of 64.8km/h, and each leg mounts 2 jump jets for added mobility. Lastly, the chassis mounts 8.5 tons of standard armor.",
 
-      "The model itself features posable arms, as well as torso, which can be rotated 360 degrees and adjusted for elevation. The legs use adjustable joints, however the hips are locked in place for stability, and as such the legs cannot be posed.",
-
-      "Height: x in",
-
-      "Width: x in"
+      "The model itself features posable arms, as well as torso, which can be rotated 360 degrees and adjusted for elevation. The legs use adjustable joints, however the hips are locked in place for stability, and as such the legs cannot be posed."
     ],
     "category":"L",
     "cat_long_name":"Lego",
@@ -49,11 +45,7 @@
 
       "To reflect the OmniMech capability from the lore, all the major components are held together via pins and studs for easy disassembly.",
 
-      "As with the rest of my vehicle models, this one features a mini-fig pilot in the cockpit!",
-
-      "Model Dimensions:",
-      "height: x in",
-      "width: x in"
+      "As with the rest of my vehicle models, this one features a mini-fig pilot in the cockpit!"
     ],
     "category":"L",
     "cat_long_name":"Lego",
@@ -80,10 +72,6 @@
       "The Shadowhwak is a 55 ton, Medium Class, anthropomorphic battlemech designed as an all range scrimmager, raider, and brawler. The 2H variant sports one autocannon 5 mounted in the left shoulder, a Medium laser mounted in the right arm, a Long Range Missile-5 unit mounted in the right torso, and a head mounted Short Range Missile-2 unit. The menagerie of different weapon systems allows the 2H to participate in different roles, however because of it's lack of dedicated load-out, it does not necessarily fair well on its own, and is best used paired with other units for assistance. Additionally, the chassis uses anthropomorphic arms that can be used for close range attacks, as well as limited equipment transportation.",
 
       "The 2H runs a Standard Engine 275 allowing it to travel 86.4km/h, and mounts 3 jump jets across the left, right, and center torsos. The jump jets allow the Shadowhawk greater easy of motion when changing elevation, especially when traveling along rough terrain.",
-
-      "Dimensions",
-      "Height:",
-      "Width:",
 
       "The surfaces for my model are designed using a building technique called SNOT, meaning Studs Not On Top. This is used to create the sloped geometry on the front of the model's torso, as well as the head, legs, and hips. The most challenging part of the build was to design the core structure in such a way that external components would lock in place at their correct angles, while also making the overall model robust enough to handle and manipulate without breaking easily.",
 
@@ -121,10 +109,6 @@
 
       "The model was designed entirely in a CAD program (LDraw) without physical prototyping. Building models in LDraw is particularly advantageous because there is no limit on what parts you have available to make your model, however there is an intuitive aspect to building with physical bricks that gives me a better sense of what designs ideas will work better than others, especially when constructing surfaces via SNOT (studs not on top), or trying to build leg and arm joints at unusual angles.",
 
-      "Dimensions:",
-      "Height:",
-      "Width:",
-
       "The model features posable arms and a posable torso, adjustable for rotation. The head also contains a mini-fig pilot!"
     ],
     "category":"L",
@@ -146,7 +130,7 @@
     ],
     "carousel": true
   },
-  
+
   {
     "id":5,
     "name":"Knife 1",
