@@ -51,16 +51,16 @@
   </div>
 </div>
 
-<div class="blog-container col-lg-12">
+<!-- <div class="blog-container col-lg-12">
   <div class="blog-title">
     {{vm.blogItem[vm.blogIndex].title}}
   </div>
   <div class="blog-date">
     {{vm.blogItem[vm.blogIndex].date}}
   </div>
-  <div class="blog-body col-lg-12">
+  <div class="blog-body col-lg-12"> -->
     <!-- <div class="col-lg-12"> -->
-      <span class="blog-text">{{vm.blogItem[vm.blogIndex].content[0]}}</span>
+      <!-- <span class="blog-text">{{vm.blogItem[vm.blogIndex].content[0]}}</span>
       <div class="blog-center-text">
         {{vm.blogItem[vm.blogIndex].content[1]}}
       </div>
@@ -166,10 +166,10 @@
       </div>
       <div class="blog-text">
         {{vm.blogItem[vm.blogIndex].content[28]}}
-      </div>
+      </div> -->
     <!-- </div> -->
-  </div>
-</div>
+  <!-- </div>
+</div> -->
 
 <!-- <div class="blog-container col-lg-12">
   <div class="blog-title">
@@ -187,5 +187,21 @@
   </div>
 </div> -->
 
+<div class="blog-container col-lg-12">
+  <div class="blog-title">
+    {{vm.blogItem[4].title}}
+  </div>
+  <div class="blog-date">
+    {{vm.blogItem[4].date}}
+  </div>
+  <div class="blog-body col-lg-12">
+    <div class="" ng-repeat="content in vm.blogItem[4].content">
+      <div class="" bind-html-compile="content">
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 </div>

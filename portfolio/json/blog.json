@@ -234,5 +234,52 @@
       "img/blog/new_site_moc2.png",
       "img/blog/new_site_moc3.png"
     ]
+  },
+  {
+    "id":5,
+    "title": "Where Does This All Start?",
+    "date": "March 14, 2018",
+    "content": [
+      "I wanted to learn how to make a websites, both as a skill building exercise in programming, and to have a place to host my portfolio.",
+      "My journey began by researching what I needed to know (beyond HTML and CSS) to even start. And decided that between frontend and backend development, that the latter interested me more, and was more in-line with what I was trying to accomplish for the website.",
+      "I then went to look at different frameworks, and chose AngularJS because of its scope of support, available libraries, and versatility for creating a range of applications.",
+      "With the framework picked, I then needed to answer another seemingly simple, yet tricky question: how do I learn Angular? My first thought was to look up tutorials and examples, and start from there.",
+      "The free tutorials, while being great for learning basic and surface level concepts in Angular, fell woefully short in explaining how to create a complete Angular application. ",
+      "And even example applications and websites left enormous gaps in terms of explaining how and why they were implemented they way they were. Especially in cases where certain implementations used drastically different approaches between examples.",
+      "Despite this, I felt confident enough to take my first shot a making a website:",
+
+      "<img class=\"col-lg-4 img-responsive active\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_layout1.png\" ng-click=\"vm.slideTo(0)\" data-target=\"#made-carousel\" data-slide-to=\"0\"> <img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_layout2.png\" ng-click=\"vm.slideTo(1)\" data-target=\"#made-carousel\" data-slide-to=\"1\"> <img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_layout3.png\" ng-click=\"vm.slideTo(3)\" data-target=\"#made-carousel\" data-slide-to=\"2\">",
+
+      "The vast majority of my code for this site mimicked the examples I tried to learn from, resulting in a single, heavily cluttered .js file, and a mess of html views. There was no modularity or reusability built in.",
+
+      "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_code1.png\" ng-click=\"vm.slideTo(3)\" data-target=\"#made-carousel\" data-slide-to=\"3\"> <img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_code2.png\" ng-click=\"vm.slideTo(4)\" data-target=\"#made-carousel\" data-slide-to=\"4\" > <img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_code3.png\" ng-click=\"vm.slideTo(5)\" data-target=\"#made-carousel\" data-slide-to=\"5\">"
+    ],
+    "images":[
+      "img/blog/old_site_layout1.png",
+      "img/blog/old_site_layout2.png",
+      "img/blog/old_site_layout3.png",
+      "img/blog/old_site_code1.png",
+      "img/blog/old_site_code2.png",
+      "img/blog/old_site_code3.png",
+      "img/blog/new_site_moc1.jpg",
+      "img/blog/plan.png",
+      "img/blog/day_schedule1.png",
+      "img/blog/site WIP 1_1.png",
+      "img/blog/site WIP 2_1.png",
+      "img/blog/site WIP 2_2.png",
+      "img/blog/site WIP 2_3.png",
+      "img/blog/site WIP 3_1.png",
+      "img/blog/site WIP 3_2.png",
+      "img/blog/site WIP 3_3.png",
+      "img/blog/site WIP 4_1.png",
+      "img/blog/site WIP 4_2.png",
+      "img/blog/site WIP 4_3.png",
+      "img/blog/site WIP 4_4.png",
+      "img/blog/site WIP 4_5.png",
+      "img/blog/site WIP 4_6.png",
+      "img/blog/site WIP 4_7.png",
+      "img/blog/gallery_bug1.png",
+      "img/blog/new_site_moc2.png",
+      "img/blog/new_site_moc3.png"]
   }
 ]
