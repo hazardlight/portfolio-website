@@ -33,6 +33,9 @@
     <div id="blog-carousel-inner" class="carousel-inner">
       <div class="item {{vm.active($index)}}" ng-repeat="image in vm.blogItem[4].images">
         <img class="made-img img-responsive" src="{{image}}" alt="">
+        <div class="carousel-caption">
+          <!-- <p>lololololololol</p> -->
+        </div>
       </div>
     </div>
     <a class="left carousel-control" href="" ng-click="vm.slide('prev')" role="button" data-slide="prev">
@@ -195,7 +198,8 @@
     {{vm.blogItem[4].date}}
   </div>
   <div class="blog-body col-lg-12">
-    <div class="" ng-repeat="content in vm.blogItem[4].content">
+    <div class="" ng-repeat="content in vm.blogItem[4].content track by $index">
+      <!-- <div class="" bind-html-compile="content" ng-init="vm.isImg(content)"> -->
       <div class="" bind-html-compile="content">
 
       </div>

@@ -14,6 +14,8 @@ function MadeController(blogItem, PortfolioService) {
 
   $ctrl.closeColor = "";
 
+  $ctrl.imgIndex = -1;
+
   $ctrl.showCarousel = function () {
     $ctrl.closeColor = {opacity: '.5'};
     return $ctrl.display = true;
@@ -62,6 +64,21 @@ function MadeController(blogItem, PortfolioService) {
     else
       $ctrl.closeColor = {opacity: '.5'};
   }
+
+  // $ctrl.isImg = function (content) {
+  //   var test = content;
+  //
+  //   if(test.indexOf("<img") > -1){
+  //     $ctrl.imgIndex++;
+  //     console.log("testing isImg()", test.indexOf("<img"));
+  //     console.log("testing $ctrl.imgIndex ", $ctrl.imgIndex);
+  //   }
+  // }
+  // $ctrl.incImgIndex = function () {
+  //   $ctrl.imgIndex++;
+  //   console.log("testing imgIndex ", $ctrl.imgIndex);
+  //   return $ctrl.imgIndex;
+  // }
 }
 
 
