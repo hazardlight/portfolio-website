@@ -174,11 +174,13 @@
   top:0;
   right: 0;
   font-size: 3em;
-  padding-right: 20px;
+  padding-right: 30px;
   line-height: 80%;
   color: #fff;
   opacity: .5;
   text-align: center;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
   /* text-shadow: 2px 2px 2px white; */
   /* border: solid 2px #f2f2f2; */
 }
@@ -436,10 +438,12 @@
 .right.carousel-control{
   background-image: none;
   background-repeat: 0;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 .left.carousel-control{
   background-image: none;
   background-repeat: 0;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 .gallery-single-img{
   margin: 0 auto;
