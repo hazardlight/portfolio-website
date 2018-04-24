@@ -243,19 +243,20 @@
     "title": "Where Does This All Start?",
     "date": "March 14, 2018",
     "content": [
-      "<div class=\"blog-text col-lg-12\">First and foremost, welcome to my website! I’d like to take this opportunity to tell you a little story about my journey into web development, where I started, why I made this website, the ups and downs, and ultimately what I learned from the whole experience.</div>",
+      "<div class=\"blog-text col-lg-12\">First and foremost, welcome to my website! I’d like to take this opportunity to tell you a little story about my journey into web development: where I started, why I made this website, the ups and downs, and ultimately what I learned from the whole experience.</div>",
 
-        "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\">So you want to learn how to make a website, eh? Oh. You want to do it for free?</div></div>",
+        "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\">So you want to learn how to make a website, eh? Oh. You want to do it for free?</div>",
         "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\">FOLLOW THESE 5 QUICK AND EASY STEPS FOR GODLY DEVELOPMENT KNOWLEDGE!</div>",
         "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\">10 THINGS ALL WEB DEVELOPER ABSOLUTELY NEED TO KNOW!</div>",
 
-      "<div class=\"blog-text col-lg-12\">As you can probably tell, my first major pitstop on this journey landed me on the internet. I was not starting from zero however, I had already dabbled with HTML, CSS, and JavaScript in past “projects”, but had never made anything as substantial as a website or app. I also roughly knew what other elements went into making a “real” website, but I was clueless about how to put everything together.</div>",
-      "<div class=\"blog-text col-lg-12\">During my internet searching, I inevitably stumbled upon the “web framework”, the so called, not so humble panacea of web development. Denizens of the internet raved: It’ll walk your dog! Do your taxes! Convert your OXYGEN! Maybe it’ll even replace your very being. Submit to the overmind HUMAN…It seemingly promised to do everything, easier, more elegantly than any vanilla HTML/JS.</div>",
+      "<div class=\"blog-text col-lg-12\">As you can probably tell, my first major pitstop on this journey landed me on the internet. I was not starting from zero however, I had already dabbled with HTML, CSS, and JavaScript in past projects, but I had never made anything as substantial as a website or app. I also roughly knew what elements went into making a website, but I was clueless about how to put everything together.</div>",
+      "<div class=\"blog-text col-lg-12\">During my internet search, I inevitably stumbled upon the “web framework”; the so called, not so humble panacea of web development. Inhabitants of the internet raved: “It’ll walk your dog! Do your taxes! Convert your OXYGEN! Maybe it’ll even replace your very being. Submit to the overmind HUMAN…” It seemingly promised to do everything, easier, and more elegantly than any vanilla HTML+JS.</div>",
 
-        "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\"><i>Ok, cool. So the hype is somewhat real, and everyone uses these frameworks, but which one to pick? There were so many choices, so many factors to consider. This next step could take a very looong time, maybe even longer than the universe.. Oh you just picked AngularJS?</i></div>",
-        "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\">DONE! PIECE OF CAKE! WEBSITE PRACTICALLY WROTE ITSELF!</div>",
+        "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\"><i>Ok, cool. So the hype is somewhat real, and everyone uses these frameworks, but which one to pick? There are so many choices, so many factors to consider. This next step could take a very looong time, maybe even longer than the universe.. Oh, you picked AngularJS?</i></div>",
+        "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\"><i>DONE! PIECE OF CAKE! WEBSITE PRACTICALLY WROTE ITSELF!</i></div>",
+        "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\"><i>If only it were so easy..</i></div>",
 
-      "<div class=\"blog-text col-lg-12\">If only it were so easy. The advice I found was that ultimately what framework I worked in was not super important. The top ones were all more or less capable of accomplishing the same things, and that job-wise, one would just be expected to learn whatever stack was being used for a particular project anyway. I just happened to want to shill for google.</div>",
+      "<div class=\"blog-text col-lg-12\">Naturally, other people on the internet had the same question: “what framework do I pick?” The common advice I found was that it was not super important. The reason being, most of the top frameworks were all more or less capable of accomplishing the same things, and that job-wise, one would just be expected to learn whatever stack was being used for a particular project anyway. Angular was one of the first frameworks I explored and I stuck with it.</div>",
       "<div class=\"blog-text col-lg-12\">So with the framework chosen, basic tutorials under my belt, and a few hours of staring at example applications, I was ready to make my first website:</div>",
 
           "<img class=\"col-lg-4 img-responsive active\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_layout1.png\" data-target=\"#made-carousel\" data-slide-to=\"0\">",
@@ -264,7 +265,9 @@
 
           "<div class=\"blog-caption-text col-lg-12\">Screenshots from my first attempt at a website</div>",
 
-      "<div class=\"blog-text col-lg-12\">Needless to say, I was in over my head. Free tutorials explained the surface level concepts very well, but did not provide insight into more complicated applications. Even when I looked up application examples, it was not easy to deduce why the code was organized one way or another, and worst of all, I didn’t feel any closer to understanding how to go from my basic level of Angular knowledge to building a real application. The end result was I put the entirety of my website’s logic in a  single JS file, manually coded every single route for every page, and dumped my HTML templates into one folder. The more I tried to work with this messy code, the more difficult it was to add more content and features to the site without becoming lost and frustrated.</div>",
+      "<div class=\"blog-text col-lg-12\">Needless to say, I was in over my head. Free tutorials explained Angular’s surface level concepts very well, but did not provide insight into more complicated applications. The tutorials also did not show how to structure a project like a website or application. I attempted to get around this limitation by finding example applications, but these proved more confusing because it was difficult to understand why applications were organized the way they were, especially when comparing different examples. I did not feel any closer to understanding how to go from my basic level of Angular knowledge to building a real application.</div>",
+
+      "<div class=\"blog-text col-lg-12\">The end result was that I put the entirety of my website’s logic in a single JS file, manually coded every single route for every page, and dumped my HTML templates into one folder. The more I tried to work with this messy code, the more difficult it was to add more content and features to the website without becoming lost and frustrated.</div>",
 
           "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_code1.png\" data-target=\"#made-carousel\" data-slide-to=\"3\">",
           "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_code2.png\" data-target=\"#made-carousel\" data-slide-to=\"4\">",
@@ -272,13 +275,28 @@
 
           "<div class=\"blog-caption-text col-lg-12\">Code samples from the first website</div>",
 
-      "<div class=\"blog-text col-lg-12\">I decided to stop chewing on this brick of a project and reevaluated what I was trying to do. I needed better guidance and structure, but where could I find something like that? Oh, the internet? Really, you don’t say?</div>",
+      "<div class=\"blog-text col-lg-12\">I decided to stop chewing on this brick of a project and sat down to figure out what I wanted to do next. I needed better guidance and structure, but where could I find something like that? Oh, the internet? Really, you don’t say?</div>",
 
         "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\"><i>And down from the segfault of illuminated RAM clouds descended an entity of empowered knowledge, whose vision extended far beyond the IO. A single serial number scrawled it’s electron carapace.</i></div>",
         "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\"><i>The ASCII encoding read: Coursera...</i></div>",
 
-      "<div class=\"blog-text col-lg-12\">After some searching, I discovered that Coursera had a free 5 week course titled Single Page Web Application with AngularJS, hosted by Johns Hopkins. I signed up and took the plunge. The course had everything I was looking for: it covered the core of the framework, coding best practices, how to organize an application, and culminated in creating a functioning website.</div>",
-      "<div class=\"blog-text col-lg-12\">Empowered, I was ready to give the website another shot! I threw out the previous project and started from scratch, creating a design document, mockups, and a schedule.</div>",
+      "<div class=\"blog-text col-lg-12\">After some searching, I discovered that Coursera had a free 5 week course titled <a href=\"https://www.coursera.org/learn/single-page-web-apps-with-angularjs\">Single Page Web Application with AngularJS</a>, hosted by Johns Hopkins. I signed up and took the plunge. The course had everything I was looking for. Not only did it cover the core aspects of the framework, but it did so in more detail, and with a more of a focus on explaining how and why Angular was used they way it was to implement different features. Most important of all, however was that the course provided structure and allowed me to understand how to architect and build an actual website.</div>",
+      "<div class=\"blog-text col-lg-12\">Empowered, I was ready to give my website another shot. I threw out the previous project and started from scratch.</div>",
+
+
+        "<div class=\"blog-center-title col-lg-12\">The Design</div>",
+
+      "<div class=\"blog-text col-lg-12\">Before writing any code, I began by brainstorming what I wanted to include in the website, and settled on the following ideas:</div>",
+
+        "<div class=\"blog-text col-lg-offset-1 col-lg-10\">* I wanted to have a set of gallery pages to show off a variety of my art, organized by category</div>",
+        "<div class=\"blog-text col-lg-offset-1 col-lg-10\">* The implementation needed to be easily expandable to accommodate the addition of new categories and items in the future.</div>",
+        "<div class=\"blog-text col-lg-offset-1 col-lg-10\">* I needed one item to be a separate Angular application nested within my main application.</div>",
+        "<div class=\"blog-text col-lg-offset-1 col-lg-10\">* Lastly, I wanted to have a page that highlighted the design process for the website itself.</div>",
+
+        "<div class=\"blog-center-title col-lg-12\">The Plan</div>",
+
+      "<div class=\"blog-text col-lg-12\">With the general requirements ironed out, I began organizing the development plan in ernest. My intention from the start of this project was to treat it like a true “project”, meaning that I needed to place finite constraints on the scope and timeframe I wanted to complete it in.</div>",
+      "<div class=\"blog-text col-lg-12\">I began by creating a design document, as well as a series of mockups for the website. The requirements I mentioned above were used to define a detailed list of elements that needed to be implemented. This list included the kind of content I needed to compile, what research I needed to conduct, and what tools I needed to use. The document was also used to track what features I needed to code and whether or not they were completed, in progress, or waiting to be started.</div>",
 
           "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/new_site_moc1.jpg\" data-target=\"#made-carousel\" data-slide-to=\"6\">",
           "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/new_site_moc2.png\" data-target=\"#made-carousel\" data-slide-to=\"7\">",
@@ -286,13 +304,20 @@
 
           "<div class=\"blog-caption-text col-lg-12\">New website mockups</div>",
 
-          "<img class=\"col-lg-offset-2 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/plan.png\" data-target=\"#made-carousel\" data-slide-to=\"9\">",
-          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/day_schedule1.png\" data-target=\"#made-carousel\" data-slide-to=\"10\">",
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/plan.png\" data-target=\"#made-carousel\" data-slide-to=\"9\">",
 
-          "<div class=\"blog-caption-text col-lg-12\">Left: First page from the design document. Right: Screenshot of my schedule.</div>",
+          "<div class=\"blog-caption-text col-lg-12\">First page from the design document.</div>",
 
-      "<div class=\"blog-text col-lg-12\">From there, I broke down the requirements for my website: all the pages I needed to create and features I wanted to implement. To begin with, I planned to have a main page with a navigation bar that would link to information about me, how to contact me, and a little something about how this website was made. This page!</div>",
-      "<div class=\"blog-text col-lg-12\">I also wanted to have a series of nested views to display some of my art, organized by category, with some items displayed in a gallery page and others not. The bulk of item data was to be stored as JSON objects, and one of the items in particular was a separate Angular application.</div>",
+
+      "<div class=\"blog-text col-lg-12\">I then created a second document to keep track of my daily schedule, and used this to organize what tasks I needed to complete relative to major milestones I set for the end of each week. Milestones included coding the architecture, filling out content, completing CSS styling, and hosting.</div>",
+
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/day_schedule1.png\" data-target=\"#made-carousel\" data-slide-to=\"10\">",
+
+          "<div class=\"blog-caption-text col-lg-12\">Screenshot of my schedule.</div>",
+
+        "<div class=\"blog-center-title col-lg-12\">The Implementation</div>",
+
+      "<div class=\"blog-text col-lg-12\">Here I want to touch on some of the highlights from development; mainly the important aspects of the architecture, and some of the more interesting problems I encountered in terms of implementing and designing the website.</div>",
 
           "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 1_1.png\" data-target=\"#made-carousel\" data-slide-to=\"11\">",
           "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 2_1.png\" data-target=\"#made-carousel\" data-slide-to=\"12\">",
@@ -302,37 +327,65 @@
 
           "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 2_3.png\" data-target=\"#made-carousel\" data-slide-to=\"14\">",
 
-      "<div class=\"blog-text col-lg-12\">To begin, I set up my views and routes using UI-Router. Views like the Home or About page had their own dedicated routes, however the Categories view and Items view used a dynamic approach to display data.",
-      "<div class=\"blog-text col-lg-12\">The Categories view pulled all available categories from a JSON file and displayed them on the \"home\" page. Once and once a visitor picked a category, the category name was used to filter and display only the items for that particular category. The data for the items was pulled from a JSON file separate from the categories file. Next, if a visitor picked a specific item to view, the item’s name was used to display only that item’s data in the Gallery view. This passing of category and item name information was accomplished with state variables, which were also used to dynamically update the URL of category, item, and gallery pages.</div>",
-      "<div class=\"blog-text col-lg-12\">After the Category to Gallery routes were completed, I added the HelpBot app. This was a demo application that was developed for a pitch to create a customer facing, self-troubleshooting tool. The app itself was also built using Angular. Some quick research indicated that it would not be trivial to embed one Angular app within another (with some people saying it was impossible!), however a friend of mine indicated that it should be simple enough to append the app as its own module in my application. I did just this, and with little modification, I had the app running in its own view. The only changes I needed were to update $http.get syntax to work with Angular 1.6.9, and to create a service that exposed JSON data to the appropriate controller.</div>",
 
-          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 3_3.png\" data-target=\"#made-carousel\" data-slide-to=\"15\">",
+      "<div class=\"blog-text col-lg-12\">The most important functional aspect of the website I needed to implement was the routing. To accomplish this, I used the 3rd party <a href=\"https://github.com/angular-ui/ui-router\">ui-router library</a> instead of Angular’s built in routing functions. In particular, I made use of ui-router’s $stateParams to dynamically generate URLs, and to pass information from one state to another, which was used to dynamically display content.</div>",
+      "<div class=\"blog-text col-lg-12\">This dynamic content population worked as follows: I had two states, one for displaying a list of categories and another for displaying a list of items by category. The data for each of these lists were stored in their own JSON files, and a service was used to expose the data to the controllers for the HTML views. The categories state populated its view with items from the categories JSON file. The items state, however populated its view based off the category the visitor had clicked to see. This was accomplished by passing the category name from the category state to the item state, and filtering for only items that were included in the chosen category. This series of states allowed me to display any number of categories and items for those categories by simply including them in their respective JSON files without having to create dedicated routes.</div>",
+
+          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/code_ui_router.png\" data-target=\"#made-carousel\" data-slide-to=\"15\">",
+          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/code_home_html.png\" data-target=\"#made-carousel\" data-slide-to=\"16\">",
+          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/code_category_component_html.png\" data-target=\"#made-carousel\" data-slide-to=\"17\">",
+          "<div class=\"blog-caption-text col-lg-12\">Ui-router code and Blog HTML architecture</div>",
+
+
+
+      "<div class=\"blog-text col-lg-12\">The next major item I added was the HelpBot app. The HelpBot was a project I worked on with two of my friends and was created as a demo for a pitch to develop a customer facing, self-help utility for certain LogMeIn software. The trickiest part of adding the HelpBot was that it required me to nest one Angular application within another. The internet’s opinion on the matter informed me that it would not be trivial, with some people claiming it was not even possible. Unsatisfied with the answers I found, I posed this question to a friend of mine who was versed in Angular. He suggested to simply add the HelpBot as it’s own module off the main module for my app. I was able to do just this with some minimal syntax porting for the app to work in Angular 1.6.9.</div>",
+
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 3_3.png\" data-target=\"#made-carousel\" data-slide-to=\"18\">",
 
           "<div class=\"blog-caption-text col-lg-12\">The HelpBot after porting</div>",
 
-      "<div class=\"blog-text col-lg-12\">With the HelpBot added, I moved on to implement this blog page. Initially, my plan was to create some kind of slide show presentation, but during the course of writing the \"story\" for the page, it felt more natural to change the format to a blog post. I then implemented the page by storing all the text and image links in a JSON array, and displayed the JSON data through an ng-repeat statement. The problem, however was that I needed a way to differentiate content that was supposed to be displayed as text from content that would display as an image or link, otherwise Angular would just display everything in the JSON array as text.</div>",
+      "<div class=\"blog-text col-lg-12\">Surprisingly, the most time consuming item I had to design and implement was the “How it’s Made” page; the page you’re reading now! This was not, however due to any particularly tricky technical issue, but because I ended up iterating through several design ideas, and experimenting with the implementation before I settled on something that I was satisfied with.</div>",
+      "<div class=\"blog-text col-lg-12\">To elaborate: I had originally envisioned creating some kind of slide-show or visual presentation that would tell the story of how I designed and created this website. As such, I started by implementing a carousel to display the images for the presentation, and followed this by writing the “story” for the presentation. It wasn’t until after I started writing, however that I began to have doubts about whether or not I’d be able to create all the visual content without severely impacting my time-table. The story itself was not simply the design of this website, but where I started before, and what I had to do to get to this stage as a developer. Due to the scope of what I wanted to say, I opted to scrap the presentation in favor of writing a blog post.</div>",
 
-      "<div class=\"blog-text col-lg-12\">In my first implementation, I wrote HTML into the JSON array and processed it with an ng-bind-html attribute. This appeared to work, but quickly became problematic once I tried to make the images clickable via ng-click. I was unable to append the Angular tag in the JSON file because the ng-bind-html attribute did not compile Angular syntax. To fix this, I located a custom directive on <a href=https://github.com/incuna/angular-bind-html-compile>github</a> that compiled Angular attributes used in an ng-html-bind. This approach made it much simpler to organize the blog content since all of it was contained and formatted in one file. The reason why I needed the Angular attributes was to implement clickable images for a fullscreen gallery. I implemented this with a Boostrap carousel overlay that would appear when any image was clicked. The images themselves acted as the indicators for the carousel and would take you to the appropriate image in the carousel.</div>",
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 4_7.png\" data-target=\"#made-carousel\" data-slide-to=\"19\">",
+          "<div class=\"blog-caption-text col-lg-12\">The never implemented Slide Show</div>",
 
-          "<img class=\"col-lg-offset-2 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 4_7.png\" data-target=\"#made-carousel\" data-slide-to=\"16\">",
-          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/json_blog.png\" data-target=\"#made-carousel\" data-slide-to=\"17\">",
 
-          "<div class=\"blog-caption-text col-lg-12\">Left:Work in progress from the slideshow. Right: Example of how I organized the final JSON for the blog</div>",
+      "<div class=\"blog-text col-lg-12\">Now for the actual implementation: My first idea was to store the blog data in a JSON file and to use an ng-repeat statement to display the content in HTML. This was trivial for text content, however I also wanted to include images in between the text within the ng-repeat block. After some internet searching, I found that it would be possible to write HTML in my JSON file and use an ng-bind-html attribute to display it. Testing this worked as intended and allowed me to use <img> tags in my JSON file in between text content.</div>",
 
-        "<div class=\"blog-center-text col-lg-12\">Ode to those who did not make the Cut. (AKA The dedicated contact page)</div>",
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/json_blog.png\" data-target=\"#made-carousel\" data-slide-to=\"20\">",
+          "<div class=\"blog-caption-text col-lg-12\">JSON showing embedded HTML code</div>",
 
-      "<div class=\"blog-text col-lg-12\">I originally wanted to have a dedicated Contact Me page that contained an email contact form, however in the course of coding the form, I ran into several major problems that drove me to abandon the feature. Setting up the code for the form itself was fairly trivial, however implementing the actual mailer was a different story.</div>",
 
-          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 3_2.png\" data-target=\"#made-carousel\" data-slide-to=\"18\">",
+
+      "<div class=\"blog-center-text col-lg-offset-1 col-lg-10\"><i>Great success, yes? Sadly, this was not the case.</i></div>",
+
+
+
+      "<div class=\"blog-text col-lg-12\">Once the images were added, I decided that it would be better if the images could also be clicked to view them full-screen, and to then allow the visitor to cycle between the images in a carousel. Initially, I expected this part to go rather quickly, since I had already implemented a carousel for the Gallery pages. As an aside, I used Bootstrap 3 to implement the carousel. During the implementation for the Gallery pages, I discovered that I needed to use an ng-click attribute on the thumbnails and carousel controls to allow them to function correctly. In the Blog page, I used the same ng-click attribute on the images, however nothing would happen when they were clicked. The problem was that ng-bind-html did not compile Angular attributes, ignoring them altogether.</div>",
+
+          "<img class=\"col-lg-offset-2 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/code_blog_carousel.png\" data-target=\"#made-carousel\" data-slide-to=\"21\">",
+          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/code_blog_html.png\" data-target=\"#made-carousel\" data-slide-to=\"22\">",
+          "<div class=\"blog-caption-text col-lg-12\">Left: Blog carousel HTML. Right: Blog ng-repreat statement.</div>",
+
+
+      "<div class=\"blog-text col-lg-12\">I ended up resolving this issue by locating another Angular library called <a href=\"https://github.com/incuna/angular-bind-html-compile\">“angular-bind-html-compile”</a>, which allowed me to include Angular attributes along with HTML tags in my JSON file. From here, it was smooth sailing, except for all the proofreading and rewrites. @_@</div>",
+
+
+        "<div class=\"blog-center-title col-lg-12\">Ode to those who did not make the Cut. (AKA The dedicated contact page)</div>",
+
+      "<div class=\"blog-text col-lg-12\">I originally wanted to have a dedicated Contact Me page that contained an email contact form, however in the course of coding the form, I ran into several major problems that drove me to abandon the feature.</div>",
+
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 3_2.png\" data-target=\"#made-carousel\" data-slide-to=\"23\">",
 
           "<div class=\"blog-caption-text col-lg-12\">Work in progress for the contact form page</div>",
 
-      "<div class=\"blog-text col-lg-12\">I briefly researched how email forms could be implemented and found that having a server side PHP script was a fairly popular solution. I found such a script and attempted to connect my Angular form, however this was roughly as far as I went. After some debugging, I found that the PHP script was not processing the form data it was getting from Angular, and no test emails were getting sent. To avoid running around and possibly wasting time fixing the 3rd party script I consulted with a colleague about email forms and how to implement them. His recommendation was to use Node or a mailTo link, and lamented that emails forms were a nightmare to protect against security issues. Following my chat, I opted to scrap the email form and rolled the contact page into my About page with a link to my linkedin profile.</div>",
+      "<div class=\"blog-text col-lg-12\">Setting up the code for the form itself was fairly trivial, however implementing the actual mailer was a different story. I briefly researched how email forms could be implemented and found that having a server side PHP script was a fairly popular solution. I found such a script and attempted to connect my Angular form, but this was roughly as far as I went with the feature. After some debugging, I found that the PHP script was not processing the form data it was getting from Angular, and no test emails were getting sent. To avoid running around and possibly wasting time fixing the 3rd party script, I consulted with a colleague (the same one as earlier) about email forms and how to implement them. His recommendation was to use Node or a mailTo link, and lamented that emails forms were a nightmare to protect against security issues. Following that chat, I opted to scrap the email form and rolled the contact page into my About page with a link to my linkedin profile.</div>",
 
 
-        "<div class=\"blog-center-text col-lg-12\">So what did I learn from all this?</div>",
+        "<div class=\"blog-center-title col-lg-12\">So what did I learn from all this?</div>",
 
-      "<div class=\"blog-text col-lg-12\">Making websites is HARD, and not so hard at the same time, especially if you’re someone with a DIY attitude toward learning. The internet, while abundant with information on programming languages generally requires some concerted digging to find a useful starting point to learn something like how to make a website, and on top of that, good instruction usually doesn’t come free of charge. Luckily, I was able to find a course on Coursera, however beyond that, free tutorials and guidance through posts on say, Stackoverflow, leave too many knowledge gaps when it comes to understanding how to build apps at a higher level. Instruction aside, I learned that not only it is extremely important to have a solid understanding of the languages and frameworks you’re using, but it is equally important to have a solid plan for organizing and setting milestones for your project. Without those two fundamentals, I would have never been able to complete this website!</div>"
+      "<div class=\"blog-text col-lg-12\">Making websites is HARD, and not so hard at the same time, especially if you’re someone with a DIY attitude toward learning. The internet, while abundant with information on programming languages generally requires some concerted digging to find a useful starting point to learn something like how to make a website. On top of that, good instruction usually doesn’t come free of charge. Luckily, I was able to find a course on Coursera, however beyond that, free tutorials and guidance through posts on say, Stackoverflow, often left too many knowledge gaps when it came to understanding how to build apps at a higher level. Instruction aside, I learned that not only it is extremely important to have a solid understanding of the languages and frameworks you’re using, but it is equally important to have a solid plan for organizing and setting milestones for your project. Without those two fundamentals, I would have never been able to complete this website!</div>"
     ],
     "images":[
       "img/blog/old_site_layout1.png",
@@ -350,9 +403,14 @@
       "img/blog/site WIP 2_1.png",
       "img/blog/site WIP 2_2.png",
       "img/blog/site WIP 2_3.png",
+      "img/blog/code_ui_router.png",
+      "img/blog/code_home_html.png",
+      "img/blog/code_category_component_html.png",
       "img/blog/site WIP 3_3.png",
       "img/blog/site WIP 4_7.png",
       "img/blog/json_blog.png",
+      "img/blog/code_blog_carousel.png",
+      "img/blog/code_blog_html.png",
       "img/blog/site WIP 3_2.png"
     ]
   }

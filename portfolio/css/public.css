@@ -203,10 +203,12 @@
 }
 .blog-text{
   padding-top: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .blog-center-text{
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.5em;
   padding-top: 20px;
 }
 .blog-caption-text{
@@ -216,8 +218,14 @@
 }
 .blog-center-title{
   text-align: center;
-  font-size: 1.5em;
-  padding-top: 20px;
+  font-size: 2em;
+  /* padding-top: 30px; */
+  margin-top: 30px;
+  /* text-decoration: overline; */
+  /* border-top:20px solid #2e3138; */
+  border-bottom:10px solid #2e3138;
+  border-radius: 100px;
+  background-color: white;
 }
 /* /navigation */
 
