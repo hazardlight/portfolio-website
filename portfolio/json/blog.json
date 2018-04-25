@@ -260,7 +260,7 @@
       "<div class=\"blog-text col-lg-12\">So with the framework chosen, basic tutorials under my belt, and a few hours of staring at example applications, I was ready to make my first website:</div>",
 
           "<img class=\"col-lg-4 img-responsive active\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_layout1.png\" data-target=\"#made-carousel\" data-slide-to=\"0\">",
-          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_layout2.png\" data-target=\"#made-carousel\" data-slide-to=\"1\">",
+          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_layout2.png\" data-target=\"#made-carousel\" data-slide-to=\"1\" >",
           "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_layout3.png\" data-target=\"#made-carousel\" data-slide-to=\"2\">",
 
           "<div class=\"blog-caption-text col-lg-12\">Screenshots from my first attempt at a website</div>",
@@ -269,7 +269,7 @@
 
       "<div class=\"blog-text col-lg-12\">The end result was that I put the entirety of my website’s logic in a single JS file, manually coded every single route for every page, and dumped my HTML templates into one folder. The more I tried to work with this messy code, the more difficult it was to add more content and features to the website without becoming lost and frustrated.</div>",
 
-          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_code1.png\" data-target=\"#made-carousel\" data-slide-to=\"3\">",
+          "<img class=\"blog-img col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_code1.png\" data-target=\"#made-carousel\" data-slide-to=\"3\">",
           "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_code2.png\" data-target=\"#made-carousel\" data-slide-to=\"4\">",
           "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/old_site_code3.png\" data-target=\"#made-carousel\" data-slide-to=\"5\">",
 
@@ -288,10 +288,10 @@
 
       "<div class=\"blog-text col-lg-12\">Before writing any code, I began by brainstorming what I wanted to include in the website, and settled on the following ideas:</div>",
 
-        "<div class=\"blog-text col-lg-offset-1 col-lg-10\">* I wanted to have a set of gallery pages to show off a variety of my art, organized by category</div>",
-        "<div class=\"blog-text col-lg-offset-1 col-lg-10\">* The implementation needed to be easily expandable to accommodate the addition of new categories and items in the future.</div>",
-        "<div class=\"blog-text col-lg-offset-1 col-lg-10\">* I needed one item to be a separate Angular application nested within my main application.</div>",
-        "<div class=\"blog-text col-lg-offset-1 col-lg-10\">* Lastly, I wanted to have a page that highlighted the design process for the website itself.</div>",
+        "<div class=\"blog-text col-lg-offset-1 col-lg-10\"><i class=\"fas fa-caret-right\"></i> I wanted to have a set of gallery pages to show off a variety of my art, organized by category</div>",
+        "<div class=\"blog-text col-lg-offset-1 col-lg-10\"><i class=\"fas fa-caret-right\"></i> The implementation needed to be easily expandable to accommodate the addition of new categories and items in the future.</div>",
+        "<div class=\"blog-text col-lg-offset-1 col-lg-10\"><i class=\"fas fa-caret-right\"></i> I needed one item to be a separate Angular application nested within my main application.</div>",
+        "<div class=\"blog-text col-lg-offset-1 col-lg-10\"><i class=\"fas fa-caret-right\"></i> Lastly, I wanted to have a page that highlighted the design process for the website itself.</div>",
 
         "<div class=\"blog-center-title col-lg-12\">The Plan</div>",
 
@@ -372,7 +372,7 @@
       "<div class=\"blog-text col-lg-12\">I ended up resolving this issue by locating another Angular library called <a href=\"https://github.com/incuna/angular-bind-html-compile\">“angular-bind-html-compile”</a>, which allowed me to include Angular attributes along with HTML tags in my JSON file. From here, it was smooth sailing, except for all the proofreading and rewrites. @_@</div>",
 
 
-        "<div class=\"blog-center-title col-lg-12\">Ode to those who did not make the Cut. (AKA The dedicated contact page)</div>",
+        "<div class=\"blog-center-title col-lg-12\">Ode to Those Who Did Not Make the Cut</div>",
 
       "<div class=\"blog-text col-lg-12\">I originally wanted to have a dedicated Contact Me page that contained an email contact form, however in the course of coding the form, I ran into several major problems that drove me to abandon the feature.</div>",
 
@@ -385,7 +385,7 @@
 
         "<div class=\"blog-center-title col-lg-12\">So what did I learn from all this?</div>",
 
-      "<div class=\"blog-text col-lg-12\">Making websites is HARD, and not so hard at the same time, especially if you’re someone with a DIY attitude toward learning. The internet, while abundant with information on programming languages generally requires some concerted digging to find a useful starting point to learn something like how to make a website. On top of that, good instruction usually doesn’t come free of charge. Luckily, I was able to find a course on Coursera, however beyond that, free tutorials and guidance through posts on say, Stackoverflow, often left too many knowledge gaps when it came to understanding how to build apps at a higher level. Instruction aside, I learned that not only it is extremely important to have a solid understanding of the languages and frameworks you’re using, but it is equally important to have a solid plan for organizing and setting milestones for your project. Without those two fundamentals, I would have never been able to complete this website!</div>"
+      "<div class=\"blog-text col-lg-12\">Making websites is HARD, and not so hard at the same time, especially if you’re someone with a DIY attitude toward learning. The internet, while abundant with information on programming languages generally requires some concerted digging to find a useful starting point to learn something like how to make a website. On top of that, good instruction usually doesn’t come free of charge. Luckily, I was able to find a course on Coursera, however beyond that, free tutorials and guidance through posts on say, Stackoverflow, often left too many knowledge gaps when it came to understanding how to build apps at a higher level. Instruction aside, I learned that not only is it extremely important to have a solid understanding of the languages and frameworks you’re using, but it is equally important to have a solid plan for organizing and setting milestones for your project. Without those two fundamentals, I would have never been able to complete this website!</div>"
     ],
     "images":[
       "img/blog/old_site_layout1.png",

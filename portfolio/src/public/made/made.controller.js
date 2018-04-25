@@ -14,6 +14,8 @@ function MadeController(blogItem, PortfolioService) {
 
   $ctrl.closeColor = "";
 
+  $ctrl.blogImgBackground = '';
+
   $ctrl.imgIndex = -1;
 
   $ctrl.showCarousel = function () {
@@ -64,7 +66,12 @@ function MadeController(blogItem, PortfolioService) {
     else
       $ctrl.closeColor = {opacity: '.5'};
   }
-
+  $ctrl.imgHoverColor = function (bool) {
+    if(bool === true)
+      $ctrl.blogImgBackground = {'background-color': '#5f97ef', 'border-radius': '10px'};
+    else
+      $ctrl.blogImgBackground = {'background-color': '', 'border-radius': '0'};
+  }
   // $ctrl.isImg = function (content) {
   //   var test = content;
   //
