@@ -86,30 +86,8 @@ function routeConfig ($stateProvider) {
         return PortfolioService.getBlogItem();
       }]
     }
-  })
-  // .state('public.blog',{
-  //   url:'/how-it-is-made/{blog}',
-  //   templateUrl:'src/public/made/blog.html',
-  //   controller: 'BlogController',
-  //   controllerAs: 'vm',
-  //   resolve: {
-  //     blogItem: ['PortfolioService', function (PortfolioService) {
-  //       return PortfolioService.getBlogItem();
-  //     }]
-  //   }
-  // })
-  ;
-  // .state('public.categoryItems', { //displays items for a picked category
-  //   url:'/{category}',
-  //   templateUrl:'src/public/category-items/category-items.html',
-  //   controller: 'CategoryItemsController',
-  //   controllerAs: 'vm', //or vm???
-  //   resolve: {
-  //     categoryItems: ['$stateParams', 'PortfolioService', function ($stateParams, PortfolioService) { //PortfolioItemsFromCategory
-  //       return PortfolioService.getCategoryItems($stateParams.category);
-  //     }]
-  //   }
-  // })
+  });
+
 
   // I need a state that populates the home page with item categories (lego, knives, etc..)
   // Clicking the category displays a list of items in that category.

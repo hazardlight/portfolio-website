@@ -71,46 +71,5 @@ function PortfolioService($http){
       return status;
     });
   }
-  // service.postContactForm = function (data) {
-  //   console.log("Inside service.postContactForm()");
-  //   // var error = "error";
-  //   var status ='';
-  //   var sData = $.param(data, true);
-  //   // var sData = data;
-  //   var req = {
-  //     method: 'POST',
-  //     url: 'http://localhost/php/contact-form.php',
-  //     data: sData,
-  //     headers: {
-  //       'Content-Type': 'application/x-www-form-urlencoded'
-  //     }
-  //   }
-  //   console.log("Serialized Data: ", sData);
-  //   return $http(req).then(function (response) {
-  //     console.log(response);
-  //     // status = "Success";
-  //     return status;
-  //   },
-  //   function (response) {
-  //     // status = "Failed"
-  //     console.log(response);
-  //     return status;
-  //   });
-  // }
-
-  // service.getAllItems = function (category){ //this is supposed to get the items for a specific category?
-  //   // or do I need to first get all the items on the list
-  //   //and then filter by category in another function?
-  //   var config = {};
-  //   if (category){
-  //     config.params = {'category': category};
-  //   }
-  //
-  //   return $http.get('json/items.json', config).then(function(response){
-  //     // this is doing 'json/items.json?category=category' however it does not work for my json file
-  //     // it appears that the database uses references in the schema to categorize items. these are not present in my json
-  //     return response.data;
-  //   });
-  // };
 }
 })();

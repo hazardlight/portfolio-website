@@ -25,8 +25,6 @@ function ContactController(PortfolioService) {
         $ctrl.statusMessage = "error";
       });
     }
-
-
   }
   // this.contactFormData = {
   //   firstName:this.firstName,

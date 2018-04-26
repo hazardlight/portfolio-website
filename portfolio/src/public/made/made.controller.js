@@ -9,7 +9,7 @@ function MadeController(blogItem, PortfolioService) {
   var $ctrl = this;
 
   $ctrl.blogItem = blogItem;
-  $ctrl.blogIndex = 3;
+  $ctrl.blogIndex = 0;
   $ctrl.display = false;
 
   $ctrl.closeColor = "";
@@ -36,8 +36,6 @@ function MadeController(blogItem, PortfolioService) {
   //
   //   return $ctrl.display;
   // }
-
-  // $ctrl.testHTML = <span>blah blah blah</span>;
   $ctrl.active = "";
 
   $ctrl.slide = function (dir) {
@@ -66,12 +64,12 @@ function MadeController(blogItem, PortfolioService) {
     else
       $ctrl.closeColor = {opacity: '.5'};
   }
-  $ctrl.imgHoverColor = function (bool) {
-    if(bool === true)
-      $ctrl.blogImgBackground = {'background-color': '#5f97ef', 'border-radius': '10px'};
-    else
-      $ctrl.blogImgBackground = {'background-color': '', 'border-radius': '0'};
-  }
+  // $ctrl.imgHoverColor = function (bool) {
+  //   if(bool === true)
+  //     $ctrl.blogImgBackground = {'background-color': '#5f97ef', 'border-radius': '10px'};
+  //   else
+  //     $ctrl.blogImgBackground = {'background-color': '', 'border-radius': '0'};
+  // }
   // $ctrl.isImg = function (content) {
   //   var test = content;
   //

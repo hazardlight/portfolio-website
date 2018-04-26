@@ -1,7 +1,7 @@
 (function() {
 'use strict';
 
-angular.module('portfolio', ['public', 'ngAnimate', 'ngSanitize', 'angular-bind-html-compile' /*,'helpbot.app'*/])
+angular.module('portfolio', ['public', 'ngAnimate', 'ngSanitize', 'angular-bind-html-compile'])
 .config(config);
 
 // special URL routing logic

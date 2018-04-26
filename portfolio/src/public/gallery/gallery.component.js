@@ -14,8 +14,6 @@ GalleryItemController.$inject = [];
 function GalleryItemController() {
   var $ctrl = this;
 
-  // this.active = "";
-
   this.thumbnailActive = 0;
 
   this.count = 0;
