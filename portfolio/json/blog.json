@@ -80,13 +80,13 @@
 
       "<div class=\"blog-text col-lg-12\">Here I want to touch on some of the highlights from development; mainly the important aspects of the architecture, and some of the more interesting problems I encountered in terms of implementing and designing the website.</div>",
 
-          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 1_1.png\" data-target=\"#made-carousel\" data-slide-to=\"11\">",
-          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 2_1.png\" data-target=\"#made-carousel\" data-slide-to=\"12\">",
-          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 2_2.png\" data-target=\"#made-carousel\" data-slide-to=\"13\">",
+          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site_WIP_1_1.PNG\" data-target=\"#made-carousel\" data-slide-to=\"11\">",
+          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site_WIP_2_1.PNG\" data-target=\"#made-carousel\" data-slide-to=\"12\">",
+          "<img class=\"col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site_WIP_2_2.PNG\" data-target=\"#made-carousel\" data-slide-to=\"13\">",
 
           "<div class=\"blog-caption-text col-lg-12\">New website work in progress screenshots</div>",
 
-          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 2_3.png\" data-target=\"#made-carousel\" data-slide-to=\"14\">",
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site_WIP_2_3.PNG\" data-target=\"#made-carousel\" data-slide-to=\"14\">",
 
 
       "<div class=\"blog-text col-lg-12\">The most important functional aspect of the website I needed to implement was the routing. To accomplish this, I used the 3rd party <a href=\"https://github.com/angular-ui/ui-router\">ui-router library</a> instead of Angular’s built in routing functions. In particular, I made use of ui-router’s $stateParams to dynamically generate URLs, and to pass information from one state to another, which was used to dynamically display content.</div>",
@@ -101,14 +101,14 @@
 
       "<div class=\"blog-text col-lg-12\">The next major item I added was the HelpBot app. The HelpBot was a project I worked on with two of my friends and was created as a demo for a pitch to develop a customer facing, self-help utility for certain LogMeIn software. The trickiest part of adding the HelpBot was that it required me to nest one Angular application within another. The internet’s opinion on the matter informed me that it would not be trivial, with some people claiming it was not even possible. Unsatisfied with the answers I found, I posed this question to a friend of mine who was versed in Angular. He suggested to simply add the HelpBot as it’s own module off the main module for my app. I was able to do just this with some minimal syntax porting for the app to work in Angular 1.6.9.</div>",
 
-          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 3_3.png\" data-target=\"#made-carousel\" data-slide-to=\"18\">",
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site_WIP_3_3.PNG\" data-target=\"#made-carousel\" data-slide-to=\"18\">",
 
           "<div class=\"blog-caption-text col-lg-12\">The HelpBot after porting</div>",
 
       "<div class=\"blog-text col-lg-12\">Surprisingly, the most time consuming item I had to design and implement was the “How it’s Made” page; the page you’re reading now! This was not, however due to any particularly tricky technical issue, but because I ended up iterating through several design ideas, and experimenting with the implementation before I settled on something that I was satisfied with.</div>",
       "<div class=\"blog-text col-lg-12\">To elaborate: I had originally envisioned creating some kind of slide-show or visual presentation that would tell the story of how I designed and created this website. As such, I started by implementing a carousel to display the images for the presentation, and followed this by writing the “story” for the presentation. It wasn’t until after I started writing, however that I began to have doubts about whether or not I’d be able to create all the visual content without severely impacting my time-table. The story itself was not simply the design of this website, but where I started before, and what I had to do to get to this stage as a developer. Due to the scope of what I wanted to say, I opted to scrap the presentation in favor of writing a blog post.</div>",
 
-          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 4_7.png\" data-target=\"#made-carousel\" data-slide-to=\"19\">",
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site_WIP_4_7.PNG\" data-target=\"#made-carousel\" data-slide-to=\"19\">",
           "<div class=\"blog-caption-text col-lg-12\">The never implemented Slide Show</div>",
 
 
@@ -137,7 +137,7 @@
 
       "<div class=\"blog-text col-lg-12\">I originally wanted to have a dedicated Contact Me page that contained an email contact form, however in the course of coding the form, I ran into several major problems that drove me to abandon the feature.</div>",
 
-          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/site WIP 3_2.png\" data-target=\"#made-carousel\" data-slide-to=\"23\">",
+          "<img class=\"col-lg-offset-4 col-lg-4 img-responsive\" ng-click=\"vm.showCarousel()\" src =\"img/blog/wip_test.png\" data-target=\"#made-carousel\" data-slide-to=\"23\">",
 
           "<div class=\"blog-caption-text col-lg-12\">Work in progress for the contact form page</div>",
 
@@ -160,19 +160,19 @@
       "img/blog/new_site_moc3.png",
       "img/blog/plan.png",
       "img/blog/day_schedule1.png",
-      "img/blog/site WIP 1_1.png",
-      "img/blog/site WIP 2_1.png",
-      "img/blog/site WIP 2_2.png",
-      "img/blog/site WIP 2_3.png",
+      "img/blog/site_WIP_1_1.PNG",
+      "img/blog/site_WIP_2_1.PNG",
+      "img/blog/site_WIP_2_2.PNG",
+      "img/blog/site_WIP_2_3.PNG",
       "img/blog/code_ui_router.png",
       "img/blog/code_home_html.png",
       "img/blog/code_category_component_html.png",
-      "img/blog/site WIP 3_3.png",
-      "img/blog/site WIP 4_7.png",
+      "img/blog/site_WIP_3_3.PNG",
+      "img/blog/site_WIP_4_7.PNG",
       "img/blog/json_blog.png",
       "img/blog/code_blog_carousel.png",
       "img/blog/code_blog_html.png",
-      "img/blog/site WIP 3_2.png"
+      "img/blog/wip_test.png"
     ]
   }
 ]
