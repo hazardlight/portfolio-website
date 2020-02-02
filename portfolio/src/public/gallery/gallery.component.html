@@ -1,62 +1,76 @@
-<div id="gallery-item-container" class="container">
-  <div id="breadcrumb-custom"  >
-    <span ui-sref="public.home">
-      Main
-    </span>
-    <span> \ </span>
-    <span ui-sref="public.categoryItems({category: $ctrl.item.category})">
-      {{$ctrl.item.cat_long_name}}
-    </span>
-    <span> \ </span>
-    <span class="active">{{$ctrl.item.name}}</span>
+<link rel="stylesheet" href="css/category-items.css">
+<link rel="stylesheet" href="css/gallery.component.css">
+
+<div class="gallery--wrapper">
+  <div class="category-items--breadcrumb-container">
+    <span class="category-items__breadcrumb-link link-inactive" ui-sref="public.home">Home</span>
+    <span class="category-items__breadcrumb-link--divider"> \ </span>
+    <span class="category-items__breadcrumb-link link-inactive" ui-sref="public.categoryItems({category: $ctrl.item.category})">{{$ctrl.item.cat_long_name}}</span>
+    <span class="category-items__breadcrumb-link--divider"> \ </span>
+    <span class="category-items__breadcrumb-link link-active">{{$ctrl.item.name}}</span>
   </div>
 
-  <div class="row" ng-if="$ctrl.item.carousel">
-    <div class="gallery-item-title h1">
-      {{$ctrl.item.name}}
-    </div>
-    <div class="gallery-car-thumb-cont col-lg-6 col-md-12 col-sm-12">
+  <div class="gallery--container" ng-if="$ctrl.item.carousel">
+    <div class="gallery__title">{{$ctrl.item.name}}</div>
 
-    <div class="col-lg-12 col-md-6 col-sm-6 visible-lg visible-md visible-sm">
-      <!-- bootstrap carousel -->
-      <div id="galleryCarousel" class="carousel-slide" data-ride="carousel" data-interval="false">
-        <!-- main panel -->
-        <div id="" class="carousel-inner ">
-          <div class="image-mask item {{$ctrl.active($index)}}" ng-repeat="image in $ctrl.item.images">
-            <img class="image-adjustment img-responsive" src="{{image}}" ng-init="$ctrl.count = $index" alt="temporary picture">
+    <div class="gallery__carousel-and-thumbnails--container">
+      <div class="gallery__carousel--container">
+        <!-- bootstrap carousel -->
+        <div class="gallery__carousel-outer carousel-slide" id="galleryCarousel" data-ride="carousel" data-interval="false">
+          <!-- main panel -->
+          <div class="carousel-inner">
+            <div class="gallery__carousel-inner__image-mask item {{$ctrl.active($index)}}" ng-repeat="image in $ctrl.item.images">
+              <img class="gallery__carousel-inner__image" src="{{image}}" ng-init="$ctrl.count = $index" alt="main picture">
+            </div>
+          </div>
+          <!-- controlls -->
+          <!-- examples say to use an anchor tag for these control elements with an href pointing to the carousel id, but this does not work with ng -->
+          <!-- ng needs to handle click events to tell the carousel what to do, otherwise nothing happens either -->
+          <div class="gallery__carousel-outer__left-control--container">
+            <a class="gallery__carousel-outer__control left carousel-control"
+               ng-click="$ctrl.slide('prev')"
+               role="button"
+               data-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">previous</span>
+            </a>
+          </div>
+          <div class="gallery__carousel-outer__right-control--container">
+            <a class="gallery__carousel-outer__control right carousel-control"
+               ng-click="$ctrl.slide('next')"
+               role="button"
+               data-slide="next">
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">next</span>
+            </a>
           </div>
         </div>
-        <!-- controlls -->
-        <!-- examples say to use an anchor tag for these control elements with an href pointing to the carousel id, but this does not work with ng -->
-        <!-- ng needs to handle click events to tell the carousel what to do, otherwise nothing happens either -->
-        <a class="left carousel-control" href="" ng-click="$ctrl.slide('prev')" role="button" data-slide="prev">
-            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">previous</span>
-        </a>
-        <a class="right carousel-control" href="" ng-click="$ctrl.slide('next')" role="button" data-slide="next">
-          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">next</span>
-        </a>
+        <!-- /bootstrap carousel -->
       </div>
-      <!-- /bootstrap carousel -->
-    </div>
-    <div class="thumbnail-container col-lg-12 col-md-6 col-sm-6">
-      <div class="thumbnail-mask col-lg-3 col-md-3 col-sm-3 {{$ctrl.active($index)}}" data-target="#galleryCarousel" ng-click="$ctrl.slideTo($index)" ng-class="{'thumbnail-active' : $ctrl.thumbnailActive == $index}" data-slide-to="$index" ng-repeat="image in $ctrl.item.images">
-        <img class="thumbnail-adjustment thumbnail img-responsive" src="{{image}}" alt="temporary picture">
+    <div class="gallery__thumbnails--container">
+      <div class="gallery__thumbnail-image-mask {{$ctrl.active($index)}}"
+           data-target="#galleryCarousel"
+           ng-click="$ctrl.slideTo($index)"
+           ng-class="{'thumbnail-active' : $ctrl.thumbnailActive == $index}"
+           data-slide-to="$index"
+           ng-repeat="image in $ctrl.item.images">
+        <img class="gallery__thumbnail-image"
+             src="{{image}}"
+             alt="thumbnail picture">
       </div>
     </div>
   </div>
     <!-- item info panel -->
-    <div class="item-description-container col-lg-6 col-md-12 col-sm-12">
-      <div class="item-description" ng-repeat="text in $ctrl.item.text">
+    <div class="gallery__descriptions--container">
+      <div class="gallery__description-text" ng-repeat="text in $ctrl.item.text">
         <span>{{text}}</span>
       </div>
     </div>
   </div>
 
-  <div class="col-lg-12" ng-hide="$ctrl.item.carousel">
-    <img class="gallery-single-img img-responsive" src="{{$ctrl.item.images[0]}}" alt="temporary picture">
+  <div class="gallery__no-carousel--container" ng-hide="$ctrl.item.carousel">
+    <img class="gallery__no-carousel__single-image" src="{{$ctrl.item.images[0]}}" alt="{{$ctrl.item.description}}">
   </div>
 </div>

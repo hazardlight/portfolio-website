@@ -6,7 +6,7 @@ angular.module('public')
 
 HomeController.$inject = ['homeCategories'];
 function HomeController(homeCategories){
-  var $ctrl = this;
-  $ctrl.homeCategories = homeCategories; //holds the array of categories from the json file.
+  var vm = this;
+  vm.homeCategories = homeCategories; //holds the array of categories from the json file.
 }
 })();

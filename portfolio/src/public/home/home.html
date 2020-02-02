@@ -1,16 +1,16 @@
-<div id="home-container" class="container">
-  <div class="home-container">
+<link rel="stylesheet" href="css/home.css">
 
-    <div class="home-content-description"> Portfolio and Designs</div>
-
-    <div id="home-categoy-pick" class="col-lg-12">
-      <category-pick  ng-repeat="homeCategory in vm.homeCategories"
-                     category="homeCategory">
-      </category-pick>
-    </div>
-
+<div class="home--container">
+  <!-- <div class="home__title">
+    Portfolio and Designs
+  </div> -->
+  <div class="home__items">
+    <category-pick ng-repeat="homeCategory in vm.homeCategories"
+                   category="homeCategory">
+    </category-pick>
   </div>
 </div>
+
 
 
 

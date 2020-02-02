@@ -1,0 +1,139 @@
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!-- <head> -->
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Landing Page</title> -->
+    <!-- <link rel="shortcut icon" href="favicon.png"> -->
+    <!-- <link rel="stylesheet" href="main.css"></link> -->
+
+
+<link rel="stylesheet" href="src/public/demo-websites/website1/main.css"></link>
+
+<!-- </head> -->
+<!-- <body> -->
+<div class="main-wrapper">
+
+  <div class="websites--breadcrumb-open"
+       ng-class="vm.breadcrumbOpenButtonNgClass"
+       ng-click="vm.openBreadcrumb()">
+       <i class="fas fa-arrow-left"></i>
+  </div>
+  <div class="websites--breadcrumb-container"
+       ng-style="vm.breadcrumbHideOnLoad"
+       ng-class="vm.breadcrumbNgClass">
+    <span class="websites__breadcrumb-link link-inactive" ui-sref="public.home">Home</span>
+    <span class="websites__breadcrumb-link--divider"> \ </span>
+    <span class="websites__breadcrumb-link link-inactive" ui-sref="public.categoryItems({category: vm.item.category})">{{vm.item.cat_long_name}}</span>
+    <span class="websites__breadcrumb-link--divider"> \ </span>
+    <span class="websites__breadcrumb-link link-active">{{vm.item.name}}</span>
+
+    <span class="websites--breadcrumb-close"
+          ng-click="vm.closeBreadcrumb()">
+          <i class="far fa-times-circle"></i>
+    </span>
+  </div>
+
+  <header>
+    <section id="banner-container">
+      <div class="banner-title-container">
+        <h1 class="banner__title">Bombastic Technology</h1>
+        <h2 class="banner__subtitle">Only the best quality!</h2>
+      </div>
+      <div class="sub-banner-container">
+        <h4 class="sub-banner__title">Is technology confusing?</h4>
+        <h4 class="sub-banner__subtitle">Look below for details</h4>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section id="plans-container">
+      <div class="plan__list">
+        <article class="plan" >
+          <div class="plan__badge-background"></div>
+          <div class="plan__badge-text">10%</div>
+          <h2 class="plan__title" dir="rtl">עודף זמן פנוי<br>התחל לטפח את הכישרון שלך היום!</h2>
+          <div class="plan__image-background"></div>
+          <img class="plan__image" src="src/public/demo-websites/website1/images/brain1.jpg" alt="brain one">
+          <ul class="plan__features" dir="rtl">
+            <li class="plan__feature-item">תוכנית זאת כוללת ייעוץ חינם עבור חובבי המוח השאפתני.</li>
+            <li class="plan__feature-item">צור קשר לקבלת פרטים!</li>
+          </ul>
+          <button class="plan__button" type="button" name="plan 1 button" dir="rtl">להרשמה</button>
+        </article>
+        <article class="plan">
+          <h2 class="plan__title">Critical Thinker<br>For those with over-active neurons</h2>
+          <div class="plan__image-background"></div>
+          <img class="plan__image" src="src/public/demo-websites/website1/images/brain2.jpg" alt="">
+          <ul class="plan__features">
+            <li class="plan__feature-item">This tier will expand your technological knowledge prowess to the next level</li>
+            <li class="plan__feature-item">Financing available!</li>
+          </ul>
+            <button class="plan__button" type="button" name="plan 2 button">Sign Up</button>
+        </article>
+        <article class="plan">
+          <div class="plan__badge-background"></div>
+          <div class="plan__badge-text">20%</div>
+          <h2 class="plan__title">Expansionist<br>Seasoned in electro-chemical communication</h2>
+          <div class="plan__image-background"></div>
+          <img class="plan__image" src="src/public/demo-websites/website1/images/brain3.jpg" alt="">
+          <ul class="plan__features">
+            <li class="plan__feature-item">Fortify your newly acquired knowledge from pesky forgetfulness</li>
+            <li class="plan__feature-item">Request a sales quote today!</li>
+          </ul>
+          <button class="plan__button" type="button" name="plan 3 button">Sign Up</button>
+        </article>
+        <article class="plan">
+          <div class="plan__badge-background"></div>
+          <div class="plan__badge-text">15%</div>
+          <h2 class="plan__title">Cerebral Entity<br>Prepare for the highest level of knowledge acquisition</h2>
+          <div class="plan__image-background"></div>
+          <img class="plan__image" src="src/public/demo-websites/website1/images/brain4.jpg" alt="">
+          <ul class="plan__features">
+            <li class="plan__feature-item">Guidelines for harnessing the full potential of your technological brain</li>
+            <li class="plan__feature-item">Sign up for details!</li>
+          </ul>
+          <button class="plan__button" type="button" name="plan 4 button">Sign Up</button>
+        </article>
+        <p class="plan__annotation">*Bombastic Technology disclaimer</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section id="signup-container">
+      <svg class="signup-container__svg"></svg>
+      <h1 class="signup__title">The Next Step is Just One Click Away!</h1>
+      <h4 class="signup__subtitle">Fill out the form to continue your brain expansion journey</h4>
+      <form class="signup__form" action="index.html" method="post">
+        <label class="signup__form--field-label" for="firstName">Enter your first name:</label>
+        <input class="signup__form--field" type="text" name="firstName" value="" placeholder="First Name">
+        <label class="signup__form--field-label" for="lastName">Enter your last name:</label>
+        <input class="signup__form--field" type="text" name="lastName" value="" placeholder="Last Name">
+        <div class="signup__form--radio-btns">
+          <span class="signup__form--radio-btns__label">Request Financing?</span>
+          <div class="signup__form--radio-btn-label-container">
+            <input class="signup__form--radio-btn" type="radio" name="select yes" value="1" checked="checked">
+            <span class="radio">
+              <span class="radio-inner checkmark"></span>
+            </span>
+            <span class="signup__form--radio-btns__label" for="select yes">Yes</span>
+          </div>
+          <div class="signup__form--radio-btn-label-container">
+            <input class="signup__form--radio-btn" type="radio" name="select no" value="0">
+            <span class="radio">
+              <span class="radio-inner"></span>
+            </span>
+            <span class="signup__form--radio-btns__label">No</span>
+          </div>
+        </div>
+        <button class="signup__form--submit-btn" type="submit" name="button">Submit</button>
+      </form>
+    </section>
+  </footer>
+
+
+  <script src="src/public/demo-websites/website1/shared.js"></script>
+  </div>
+<!-- </body> -->
+<!-- </html> -->

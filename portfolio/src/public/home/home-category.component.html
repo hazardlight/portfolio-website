@@ -1,0 +1,39 @@
+<!-- <link rel="stylesheet" href="css/home-categories.component.css"> -->
+
+<div class="home-categories--container"
+     ui-sref="public.categoryItems({category: vm.category.short_name})"
+     ng-init="vm.setNgStyleColors(vm.category.colors)">
+
+  <!-- what exactly is category: here? -assigned data from home.html -->
+  <div class="home-categories__card"
+       ng-mouseover="vm.slideDownFunc()"
+       ng-mouseleave="vm.slideUpFunc()"
+       ng-class="vm.cardNgClass"
+       ng-style="vm.cardColor">
+    <!-- <div class="home-categories__card__title">
+      {{$ctrl.category.name}}
+    </div> -->
+
+    <div class="home-categories__card__title" ng-class="vm.titleNgClass">
+      {{vm.category.name}}
+    </div>
+    <div class="home-categories__card__description" ng-class="vm.descriptionNgClass" ng-if="vm.elementIsActive">
+      {{vm.category.description}}
+    </div>
+
+    <div class="home-categories__card__triangle-top--container">
+      <div class="home-categories__card__triangle-top" ng-style="vm.triangleColor"></div>
+    </div>
+
+
+    <div class="home-categories__card__images--container">
+      <div class="home-categories__card__circle-background" ng-style="vm.circleBackgroundColor">
+        <img class="home-categories__card__image" ng-class="vm.imageNgClass" ng-src="{{vm.category.image}}" alt="home category image">
+      </div>
+    </div>
+
+    <div class="home-categories__card__triangle-bottom--container">
+      <div class="home-categories__card__triangle-bottom" ng-style="vm.triangleColor"></div>
+    </div>
+  </div>
+</div>

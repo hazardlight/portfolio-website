@@ -1,3 +1,83 @@
 <link rel="stylesheet" href="css/public.css">
 
-<ui-view></ui-view>
+<div class="portfolio--wrapper">
+  <!-- <div class="portfolio-nav--full-width"></div> -->
+  <div class="portfolio--loading-splash" ng-if="vm.loadingScreen">
+    <div class="portfolio--spinner">
+
+    </div>
+  </div>
+  <nav class="portfolio-nav--container">
+
+    <!-- <a href="index.html" class=""> -->
+      <!-- <div id="logo-img">LOGO</div> -->
+      <!-- <img id="logo-img" class="img-responsive" src="img/fake pic.png" alt="temporary picture"> -->
+      <!-- this displays an image above the nav bar -->
+    <!-- </a> -->
+
+    <div class="portfolio-nav__main-title">Chris Tabis</div>
+    <div class="portfolio-nav__main-subtitle">Chris Tabis Designs</div>
+
+    <button class="portfolio-nav__mobile-icon--container" type="button" ng-click="vm.OpenMobileMenu()">
+      <span class="sr-only">Toggle navigation</span>
+      <div class="portfolio-nav__mobile-icon-bar" ng-class='vm.mobileOpenBtn'></div>
+      <div class="portfolio-nav__mobile-icon-bar" ng-class='vm.mobileOpenBtn'></div>
+      <div class="portfolio-nav__mobile-icon-bar" ng-class='vm.mobileOpenBtn'></div>
+      <div class="portfolio-nav__mobile-icon__close" ng-class='vm.mobileCloseBtn'>
+        <i class="far fa-times-circle"></i>
+      </div>
+    </button>
+
+    <div class="portfolio-nav__mobile-menu--container" ng-if="vm.isMobileMenuOpen">
+      <ul class="portfolio-nav__menu__unordered-list">
+        <li class="portfolio-nav__menu__list-item" ui-sref-active="portfolio-nav__menu__list-item__active">
+          <div class="portfolio-nav__menu__list-item__btn" ui-sref="public.home">
+            Home
+          </div>
+        </li>
+        <li class="portfolio-nav__menu__list-item" ui-sref-active="portfolio-nav__menu__list-item__active">
+          <div class="portfolio-nav__menu__list-item__btn" ui-sref="public.about">
+            About
+          </div>
+        </li>
+        <!-- TODO update blog to handle multiple entries -->
+        <!-- <li class="portfolio-nav__menu__list-item" ui-sref-active="portfolio-nav__menu__list-item__active">
+          <div class="portfolio-nav__menu__list-item__btn" ui-sref="public.made">
+            Blog
+          </div>
+        </li> -->
+      </ul>
+      <hr class="portfolio-nav--horizontal-line list-item">
+    </div>
+
+    <div class="portfolio-nav__desktop-menu--container">
+      <ul class="portfolio-nav__menu__unordered-list">
+        <li class="portfolio-nav__menu__list-item" ui-sref-active="portfolio-nav__menu__list-item__active">
+          <div class="portfolio-nav__menu__list-item__btn" ui-sref="public.home">
+            Home
+          </div>
+        </li>
+        <li class="portfolio-nav__menu__list-item" ui-sref-active="portfolio-nav__menu__list-item__active">
+          <div class="portfolio-nav__menu__list-item__btn" ui-sref="public.about">
+            About
+          </div>
+        </li>
+        <!-- <li id="navContactBtn" ui-sref-active="custom-active">
+          <a ui-sref="public.contact">Contact</a>
+        </li> -->
+        <!-- <li class="portfolio-nav__menu__list-item" ui-sref-active="portfolio-nav__menu__list-item__active">
+          <div class="portfolio-nav__menu__list-item__btn" ui-sref="public.made">
+            Blog
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+  <div class="portfolio-nav--buffer" ng-class="vm.bufferSize"></div>
+  <hr class="portfolio-nav--horizontal-line after-nav" ng-class="vm.hrFade">
+
+  <ui-view class="portfolio-main-content--container"></ui-view>
+
+  <!-- <div class="portfolio-footer--full-width"></div> -->
+  <div class="portfolio-footer--container">Chris Tabis Designs &copy; 2020</div>
+</div>

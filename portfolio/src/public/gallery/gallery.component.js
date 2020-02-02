@@ -42,6 +42,7 @@ function GalleryItemController() {
     this.thumbnailActive = int;
     console.log(this.count);
   }
+
   $ctrl.active = function (int) {
     var activeFlag = "";
 

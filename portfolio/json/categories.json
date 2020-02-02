@@ -2,27 +2,62 @@
 [
   {
     "id": 1,
-    "name": "Lego",
-    "short_name": "L",
+    "name": "Websites",
+    "short_name": "W",
     "type":"gallery",
-    "image":"img/lego_cat.png",
-    "description":"Custom Models"
+    "image":"img/websites_new.png",
+    "description":"Static Pages",
+    "colors": [
+      "#ffe599ff",
+      "#ffe599ff",
+      "#ffab40ff",
+      "#ffab40ff",
+      "#20124dff"
+    ]
   },
-
   {
-    "id": 3,
+    "id": 2,
     "name": "Help Bot",
     "short_name": "HB",
     "type":"app",
-    "image":"img/helpbot_cat.png",
-    "description":"App Demo"
+    "image":"img/helpbot_new.png",
+    "description":"App Demo",
+    "colors": [
+      "#a4c2f4ff",
+      "#a4c2f4ff",
+      "#3c78d8ff",
+      "#1155ccff",
+      "#073763"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Lego",
+    "short_name": "L",
+    "type":"gallery",
+    "image":"img/lego_new.png",
+    "description":"Custom Models",
+    "colors": [
+      "#d0e0e3ff",
+      "#a2c4c9",
+      "#76a5afff",
+      "#45818eff",
+      "#0c343d"
+    ]
   },
   {
     "id": 4,
     "name": "Art",
-    "short_name": "O",
+    "short_name": "A",
     "type":"gallery",
-    "image":"img/art_cat3.png",
-    "description":"Gallery"
+    "image":"img/gallery_new.png",
+    "description":"Gallery",
+    "colors": [
+      "#ead1dcff",
+      "#d5a6bdff",
+      "#c27ba0ff",
+      "#8b0145ff",
+      "#4c1130ff"
+    ]
   }
 ]

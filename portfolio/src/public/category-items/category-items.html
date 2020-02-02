@@ -1,12 +1,14 @@
-<div id="items-from-category-container" class="container">
+<link rel="stylesheet" href="css/category-items.css">
+
+<div class="category-items--container">
   <!-- I am the items from the category you picked! -->
-  <div id="breadcrumb-custom">
-    <span ui-sref="public.home">Main</span>
-    <span> \ </span>
-    <span class="active">{{vm.categoryItems[0].cat_long_name}}</span>
+  <div class="category-items--breadcrumb-container">
+    <span class="category-items__breadcrumb-link link-inactive" ui-sref="public.home">Home</span>
+    <span class="category-items__breadcrumb-link--divider"> \ </span>
+    <span class="category-items__breadcrumb-link link-active">{{vm.categoryItems[0].cat_long_name}}</span>
   </div>
-  <div id="category-item-container" class="col-lg-12 ">
-    <category-item id="category-item" class=""  ng-repeat="categoryItem in vm.categoryItems"
+  <div class="category-items__main-content--container">
+    <category-item class="category-item" id="category-item" ng-repeat="categoryItem in vm.categoryItems"
                       item="categoryItem">
     </category-item>
   </div>

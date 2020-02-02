@@ -53,7 +53,7 @@ function PortfolioService($http){
       return response.data;
     });
   }
-  service.postContactForm = function (data) {
+  service.postContactForm = function (data) { //not functioning
     console.log("Inside service.postContactForm()");
 
     var status ='';

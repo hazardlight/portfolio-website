@@ -39,12 +39,12 @@ function MadeController(blogItem, PortfolioService) {
   $ctrl.active = "";
 
   $ctrl.slide = function (dir) {
-    $('#made-carousel').carousel(dir);
+    $('.blog__carousel-main').carousel(dir);
     console.log("Made carousel", dir);
   }
 
   $ctrl.slideTo = function (int) {
-    $('#made-carousel').carousel(int);
+    $('.blog__carousel-main').carousel(int);
   }
   $ctrl.active = function (int) {
     var activeFlag = "";

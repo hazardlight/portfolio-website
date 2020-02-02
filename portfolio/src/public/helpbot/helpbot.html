@@ -1,19 +1,21 @@
+<link rel="stylesheet" href="css/category-items.css">
 <link rel="stylesheet" href="src/helpbot-app/css/main.css">
 
-<div id="helpbot-container" class="container">
-  <div id="breadcrumb-custom">
-    <span ui-sref="public.home">Main</span>
-    <span> \ </span>
-    <span class="active" ui-sref-active>{{vm.categoryItems[0].alt_name}}</span>
+<div class="helpbot--wrapper">
+  <div class="category-items--breadcrumb-container">
+    <span class="category-items__breadcrumb-link link-inactive" ui-sref="public.home">Home</span>
+    <span class="category-items__breadcrumb-link--divider"> \ </span>
+    <span class="category-items__breadcrumb-link link-active" ui-sref-active>{{vm.categoryItems[0].alt_name}}</span>
   </div>
-  <help-bot item="vm.categoryItems[0]"></help-bot>
+  <div class="helpbot--container">
+    <help-bot class="helpbot-test" item="vm.categoryItems[0]"></help-bot>
+    <!-- controller for this page is category-items.controller.js -->
 
-  <!-- controller for this page is category-items.controller.js -->
+    <!-- view for helpbot app -->
+    <div class="helpbot__main-view" ng-view></div>
 
-  <!-- view for helpbot app -->
-  <div id="helpbot-app-container" class="col-lg-12" ng-view></div>
-
-  <div id="helpbot-disclaimer" class="">
-    *LogMeIn logos and images, including product screen-shots used inside the HelpBot belong to LogMeIn Inc.
+    <div class="helpbot__disclaimer">
+      *LogMeIn logos and images, including product screen-shots used inside the HelpBot belong to LogMeIn Inc.
+    </div>
   </div>
 </div>

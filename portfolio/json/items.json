@@ -222,10 +222,10 @@
   {
     "id":10,
     "name":"T-Shirt Graphic",
-    "short_name":"O1",
+    "short_name":"A1",
     "description":"This is a picture",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/beeworld6.jpg"
     ],
@@ -234,10 +234,10 @@
   {
     "id":11,
     "name":"LDraw Blackjack 1",
-    "short_name":"O2",
+    "short_name":"A2",
     "description":"This is a poem",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/blackjack complete.jpg"
     ],
@@ -246,10 +246,10 @@
   {
     "id":12,
     "name":"LDraw Blackjack 2",
-    "short_name":"O3",
+    "short_name":"A3",
     "description":"This is digital art",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/blackjack spread.jpg"
     ],
@@ -258,10 +258,10 @@
   {
     "id":13,
     "name":"Cyclops",
-    "short_name":"O4",
+    "short_name":"A4",
     "description":"why problem make?",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/cyclops sketches FINAL.jpg"
     ],
@@ -270,10 +270,10 @@
   {
     "id":14,
     "name":"Mech Ortho 1",
-    "short_name":"O5",
+    "short_name":"A5",
     "description":"why problem make?",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/Mech Ortho 2.jpg"
     ],
@@ -282,10 +282,10 @@
   {
     "id":14,
     "name":"Mech Ortho 2",
-    "short_name":"O5",
+    "short_name":"A5",
     "description":"why problem make?",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/Mech Ortho 6 rev2.png"
     ],
@@ -294,10 +294,10 @@
   {
     "id":14,
     "name":"Landscape",
-    "short_name":"O5",
+    "short_name":"A5",
     "description":"why problem make?",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/scape2.jpg"
     ],
@@ -306,10 +306,10 @@
   {
     "id":14,
     "name":"Shadowhawk Digital",
-    "short_name":"O5",
+    "short_name":"A5",
     "description":"why problem make?",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/shadow hawk red.jpg"
     ],
@@ -318,10 +318,10 @@
   {
     "id":14,
     "name":"Abstract Orb",
-    "short_name":"O5",
+    "short_name":"A5",
     "description":"why problem make?",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/somethin.png"
     ],
@@ -330,10 +330,10 @@
   {
     "id":14,
     "name":"Timberwolf",
-    "short_name":"O5",
+    "short_name":"A5",
     "description":"why problem make?",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/timberwolf sketch7.jpg"
     ],
@@ -342,12 +342,36 @@
   {
     "id":14,
     "name":"Zeus",
-    "short_name":"O5",
+    "short_name":"A5",
     "description":"why problem make?",
-    "category":"O",
-    "cat_long_name":"Other",
+    "category":"A",
+    "cat_long_name":"Art",
     "images":[
       "img/other/zeus sketch WIP8.jpg"
+    ],
+    "carousel": false
+  },
+  {
+    "id":15,
+    "name":"Landing Page 1",
+    "short_name":"W1",
+    "description":"why problem make?",
+    "category":"W",
+    "cat_long_name":"Websites",
+    "images":[
+      "img/demo-websites/website1.png"
+    ],
+    "carousel": false
+  },
+  {
+    "id":16,
+    "name":"Landing Page 2",
+    "short_name":"W2",
+    "description":"why problem make?",
+    "category":"W",
+    "cat_long_name":"Websites",
+    "images":[
+      "img/demo-websites/website2.png"
     ],
     "carousel": false
   }

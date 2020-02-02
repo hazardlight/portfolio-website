@@ -11,105 +11,58 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 
   </head>
   <body ng-app="portfolio" ng-strict-di>
-    <header class="">
-      <!-- current code -->
-      <nav class="common-border navbar navbar-default">
-        <div class="container">
-          <div id="navbarHeader" class="navbar-header">
+    <!-- <body ng-app="portfolio"> -->
 
-            <a href="index.html" class="pull-left visible-md visible-lg">
-              <!-- <div id="logo-img">LOGO</div> -->
-              <!-- <img id="logo-img" class="img-responsive" src="img/fake pic.png" alt="temporary picture"> -->
-              <!-- this displays an image above the nav bar -->
-            </a>
+    <ui-view></ui-view>
 
-            <div id="navbarBrand" class="navbar-brand">
-              <span>Chris Tabis</span>
-            </div>
+    <!-- Libs -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- styling is broken when using bootstrap 4 -->
 
-            <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+    <script src="lib/angular-mocks.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
+    <script src="lib/angular-bind-html-compile-master/angular-bind-html-compile.js"></script>
+    <!-- HelpBot Specific Libs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
 
-          </div>
-          <div id="collapsable-nav" class="collapse navbar-collapse">
-            <ul id="nav-list" class="nav navbar-nav navbar-right">
-              <li id="navHomeBtn" ui-sref-active="custom-active">
-                <a ui-sref="public.home">Home</a>
-              </li>
-              <li id="navAboutBtn" ui-sref-active="custom-active">
-                <a ui-sref="public.about">About</a>
-              </li>
-              <!-- <li id="navContactBtn" ui-sref-active="custom-active">
-                <a ui-sref="public.contact">Contact</a>
-              </li> -->
-              <li id="navMadeBtn" ui-sref-active="custom-active">
-                <a ui-sref="public.made">How It's Made</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- /current code -->
-    </header>
+    <!-- Main Portfolio Module -->
+    <script src="src/portfolio.module.js"></script>
 
-    <ui-view>
-    </ui-view>
+    <!-- Common Module -->
+    <script src="src/common/common.module.js"></script>
+    <script src="src/common/portfolio.service.js"></script>
 
-    <footer class="panel-footer">
-      <div class="container">
-        <div class="row">
-          <span>Chris Tabis &copy; 2018</span>
-        </div>
-      </div>
-    </footer>
-      <!-- Libs -->
-      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-      <script src="lib/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!-- Helbot App Module -->
+    <script src="src/helpbot-app/helpbot.app.module.js"></script>
+    <script src="src/helpbot-app/helpbot.app.controller.js"></script>
+    <script src="src/helpbot-app/helpbot.app.service.js"></script>
 
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <!-- styling is broken when using bootstrap 4 -->
-
-      <script src="lib/angular.js"></script>
-      <script src="lib/angular-ui-router.min.js"></script>
-      <script src="lib/angular-mocks.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
-      <script src="lib/angular-bind-html-compile-master/angular-bind-html-compile.js"></script>
-      <!-- HelpBot Specific Libs -->
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
-
-      <!-- Main Portfolio Module -->
-      <script src="src/portfolio.module.js"></script>
-
-      <!-- Common Module -->
-      <script src="src/common/common.module.js"></script>
-      <script src="src/common/portfolio.service.js"></script>
-
-      <!-- Helbot App Module -->
-      <script src="src/helpbot-app/helpbot.app.module.js"></script>
-      <script src="src/helpbot-app/helpbot.app.controller.js"></script>
-      <script src="src/helpbot-app/helpbot.app.service.js"></script>
-      <!-- Public Module -->
-      <script src="src/public/public.module.js"></script>
-      <script src="src/public/public.routes.js"></script>
-      <script src="src/public/home/home.controller.js"></script>
-      <script src="src/public/home/category.component.js"></script>
-      <script src="src/public/category-items/category-items.controller.js"></script>
-      <script src="src/public/category-items/item.component.js"></script>
-      <script src="src/public/gallery/itemPick.controller.js"></script>
-      <script src="src/public/gallery/gallery.component.js"></script>
-      <script src="src/public/helpbot/helpbot.component.js"></script>
-      <script src="src/public/contact/contact.controller.js"></script>
-      <script src="src/public/made/made.controller.js"></script>
+    <!-- Public Module -->
+    <script src="src/public/public.module.js"></script>
+    <script src="src/public/public.routes.js"></script>
+    <script src="src/public/public.controller.js"></script>
+    <script src="src/public/home/home.controller.js"></script>
+    <script src="src/public/home/home-category.component.js"></script>
+    <script src="src/public/category-items/category-items.controller.js"></script>
+    <script src="src/public/category-items/item.component.js"></script>
+    <script src="src/public/gallery/itemPick.controller.js"></script>
+    <script src="src/public/demo-websites/website1/website1-index.component.js"></script>
+    <script src="src/public/demo-websites/website2/index.component.js"></script>
+    <script src="src/public/gallery/gallery.component.js"></script>
+    <script src="src/public/helpbot/helpbot.component.js"></script>
+    <script src="src/public/contact/contact.controller.js"></script>
+    <script src="src/public/made/made.controller.js"></script>
 
   </body>
 </html>

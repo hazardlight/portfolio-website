@@ -1,0 +1,311 @@
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!-- <head> -->
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="stylesheet" href="src/public/demo-websites/website2/style.css"></link>
+<!-- </head> -->
+<!-- <body> -->
+<div class="main-wrapper">
+
+  <div class="websites--breadcrumb-open"
+       ng-class="vm.breadcrumbOpenButtonNgClass"
+       ng-click="vm.openBreadcrumb()">
+       <i class="fas fa-arrow-left"></i>
+  </div>
+  <div class="websites--breadcrumb-container"
+       ng-style="vm.breadcrumbHideOnLoad"
+       ng-class="vm.breadcrumbNgClass">
+    <span class="websites__breadcrumb-link link-inactive" ui-sref="public.home">Home</span>
+    <span class="websites__breadcrumb-link--divider"> \ </span>
+    <span class="websites__breadcrumb-link link-inactive" ui-sref="public.categoryItems({category: vm.item.category})">{{vm.item.cat_long_name}}</span>
+    <span class="websites__breadcrumb-link--divider"> \ </span>
+    <span class="websites__breadcrumb-link link-active">{{vm.item.name}}</span>
+
+    <span class="websites--breadcrumb-close"
+          ng-click="vm.closeBreadcrumb()">
+          <i class="far fa-times-circle"></i>
+    </span>
+  </div>
+
+  <header>
+    <nav class="nav-container">
+      <div class="nav-img-container">
+        <img class="nav-img__logo-1" src="src/public/demo-websites/website2/img/cat-white.png" alt="Your Logo">
+      </div>
+      <div class="nav-links-container__desktop">
+        <a class="nav-link active" href="">Sign Up</a>
+        <a class="nav-link" href="">Home</a>
+        <a class="nav-link" href="">Contact</a>
+        <a class="nav-link" href="">About</a>
+        <a class="nav-link" href="">Page1</a>
+        <a class="nav-link" href="">Page2</a>
+      </div>
+      <div class="nav-links-container__mobile-button">
+        <span class="nav-mobile-button__bar"></span>
+        <span class="nav-mobile-button__bar"></span>
+        <span class="nav-mobile-button__bar"></span>
+      </div>
+      <div class="nav-links-container__mobile">
+        <button class="nav-mobile__close-btn"type="button" name="close nav">X</button>
+        <div class="nav-mobile-links">
+          <a class="nav-link active" href="">Sign Up</a>
+          <a class="nav-link" href="">Home</a>
+          <a class="nav-link" href="">Contact</a>
+          <a class="nav-link" href="">About</a>
+          <a class="nav-link" href="">Page1</a>
+          <a class="nav-link" href="">Page2</a>
+        </div>
+      </div>
+    </nav>
+    <div class="header-container">
+      <div class="header-banner-container">
+        <div class="header-banner__img"></div>
+      </div>
+      <div class="header-title-container">
+        <h1 class="header-title">Main Title Text</h1>
+        <p class="header-annotation">More Text</p>
+      </div>
+      <div class="header-description-container">
+        <p class="header-description__main">Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. Sample text paragraph. </p>
+        <p class="header-description__sub">Annotation Text</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="events-container">
+      <article class="event">
+        <div class="event-banner-container light-blue">
+          <div class="event-main-banner__img"></div>
+          <div class="event-banner__stars-container">
+            <img class="event-banner__img" src="src/public/demo-websites/website2/img/cat-white.png" alt="Event Image">
+          </div>
+        </div>
+        <div class="event-descriptions-container">
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-light-blue">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-light-blue">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+        </div>
+      </article>
+      <article class="event">
+        <div class="event-banner-container light-green">
+          <div class="header-banner__img"></div>
+          <div class="event-banner__stars-container">
+            <img class="event-banner__img" src="src/public/demo-websites/website2/img/cat-white.png" alt="Event Image">
+          </div>
+        </div>
+        <div class="event-descriptions-container">
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-light-green">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-light-green">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+        </div>
+      </article>
+      <article class="event">
+        <div class="event-banner-container gold">
+          <div class="header-banner__img"></div>
+          <div class="event-banner__stars-container">
+            <img class="event-banner__img" src="src/public/demo-websites/website2/img/cat-white.png" alt="Event Image">
+          </div>
+        </div>
+        <div class="event-descriptions-container">
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-gold">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-gold">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+        </div>
+      </article>
+      <article class="event">
+        <div class="event-banner-container red">
+          <div class="header-banner__img"></div>
+          <div class="event-banner__stars-container">
+            <img class="event-banner__img" src="src/public/demo-websites/website2/img/cat-white.png" alt="Event Image">
+          </div>
+        </div>
+        <div class="event-descriptions-container">
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-violet">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-violet">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+        </div>
+      </article>
+      <article class="event">
+        <div class="event-banner-container light-green">
+          <div class="header-banner__img"></div>
+          <div class="event-banner__stars-container">
+            <img class="event-banner__img" src="src/public/demo-websites/website2/img/cat-white.png" alt="Event Image">
+          </div>
+        </div>
+        <div class="event-descriptions-container">
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-light-green">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-light-green">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+        </div>
+      </article>
+      <article class="event">
+        <div class="event-banner-container violet">
+          <div class="header-banner__img"></div>
+          <div class="event-banner__stars-container">
+            <img class="event-banner__img" src="src/public/demo-websites/website2/img/cat-white.png" alt="Event Image">
+          </div>
+        </div>
+        <div class="event-descriptions-container">
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-red">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description text-red">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+          <div class="event-description">
+            <p class="event-description__title">Sample Event Title</p>
+            <p class="event-description__sub">Sample Subtitle</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="categories-container">
+      <article class="category reverse">
+        <div class="category-img-container red">
+          <img class="category-img__icon" src="src/public/demo-websites/website2/img/cat-white.png" alt="Category">
+        </div>
+        <div class="category-text-container">
+          <p class="category-text__title">Sample Category Title</p>
+          <p class="category-text__main">Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text.</p>
+        </div>
+      </article>
+      <article class="category">
+        <div class="category-img-container light-blue">
+          <img class="category-img__icon" src="src/public/demo-websites/website2/img/cat-white.png" alt="Category">
+        </div>
+        <div class="category-text-container">
+          <p class="category-text__title">Sample Category Title</p>
+          <p class="category-text__main">Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text.</p>
+        </div>
+      </article>
+      <article class="category reverse">
+        <div class="category-img-container light-green">
+          <img class="category-img__icon" src="src/public/demo-websites/website2/img/cat-white.png" alt="Category">
+        </div>
+        <div class="category-text-container">
+          <p class="category-text__title">Sample Category Title</p>
+          <p class="category-text__main">Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text.</p>
+        </div>
+      </article>
+      <article class="category">
+        <div class="category-img-container gold">
+          <img class="category-img__icon" src="src/public/demo-websites/website2/img/cat-white.png" alt="Category">
+        </div>
+        <div class="category-text-container">
+          <p class="category-text__title">Sample Category Title</p>
+          <p class="category-text__main">Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text.</p>
+        </div>
+      </article>
+      <article class="category reverse">
+        <div class="category-img-container violet">
+          <img class="category-img__icon" src="src/public/demo-websites/website2/img/cat-white.png" alt="Category">
+        </div>
+        <div class="category-text-container">
+          <p class="category-text__title">Sample Category Title</p>
+          <p class="category-text__main">Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text. Sample category description text.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script src="src/public/demo-websites/website2/shared.js"></script>
+
+  </div>
+<!-- </body> -->
+<!-- </html> -->

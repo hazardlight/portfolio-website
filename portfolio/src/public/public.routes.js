@@ -10,7 +10,9 @@ function routeConfig ($stateProvider) {
   $stateProvider
   .state('public',{
     abstract: true,
-    templateUrl:'src/public/public.html'
+    templateUrl:'src/public/public.html',
+    controller: 'PublicController',
+    controllerAs: 'vm'
   })
   .state('public.home',{ //home page has the categories list, not some other state
     url:'/',
@@ -24,10 +26,10 @@ function routeConfig ($stateProvider) {
     }
   })
   .state('public.categoryItems', { //displays items for a picked category
-    url:'/{category}',
+    url:'/{category}', //{category} is set in home/category.component.html
     // templateUrl:'src/public/category-items/category-items.html',
     templateUrl: function ($stateParams) {
-      if($stateParams.category == "L" || $stateParams.category == "K" || $stateParams.category == "O"){
+      if($stateParams.category == "L" || $stateParams.category == "K" || $stateParams.category == "A" || $stateParams.category == "W"){
         return 'src/public/category-items/category-items.html';
       }
       else if($stateParams.category == "HB"){
@@ -44,20 +46,33 @@ function routeConfig ($stateProvider) {
   })
   // ^^^this state needs to link directly to the helpbot app when you select the category
   .state('public.itemPick', {
-    url:'/{category}/{item}',
+    url:'/{category}/{item}', //{category} and {item} are set in a ui-sref in category-items/item.component.html
     templateUrl: function ($stateParams){
-      if($stateParams.category == "L" || $stateParams.category == "K" || $stateParams.category == "O"){
+      if($stateParams.category == "L" || $stateParams.category == "K" || $stateParams.category == "A"){
         return 'src/public/gallery/gallery.html';
       }
       // else if($stateParams.category == "HB"){
       //   return 'src/public/helpbot/helpbot.html';
       // }
+      else if($stateParams.item == "Landing Page 1"){ //$stateParams.item is the item's name from the objects in items.json (set in item.component.html)
+        return 'src/public/demo-websites/website1/website1-index.html';
+      }
+      // else if($stateParams.item == "Landing Page 1"){
+      //   return 'src/public/demo-websites/website1/website1-index.component.html';
+      // }
+
+      // It's easier to route to the index.html for my static page directly in the ui-router (as setup below)
+      // rather than registering a .component.js with a custom html tag that points to
+      // the index.html in a templateURL property (as setup in the above if() statement)
+      else if($stateParams.item == "Landing Page 2"){
+        return 'src/public/demo-websites/website2/index.html';
+      }
     },
     controller: 'ItemPickController',
     controllerAs: 'vm', //or vm???
     resolve: {
       singleItem: ['$stateParams', 'PortfolioService', function ($stateParams, PortfolioService) { //PortfolioItemsFromCategory
-        return PortfolioService.getSingleItem($stateParams.item);
+        return PortfolioService.getSingleItem($stateParams.item); //gets one item by name
       }]
     }
   })

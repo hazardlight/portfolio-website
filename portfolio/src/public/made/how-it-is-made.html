@@ -1,39 +1,44 @@
-<div id="made-container" class="container">
+<link rel="stylesheet" href="css/blog.css">
 
-  <div id="close-carousel" class="close-carousel" ng-if="vm.display" ng-click="vm.hideCarousel()" ng-style="vm.closeColor" ng-mouseenter="vm.hoverColor(true)" ng-mouseleave="vm.hoverColor(false)">
+<div class="blog--container">
+
+  <div class="blog__carousel__close-button"
+       ng-if="vm.display"
+       ng-click="vm.hideCarousel()"
+       ng-style="vm.closeColor"
+       ng-mouseenter="vm.hoverColor(true)"
+       ng-mouseleave="vm.hoverColor(false)">
     x
   </div>
 
-<div class="col-lg-12" ng-if="vm.display">
-  <div id="made-carousel" class="carousel " data-ride="carousel" data-interval="false">
+  <div class="blog__carousel--container" ng-if="vm.display">
+    <div class="blog__carousel-main" data-ride="blog__carousel-main" data-interval="false">
 
-    <div id="blog-carousel-inner" class="carousel-inner">
-      <div class="item {{vm.active($index)}}" ng-repeat="image in vm.blogItem[vm.blogIndex].images">
-        <img class="made-img img-responsive" src="{{image}}" alt="">
-        <div class="carousel-caption">
-
+      <div class="carousel-inner">
+        <div class="item {{vm.active($index)}}" ng-repeat="image in vm.blogItem[vm.blogIndex].images">
+          <img class="blog__carousel__img" src="{{image}}" alt="blog carousel image">
+          <!-- <div class="carousel-caption"></div> -->
         </div>
       </div>
+      <a class="left carousel-control" ng-click="vm.slide('prev')" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">previous</span>
+      </a>
+      <a class="right carousel-control" ng-click="vm.slide('next')" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">next</span>
+      </a>
     </div>
-    <a class="left carousel-control" href="" ng-click="vm.slide('prev')" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">previous</span>
-    </a>
-    <a class="right carousel-control" href="" ng-click="vm.slide('next')" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">next</span>
-    </a>
   </div>
-</div>
 
-  <div class="blog-container col-lg-12">
-    <div class="blog-title fanc">
+  <div class="blog__title--container">
+    <div class="blog__title fanc">
       {{vm.blogItem[vm.blogIndex].title}}
     </div>
-    <div class="blog-date">
+    <div class="blog__date">
       {{vm.blogItem[vm.blogIndex].date}}
     </div>
-    <div class="blog-body col-lg-12">
+    <div class="blog__body">
       <div ng-repeat="content in vm.blogItem[vm.blogIndex].content track by $index">
         <div bind-html-compile="content"></div>
       </div>

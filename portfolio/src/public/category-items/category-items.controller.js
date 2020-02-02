@@ -6,8 +6,8 @@ angular.module('public')
 
 CategoryItemsController.$inject = ['categoryItems', 'PortfolioService'];
 function CategoryItemsController(categoryItems, PortfolioService) {
-  var $ctrl = this;
-  $ctrl.categoryItems = categoryItems;
+  var vm = this;
+  vm.categoryItems = categoryItems;
 
   // console.log($ctrl.categoryItems[1].images[1]);
 

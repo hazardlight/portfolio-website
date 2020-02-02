@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.0.0",
   "license": "MIT",
-  "main":"server.js",
+  "main": "server.js",
   "scripts": {
     "ng": "ng",
     "start": "node server.js"
@@ -13,12 +13,10 @@
     "angular": "^1.6.9",
     "angular-bind-html-compile": "^1.4.1",
     "angular-mocks": "^1.6.9",
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "jquery": "^3.3.1"
   },
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "engines": {
     "node": "8.3.0",
     "npm": "5.3.0"

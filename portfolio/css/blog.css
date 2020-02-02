@@ -1,0 +1,120 @@
+.blog--container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #2e3138;
+  height: auto;
+  margin-bottom: 69px;
+  margin-top: 20px;
+  /* border: 2px solid; */
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  border-top:20px solid #2e3138;
+  border-bottom:20px solid #2e3138;
+  background: linear-gradient(-90deg, #f2f2f2, #d6d6d6, #f2f2f2);
+  box-shadow: 1px 1px 1px #353638;
+  border-radius: 20px;
+}
+.blog__carousel__close-button{
+  position: fixed;
+  z-index: 9999;
+  top:0;
+  right: 0;
+  font-size: 3em;
+  padding-right: 30px;
+  line-height: 80%;
+  color: #fff;
+  opacity: .5;
+  text-align: center;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+  /* text-shadow: 2px 2px 2px white; */
+  /* border: solid 2px #f2f2f2; */
+}
+.blog__carousel__close-button :hover{
+  /* color: white; */
+}
+.blog__carousel--container{
+  width: 100%;
+}
+.blog__carousel-main{
+  margin: auto;
+  position: fixed;
+  /* height: 90vh; */
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: black;
+}
+.blog__carousel__img{
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+  height:100vh !important;
+  padding: 20px;
+  /* padding-top: 20px; */
+}
+/* .made-indicator.active{
+  border-color: black;
+}
+.carousel-indicators li{
+  border-color: black;
+} */
+.fanc{
+  border-bottom:10px solid #2e3138;
+  border-radius: 100px;
+  background-color: white;
+}
+.blog__title{
+  text-align: center;
+  font-size: 3em;
+}
+.blog__date{
+  text-align: center;
+  font-size: .9em;
+  padding-bottom: 20px;
+}
+.blog__body .img-responsive{
+  padding-top:  15px;
+  padding-bottom: 15px;
+  /* padding: 0; */
+  /* margin-left: 1px; */
+  /* display: inline-block; */
+
+  /* margin: 20px 10px 20px 10px; */
+  background-color: none;
+}
+.blog__body .img-responsive:hover {
+  background-color: #232392;
+  border-radius: 10px;
+}
+
+/* json css */
+.blog-text{
+  padding-top: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.blog-center-text{
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+.blog-caption-text{
+  text-align: center;
+  font-size: .7em;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+.blog-center-title{
+  text-align: center;
+  font-size: 2em;
+  /* padding-top: 30px; */
+  margin-top: 30px;
+  /* text-decoration: overline; */
+  /* border-top:20px solid #2e3138; */
+  border-bottom:10px solid #2e3138;
+  border-radius: 100px;
+  background-color: white;
+}

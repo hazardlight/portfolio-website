@@ -1,15 +1,15 @@
+<!-- <link rel="stylesheet" href="css/item.component.css"> -->
 
-<div id="item-in-category-container" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-xxs-12">
-
-  <a ui-sref="public.itemPick({category: $ctrl.item.category, item: $ctrl.item.name})">
-    <div class="item-title">
-
+<div class="item--container" ng-mouseover="vm.mouseEnter()" ng-mouseleave="vm.mouseLeave()">
+  <!-- this ui-sref sets the stateParams used in the ui-router -->
+  <a ui-sref="public.itemPick({category: vm.item.category, item: vm.item.name})" >
+    <div class="item__title" ng-class="vm.titleStyle">
       <!-- need to figure out how to show just one item when you click on it -->
-      <span>{{$ctrl.item.name}}</span>
-
-      <div class="item-img-mask">
-        <img id="item-img" class="img-responsive" ng-src="{{$ctrl.item.images[0]}}" alt="temporary picture">
-      </div>
+      <!-- the variable $ctrl.item is set in category-items.html as a custom html attribute -->
+      {{vm.item.name}}
+    </div>
+    <div class="item__image-mask">
+      <img class="item__image" ng-src="{{vm.item.images[0]}}" alt="temporary picture">
     </div>
   </a>
 </div>

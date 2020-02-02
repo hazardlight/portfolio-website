@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+}
+html, body{
+  /* background-color: #f2f2f2; */
+  /* background: linear-gradient(-45deg, #d6d6d6, #f2f2f2); */
+  font-family: calibri;
+  /* font-family: sans-serif; */
+  font-size: 1rem;
+  height: 100%;
+  background-color: #1c4587ff;;
+}
+
+
+
+/* nav bar */
+/* .common-border{
+  box-shadow: 1px 1px 1px #353638;
+  border: 0;
+  margin: 0;
+}
+.custom-active{
+  background-color: #f2f2f2;
+  color: #01075b ;
+  text-decoration: overline;
+  text-shadow: 1px 1px 2px #353638;
+  font-weight: bold;
+}
+.navbar {
+}
+.navbar-default{
+  background-color: #232392;
+
+  background-image: none;
+  background-repeat: no-repeat;
+  border-radius: 0px;
+} */
+
+/* .navbar-brand span {
+  color:  #f7f9ff; */
+  /* font-size: 2rem; */
+/* } */
+
+/* #navbarBrand{
+  background-color:#232392 !important;
+}
+.navbar-toggle{
+}
+#nav-list {
+  color:  #f7f9ff;
+}
+#nav-list a {
+  color: inherit;
+  text-align: center;
+  background-image: none;
+  background-repeat: no-repeat;
+  box-shadow: none;
+}
+#nav-list :hover{
+  text-decoration: overline;
+}
+#navbarHeader button{
+  background-color: transparent;
+}
+#navbarHeader :hover{
+  background-color: black;
+}
+#navbarHeader span {
+  background-color: transparent !important;
+}
+#navbarToggle{
+  border:2px solid #f7f9ff;
+  border-radius: 0px;
+  background-image: none;
+}
+#navbarToggle span {
+  background-color: #f7f9ff !important;
+}
+#collapsable-nav{
+ border-color: black;
+} */
+/* /nav bar */
+/* .panel-footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-top: 20px;
+  background-color: #232392;
+  color:  #f7f9ff;
+
+  border: 0px;
+  border-radius: 0px;
+} */
+/* @media (max-width: 767px){
+
+} */
