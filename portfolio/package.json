@@ -14,7 +14,7 @@
     "angular-bind-html-compile": "^1.4.1",
     "angular-mocks": "^1.6.9",
     "express": "^4.17.1",
-    "jquery": "^3.3.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {},
   "engines": {
