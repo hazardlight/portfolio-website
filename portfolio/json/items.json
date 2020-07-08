@@ -17,14 +17,13 @@
     "category":"L",
     "cat_long_name":"Lego",
     "images":[
-      "http://images.moc-pages.com/user_images/98449/1364606595m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1364606621m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1364606598m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1364606600m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1364606618m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1364606603m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1364606611m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1364606607m_DISPLAY.jpg"
+      "img/Lego/BlackJack/3.jpg",
+      "img/Lego/BlackJack/5.jpg",
+      "img/Lego/BlackJack/6.jpg",
+      "img/Lego/BlackJack/9.jpg",
+      "img/Lego/BlackJack/16.jpg",
+      "img/Lego/BlackJack/18.jpg",
+      "img/Lego/BlackJack/3rd wheel.jpg"
     ],
     "carousel": true
   },
@@ -50,15 +49,13 @@
     "category":"L",
     "cat_long_name":"Lego",
     "images":[
-      "http://images.moc-pages.com/user_images/98449/1354915646m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1354915662m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1354915669m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1354915699m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1354915715m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1354915746m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1354915777m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1354915789m_DISPLAY.jpg",
-      "http://images.moc-pages.com/user_images/98449/1354915794m_DISPLAY.jpg"
+      "img/Lego/ShadowCat/shadowcat 15.jpg",
+      "img/Lego/ShadowCat/shadowcat 17.jpg",
+      "img/Lego/ShadowCat/shadowcat 18.jpg",
+      "img/Lego/ShadowCat/shadowcat 19.jpg",
+      "img/Lego/ShadowCat/shadowcat 23.jpg",
+      "img/Lego/ShadowCat/shadowcat 24.jpg",
+      "img/Lego/ShadowCat/shadowcat 26.jpg"
     ],
     "carousel": true
   },
@@ -82,17 +79,13 @@
     "category":"L",
     "cat_long_name":"Lego",
     "images":[
-      "http://images.moc-pages.com/user_images/98449/1396232649m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1396232650m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1396232652m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1396232656m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1396232658m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1396232653m_DISPLAY.jpg"
+      "img/Lego/ShadowHawk/prime1.jpg",
+      "img/Lego/ShadowHawk/prime2.jpg",
+      "img/Lego/ShadowHawk/prime3.jpg",
+      "img/Lego/ShadowHawk/prime4.jpg",
+      "img/Lego/ShadowHawk/prime5.jpg",
+      "img/Lego/ShadowHawk/prime6.jpg",
+      "img/Lego/ShadowHawk/prime7.jpg"
     ],
     "carousel": true
   },
@@ -114,19 +107,13 @@
     "category":"L",
     "cat_long_name":"Lego",
     "images":[
-      "http://images.moc-pages.com/user_images/98449/1366734418m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1366734422m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1366734419m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1366734421m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1366734424m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1366734425m_DISPLAY.jpg",
-
-      "http://images.moc-pages.com/user_images/98449/1366734417m_DISPLAY.jpg"
+      "img/Lego/Vindicator/v2.jpg",
+      "img/Lego/Vindicator/v3.jpg",
+      "img/Lego/Vindicator/v4.jpg",
+      "img/Lego/Vindicator/v5.jpg",
+      "img/Lego/Vindicator/v6.jpg",
+      "img/Lego/Vindicator/v1.jpg",
+      "img/Lego/Vindicator/v7.jpg"
     ],
     "carousel": true
   },
