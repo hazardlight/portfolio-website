@@ -10,7 +10,7 @@
   "private": true,
   "dependencies": {
     "@uirouter/angularjs": "^1.0.15",
-    "angular": "^1.6.9",
+    "angular": "^1.8.3",
     "angular-bind-html-compile": "^1.4.1",
     "angular-mocks": "^1.6.9",
     "express": "^4.17.1",
